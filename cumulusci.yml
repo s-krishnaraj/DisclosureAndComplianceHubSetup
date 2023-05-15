@@ -1,0 +1,26 @@
+minimum_cumulusci_version: '3.75.1'
+project:
+    name: DCHSetup
+    package:
+        name: DCH
+        api_version: '57.0'
+    git:
+        prefix_feature: 'feature'
+        prefix_beta: 'beta'
+        prefix_release: 'release'
+    test:
+        name_match: '_Test'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/DCHSetup/tests
+            options:
+                outputdir: robot/DCHSetup/results
+
+    robot_testdoc:
+        options:
+            path: robot/DCHSetup/tests
+            output: robot/DCHSetup/doc/DCHSetup_tests.html
+

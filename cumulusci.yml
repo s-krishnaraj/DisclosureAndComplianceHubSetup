@@ -1,9 +1,9 @@
-minimum_cumulusci_version: '3.75.1'
+minimum_cumulusci_version: '3.76'
 project:
     name: DCHSetup
     package:
         name: DCH
-        api_version: '57.0'
+        api_version: '58.0'
     git:
         prefix_feature: 'feature'
         prefix_beta: 'beta'
@@ -18,9 +18,130 @@ tasks:
             suites: robot/DCHSetup/tests
             options:
                 outputdir: robot/DCHSetup/results
+    
+    install_omnistudio:
+        description: Install OmniStudio
+        class_path: cumulusci.tasks.salesforce.InstallPackageVersion
+        group: OmniStudio
+        options:
+            namespace: omnistudio
+            version: "242.11"
+            name: OmniStudio
+
+    install_gri:
+        description: Install GRI package
+        class_path: cumulusci.tasks.salesforce.InstallPackageVersion
+        group: GRI
+        options:
+            namespace: NZCDCHGRI
+            version: "242.0"
+            name: Net Zero Cloud Disclosures for GRI Standards
+
+    ensure_crm_contentUser:
+        description: Update user to ensure admin user has "CRM Content User" permission
+        class_path: cumulusci.tasks.apex.anon.AnonymousApexTask
+        group: nzc-doc-gen
+        options:
+            path: scripts/apex/DCHAutomations.cls
+            apex: validateIsCRMContentUser();
+
+    docGen_ps_create:
+        description: Create necessary Permission set for Doc Gen
+        class_path: cumulusci.tasks.apex.anon.AnonymousApexTask
+        group: nzc-doc-gen
+        options:
+            path: scripts/apex/DCHAutomations.cls
+            apex: invokeDocGenPermSetCreation();
+
+    docGen_fontResources_create:
+        description: Create necessary Permission set for Doc Gen
+        class_path: cumulusci.tasks.apex.anon.AnonymousApexTask
+        group: nzc-doc-gen
+        options:
+            path: scripts/apex/DCHAutomations.cls
+            apex: invokeFontResourcesCreation();
+    
+    vlocity_pack_deploy_DocGen:
+        class_path: cumulusci.tasks.vlocity.vlocity.VlocityDeployTask
+        options:
+            job_file: force-app/main/default/DCHOmisciprtsImportJobFile.yaml
+        ui_options:
+            name: Deploy Doc Gen Data Packs 
 
     robot_testdoc:
         options:
             path: robot/DCHSetup/tests
             output: robot/DCHSetup/doc/DCHSetup_tests.html
 
+flows:
+    setup_nzc:
+        group: net zero
+        description: assigns PSLs, perms, pushes industriessettings file
+        steps: 
+            1:
+                task: assign_permission_set_licenses
+                options:
+                    api_names: NetZeroCloudUserPsl,DataProcessingEnginePsl,TCRMforSustainabilityPsl,ClauseManagementUser,DocGenDesignerPsl,DisclosureAndComplianceHubUserPsl
+
+            2:
+                task: assign_permission_sets
+                options:
+                    api_names: NetZeroManager,DataProcessingEngineUser, ManufacturingAdvancedAccountForecastPsl,TCRMforSustainabilityAdmin,TCRMforSustainabilityUser,ClauseDesigner,OmniStudioAdmin,DocGenDesigner,ClauseUser,DocGenUser,DisclosureAndComplianceHubUser
+#OmniStudioDesigner,DocGenDesignerPsl.ClauseManagementUser,DisclosureAndComplianceHubUserPsl
+#sfdx force:user:permset:assign --permsetname OmniStudioAdmin --targetusername test-auk5gjwktlna@example.com
+
+            3:
+                task: install_omnistudio
+                ui_options:
+                    name: Install the Omnistudio package
+
+            4:
+                task: deploy_omni_studio_site_settings
+                ui_options:
+                    name: Deploy Omnistudio remote site settings
+            5:
+                task: deploy
+                options:
+                    path: force-app/main/default/settings
+                ui_options:
+                    name: Deploy NetZero Settings
+            6: 
+                task: ensure_crm_contentUser
+                ui_options:
+                    name: Update User to make sure admin is CRM Content User
+            7: 
+                task: docGen_ps_create
+                ui_options:
+                    name: Run apex to ensure Doc gen PS is created
+            8:
+                task: deploy
+                options:
+                    path: force-app/main/default/documentGenerationSettings
+                ui_options:
+                    name: Deploy Document Generation Setting for OmniStudio
+            9: 
+                task: docGen_fontResources_create
+                ui_options:
+                    name: Run apex to create font files in Static resources
+            10:
+                task: deploy
+                options:
+                    path: force-app/main/default/OmniInteractionConfig
+                ui_options:
+                    name: Deploy RollbackDR Omni Interaction Configuration
+            11:
+                task: vlocity_pack_deploy_DocGen
+                ui_options:
+                    name: Deploy data pack to enable/activate DocGen Omniscripts
+            ####move to another flow
+            12:
+                task: install_gri
+                ui_options:
+                    name: Installing GRI package
+            13:
+                task: deploy
+                options:
+                    path: force-app/main/default/GRI Resources/GRIDataPack
+                ui_options:
+                    name: Deploy GRI datapack items
+                

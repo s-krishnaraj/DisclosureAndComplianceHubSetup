@@ -1,0 +1,51 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "generateDocumentWithTokenDataService",
+    "OmniProcessId": {
+        "Name": "DocumentServiceGateway_DocGenerationWithTokenData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/DocumentServiceGateway/DocGenerationWithTokenData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "objectId": "%objectId%",
+            "templateId": "%templateId%",
+            "tokenDataMap": "%tokenDataMap%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "DocumentServiceGateway",
+        "remoteMethod": "generateDocumentWithTokenData",
+        "remoteOptions": {
+            "keepIntermediate": "%setupServiceCallInputParams:keepIntermediate%",
+            "returnAsPdf": "%setupServiceCallInputParams:returnAsPdf%",
+            "title": "%setupServiceCallInputParams:title%"
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/DocumentServiceGateway/DocGenerationWithTokenData/Procedure/generateDocumentWithTokenDataService"
+}

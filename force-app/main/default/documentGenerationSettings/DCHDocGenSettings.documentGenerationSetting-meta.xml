@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentGenerationSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <documentTemplateLibraryName>DocgenDocumentTemplateLibrary</documentTemplateLibraryName>
+    <generationMechanism>ClientSide</generationMechanism>
+    <isBatchDocGnrnEnabled>false</isBatchDocGnrnEnabled>
+    <isServerSideDocGenEnabled>false</isServerSideDocGenEnabled>
+    <masterLabel>DCH Doc Gen Settings</masterLabel>
+    <previewType>PDF</previewType>
+</DocumentGenerationSetting>

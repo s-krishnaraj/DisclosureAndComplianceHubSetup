@@ -1,0 +1,52 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "PdfDocumentConverter",
+    "OmniProcessId": {
+        "Name": "Multiple PDF Convert (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GenerateDocument",
+        "OmniProcessId": {
+            "Name": "Multiple PDF Convert (LWC)",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English/GenerateDocument",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GenerateDocument",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "context-id",
+                "source": "%EnterObject:ObjectId%"
+            },
+            {
+                "name": "docx-content-version-ids",
+                "source": "%docxContentVersionIds%"
+            },
+            {
+                "name": "document-title",
+                "source": "%documentTitle%"
+            }
+        ],
+        "hide": false,
+        "label": "Pdf Document Converter",
+        "lwcName": "%vlocity_namespace%__clmOsMultiPdfDocumentConverter",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English/PdfDocumentConverter"
+}

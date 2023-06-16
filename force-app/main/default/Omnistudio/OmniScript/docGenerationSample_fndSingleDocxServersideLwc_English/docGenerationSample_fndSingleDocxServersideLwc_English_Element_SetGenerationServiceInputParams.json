@@ -1,0 +1,43 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetGenerationServiceInputParams",
+    "OmniProcessId": {
+        "Name": "Single Doc - DOCX Serverside(LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndSingleDocxServersideLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "attachFileFormat": "=%GenerationOptions:OutputFileFormat%",
+            "contextId": "%EnterObject:ObjectId%",
+            "documentTitle": "=%GenerationOptions:DocumentTitle%",
+            "docxContentVersionId": "=%GenerationOptions:DocumentContentVersionId%",
+            "downloadFileFormat": "=%GenerationOptions:OutputFileFormat%",
+            "objectId": "%EnterObject:ObjectId%",
+            "outputFileFormat": "=%GenerationOptions:OutputFileFormat%",
+            "selectedTemplate": "%PickTemplate|1:SelectTemplate|1%",
+            "templateId": "%PickTemplate|1:SelectTemplate|1:Id%",
+            "templateType": "=%EnterObject:TemplateType%",
+            "tokenDataMap": "{         \"CITY\":\"New York\",          \"COUNTRY\":\"India\",          \"ContractStatus\":\"Draft\",          \"POSTALCODE\":\"560093\",          \"STATE\":\"Delhi\"     }"
+        },
+        "label": "",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndSingleDocxServersideLwc/English/SetGenerationServiceInputParams"
+}

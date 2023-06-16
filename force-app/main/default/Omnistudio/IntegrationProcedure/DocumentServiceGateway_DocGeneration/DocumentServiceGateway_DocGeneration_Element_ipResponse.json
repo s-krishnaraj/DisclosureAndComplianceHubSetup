@@ -1,0 +1,40 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ipResponse",
+    "OmniProcessId": {
+        "Name": "DocumentServiceGateway_DocGeneration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/DocumentServiceGateway/DocGeneration/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "docContentVersionId": "%generateDocumentService:docContentVersionId%",
+            "errorMessage": "=IF(%generateDocumentService:success%==true, '', %generateDocumentService:error%)",
+            "isSuccessfulTransaction": "=%generateDocumentService:success%",
+            "jobId": "=%generateDocumentService:jobId%",
+            "pdfContentVersionId": "%generateDocumentService:pdfContentVersionId%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/DocumentServiceGateway/DocGeneration/Procedure/ipResponse"
+}

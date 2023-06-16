@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Set Generation Options",
+    "OmniProcessId": {
+        "Name": "Multi Doc - DOCX (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiDocxLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "attachFileFormat": "=%GenerationOptions:AttachFileFormat%",
+            "docGenerationMechanism": "=%GenerationOptions:DocGenerationMechanism%",
+            "documentGenerationFontSource": "=%GenerationOptions:DocumentGenerationFontSource%",
+            "documentViewer": "=%GenerationOptions:DocumentViewer%",
+            "downloadFileFormat": "=%GenerationOptions:DownloadFileFormat%",
+            "insertSpaceforRepeatingContentTokens": "=%GenerationOptions:InsertSpaceforRepeatingContentTokens%",
+            "pdfGenerationSource": "=%GenerationOptions:PdfGenerationSource%"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiDocxLwc/English/Set Generation Options"
+}

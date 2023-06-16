@@ -1,0 +1,48 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GeneratePdfMergeDocument",
+    "OmniProcessId": {
+        "Name": "Multi Doc - DOCX (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiDocxLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GenerateMergeDocument",
+        "OmniProcessId": {
+            "Name": "Multi Doc - DOCX (LWC)",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiDocxLwc/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiDocxLwc/English/GenerateMergeDocument",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GenerateMergeDocument",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "context-id",
+                "source": "%EnterObject:ObjectId%"
+            },
+            {
+                "name": "pdf-content-version-ids",
+                "source": "%pdfContentVersionIds%"
+            }
+        ],
+        "hide": false,
+        "label": "Generate Pdf Merge Document",
+        "lwcName": "%vlocity_namespace%__clmOsGeneratePdfMergeDocument",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiDocxLwc/English/GeneratePdfMergeDocument"
+}

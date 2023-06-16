@@ -1,0 +1,56 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GenerateDocumentWord",
+    "OmniProcessId": {
+        "Name": "Multi Doc - DOCX (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiDocxLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GenerateDocument",
+        "OmniProcessId": {
+            "Name": "Multi Doc - DOCX (LWC)",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiDocxLwc/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiDocxLwc/English/GenerateDocument",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GenerateDocument",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "context-id",
+                "source": "%EnterObject:ObjectId%"
+            },
+            {
+                "name": "debug",
+                "source": "false"
+            },
+            {
+                "name": "document-title",
+                "source": "%GenerationOptions:DocumentTitle%"
+            },
+            {
+                "name": "selected-document-template",
+                "source": "%ArrangeSelectedTemplates:ReorderSelectedTemplate%"
+            }
+        ],
+        "hide": false,
+        "label": "GenerateDocumentWord",
+        "lwcName": "%vlocity_namespace%__clmOsMultiDocxGenerateDocument",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiDocxLwc/English/GenerateDocumentWord"
+}

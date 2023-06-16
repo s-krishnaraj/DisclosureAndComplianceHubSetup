@@ -1,0 +1,32 @@
+{
+    "Description": "Demonstrates how multiple DOCX files can be converted to PDF",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Multiple PDF Convert (LWC)",
+    "OmniProcessElement": [
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_EnterObject.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_ObjectId.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_GenerationOptions.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_DownloadFileFormat.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_AttachFileFormat.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_DocumentViewer.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_DocumentTitle.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_DocxContentVersionIds.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_Set-Generation-Options.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_GenerateDocument.json",
+        "docGenerationSample_fndMultiPDFConvertLwc_English_Element_PdfDocumentConverter.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "docGenerationSample_fndMultiPDFConvertLwc_English_PropertySetConfig.json",
+    "SubType": "fndMultiPDFConvertLwc",
+    "Type": "docGenerationSample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English",
+    "WebComponentKey": "fcd5ab1a-b807-1a94-915f-9c4d4fb2176d"
+}

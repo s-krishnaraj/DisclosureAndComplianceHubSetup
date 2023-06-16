@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Set Generation Options",
+    "OmniProcessId": {
+        "Name": "Multiple PDF Convert (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "attachFileFormat": "=%GenerationOptions:AttachFileFormat%",
+            "contextId": "%EnterObject:ObjectId%",
+            "documentTitle": "=%GenerationOptions:DocumentTitle%",
+            "documentViewer": "=%GenerationOptions:DocumentViewer%",
+            "docxContentVersionIds": "=%GenerationOptions:DocxContentVersionIds%",
+            "downloadFileFormat": "=%GenerationOptions:DownloadFileFormat%",
+            "pdfGenerationSource": "=%GenerationOptions:PdfGenerationSource%"
+        },
+        "label": "",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndMultiPDFConvertLwc/English/Set Generation Options"
+}

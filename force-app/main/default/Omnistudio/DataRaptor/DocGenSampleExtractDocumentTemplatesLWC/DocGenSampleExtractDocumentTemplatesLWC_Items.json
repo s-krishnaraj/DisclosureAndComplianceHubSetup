@@ -1,0 +1,169 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'true'",
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom8302",
+        "InputFieldName": "IsActive",
+        "InputObjectName": "DocumentTemplate",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "DocumentTemplate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'JSON'",
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom5980",
+        "InputFieldName": "TokenMappingType",
+        "InputObjectName": "DocumentTemplate",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "DocumentTemplate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "templateType",
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom6115",
+        "InputFieldName": "Type",
+        "InputObjectName": "DocumentTemplate",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "DocumentTemplate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom2598",
+        "InputFieldName": "DocumentTemplate:DocumentGenerationMechanism",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DocumentTemplate:DocumentGenerationMechanism",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom8472",
+        "InputFieldName": "DocumentTemplate:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DocumentTemplate:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom1432",
+        "InputFieldName": "DocumentTemplate:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DocumentTemplate:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom5644",
+        "InputFieldName": "DocumentTemplate:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DocumentTemplate:TemplateType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocGenSampleExtractDocumentTemplatesLWCCustom4853",
+        "InputFieldName": "DocumentTemplate:VersionNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+        "OmniDataTransformationId": {
+            "Name": "DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocGenSampleExtractDocumentTemplatesLWC",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DocumentTemplate:VersionNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

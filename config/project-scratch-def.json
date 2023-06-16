@@ -1,10 +1,26 @@
 {
   "orgName": "skrishnaraj company",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi","SustainabilityApp","TCRMForSustainability","DevelopmentWave","DataProcessingEngine","Assessments"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
+    },
+    "industriesSettings":{
+      "enableIndustriesAssessment": true,
+      "enableDiscoveryFrameworkMetadata": true,
+      "enableDisclsReprtFeatureOff": false,
+      "enableSCCarbonAccounting": true,
+      "enableSCAssignFootprint":true,
+      "enableSCCreateFootprint":true,
+      "enableSCDGF":true,
+      "enableSCExpansionUseCase":true,
+      "enableSCScope3HubEnabled":true,
+      "enableSCTargetSetting":true,
+      "enableSCWasteManagement":true,
+      "enableSCWaterManagement":true
+
+
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false

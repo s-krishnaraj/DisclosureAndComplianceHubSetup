@@ -1,0 +1,57 @@
+{
+    "Description": "context-id -- SObjectId like QuoteId, OpportunityId,OrderId & ContractId\nselected-template -- selected Template JSON node from previous step. \ndebug -- optional for debugging\ndocument-title  -- Overrides the Default Document Name/Title of your document",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GenerateDocumentWord",
+    "OmniProcessId": {
+        "Name": "Single Doc - DOCX (LWC)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndSingleDocxLwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Generate Document",
+        "OmniProcessId": {
+            "Name": "Single Doc - DOCX (LWC)",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/docGenerationSample/fndSingleDocxLwc/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndSingleDocxLwc/English/Generate Document",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Generate Document",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "context-id",
+                "source": "%EnterObject:ObjectId%"
+            },
+            {
+                "name": "selected-template",
+                "source": "%selectedTemplate%"
+            },
+            {
+                "name": "debug",
+                "source": "false"
+            },
+            {
+                "name": "document-title",
+                "source": "%documentTitle%"
+            }
+        ],
+        "hide": false,
+        "label": "Generate Document Word",
+        "lwcName": "%vlocity_namespace%__clmOsDocxGenerateDocument",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/docGenerationSample/fndSingleDocxLwc/English/GenerateDocumentWord"
+}

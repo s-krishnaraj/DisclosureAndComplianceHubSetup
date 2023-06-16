@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "DocumentServiceGateway_DocGenerationWithTokenData_SampleInput.json",
+    "Description": "Server-side remote doc generation with dataJson parameter. DR extract is implicitly in OS and document template contains DR transform.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "DocumentServiceGateway_DocGenerationWithTokenData",
+    "OmniProcessElement": [
+        "DocumentServiceGateway_DocGenerationWithTokenData_Element_setupServiceCallInputParams.json",
+        "DocumentServiceGateway_DocGenerationWithTokenData_Element_generateDocumentWithTokenDataService.json",
+        "DocumentServiceGateway_DocGenerationWithTokenData_Element_ipResponse.json"
+    ],
+    "OmniProcessKey": "DocumentServiceGateway_DocGenerationWithTokenData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "DocumentServiceGateway_DocGenerationWithTokenData_PropertySetConfig.json",
+    "SubType": "DocGenerationWithTokenData",
+    "Type": "DocumentServiceGateway",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/DocumentServiceGateway/DocGenerationWithTokenData/Procedure",
+    "WebComponentKey": "ed2b4f3b-5a83-135b-baf9-b46fa6824400"
+}

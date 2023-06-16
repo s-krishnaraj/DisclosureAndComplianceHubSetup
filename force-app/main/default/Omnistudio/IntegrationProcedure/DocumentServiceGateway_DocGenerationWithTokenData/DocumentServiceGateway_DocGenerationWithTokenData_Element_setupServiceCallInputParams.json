@@ -1,0 +1,32 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "setupServiceCallInputParams",
+    "OmniProcessId": {
+        "Name": "DocumentServiceGateway_DocGenerationWithTokenData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/DocumentServiceGateway/DocGenerationWithTokenData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "keepIntermediate": "=IF(OR(%keepIntermediate%==null, %keepIntermediate%==''), false, %keepIntermediate%)",
+            "returnAsPdf": "=IF(OR(%returnAsPdf%==null, %returnAsPdf%==''), false, %returnAsPdf%)",
+            "title": "=IF(OR(%title%==null, %title%==''), null, %title%)"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/DocumentServiceGateway/DocGenerationWithTokenData/Procedure/setupServiceCallInputParams"
+}

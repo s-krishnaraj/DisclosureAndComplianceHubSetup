@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ExtractDocumentTemplateByTemplateType",
+    "IntegrationProcedure/DocumentServiceGateway_DocGeneration",
+    "IntegrationProcedure/DocumentServiceGateway_DocGenerationPDF",
+    "IntegrationProcedure/DocumentServiceGateway_DocGenerationWithTokenData"
+]

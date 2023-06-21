@@ -1,0 +1,73 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI2U13DaDi",
+    "OmniProcessId": {
+        "Name": "GRI2X1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI2U13Da",
+        "OmniProcessId": {
+            "Name": "GRI2X1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/NZCDCHGRI__GRI2U13Da",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI2U13Da",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": true,
+        "helpText": "Whether it has appointed any senior executives with responsibility for the management of impacts;",
+        "helpTextPos": "top-right",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "i. Whether it has appointed any senior executives with responsibility for the management of impacts;",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Yes ",
+                "value": "Yes "
+            },
+            {
+                "autoAdv": null,
+                "name": "No",
+                "value": "No"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/NZCDCHGRI__GRI2U13DaDi"
+}

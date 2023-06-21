@@ -1,0 +1,59 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI303U1Dc",
+    "OmniProcessId": {
+        "Name": "GRI301",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI301/GRI301/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GRI303",
+        "OmniProcessId": {
+            "Name": "GRI301",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI301/GRI301/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI301/GRI301/English/GRI303",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GRI303",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "debounceValue": 0,
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "A description of how water-related impacts are addressed, including how the organization works with stakeholders to steward water as a shared resource, and how it engages with suppliers or customers with significant water-related impacts.",
+        "helpTextPos": "top-right",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "(303-1c) A description of how water-related impacts are addressed, including how the organization works with stakeholders to steward water as a shared resource, and how it engages with suppliers or customers with significant water-related impacts.",
+        "mask": "",
+        "maxLength": 2500,
+        "minLength": 0,
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI301/GRI301/English/NZCDCHGRI__GRI303U1Dc"
+}

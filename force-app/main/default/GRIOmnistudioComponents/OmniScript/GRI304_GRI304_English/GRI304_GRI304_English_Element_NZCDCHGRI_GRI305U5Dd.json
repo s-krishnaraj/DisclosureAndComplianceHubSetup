@@ -1,0 +1,78 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI305U5Dd",
+    "OmniProcessId": {
+        "Name": "GRI304",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI304/GRI304/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GRI305",
+        "OmniProcessId": {
+            "Name": "GRI304",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI304/GRI304/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI304/GRI304/English/GRI305",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GRI305",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "Scopes in which reductions took place; whether direct (Scope 1), energy indirect (Scope 2), and/or other indirect (Scope 3).",
+        "helpTextPos": "top-right",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "(305-5d) Scopes in which reductions took place; whether direct (Scope 1), energy indirect (Scope 2), and/or other indirect (Scope 3).",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Scope 1",
+                "value": "Scope 1"
+            },
+            {
+                "autoAdv": null,
+                "name": "Scope 2",
+                "value": "Scope 2"
+            },
+            {
+                "autoAdv": null,
+                "name": "Scope 3",
+                "value": "Scope 3"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI304/GRI304/English/NZCDCHGRI__GRI305U5Dd"
+}

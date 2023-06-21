@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;GRI207U4Db&quot; : {
+    &quot;IndustryTaxDue&quot; : 3000,
+    &quot;IncomeTaxAccrued&quot; : 20000,
+    &quot;IncomeTaxPaid&quot; : 15000,
+    &quot;TangibleAssetValue&quot; : 2500,
+    &quot;ProfitLossBeforeTax&quot; : 1000,
+    &quot;IntraGroupTrxnRev&quot; : 500,
+    &quot;ThirdPartySalesRevenue&quot; : 1000,
+    &quot;EmployeeCount&quot; : 500,
+    &quot;PrimaryActivity&quot; : &quot;Tax Plan&quot;,
+    &quot;Name&quot; : &quot;TDS-0000001&quot;
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>GRI207U4DbDR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR07879829491721235</globalKey>
+        <inputFieldName>GRI207U4Db:EmployeeCount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDiii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR09449356871424053</globalKey>
+        <inputFieldName>GRI207U4Db:IncomeTaxPaid</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDviii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR0010225168672519658</globalKey>
+        <inputFieldName>GRI207U4Db:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDi</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR22973408486167957</globalKey>
+        <inputFieldName>GRI207U4Db:ProfitLossBeforeTax</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDvi</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR42087933346622974</globalKey>
+        <inputFieldName>GRI207U4Db:TangibleAssetValue</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDvii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR49927663798348876</globalKey>
+        <inputFieldName>GRI207U4Db:IntraGroupTrxnRev</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDv</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR41478824543601434</globalKey>
+        <inputFieldName>GRI207U4Db:PrimaryActivity</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR30360135935414956</globalKey>
+        <inputFieldName>GRI207U4Db:IndustryTaxDue</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDx</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR5952201848414933</globalKey>
+        <inputFieldName>GRI207U4Db:IncomeTaxAccrued</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDix</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI207U4DbDR9200978392420263</globalKey>
+        <inputFieldName>GRI207U4Db:ThirdPartySalesRevenue</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI207U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI207U4Db:NZCDCHGRI__GRI207U4DbDiv</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;GRI207U4Db&quot; : {
+    &quot;IndustryTaxDue&quot; : 3000,
+    &quot;IncomeTaxAccrued&quot; : 20000,
+    &quot;IncomeTaxPaid&quot; : 15000,
+    &quot;TangibleAssetValue&quot; : 2500,
+    &quot;ProfitLossBeforeTax&quot; : 1000,
+    &quot;IntraGroupTrxnRev&quot; : 500,
+    &quot;ThirdPartySalesRevenue&quot; : 1000,
+    &quot;EmployeeCount&quot; : 500,
+    &quot;PrimaryActivity&quot; : &quot;Tax Plan&quot;,
+    &quot;Name&quot; : &quot;TDS-0000001&quot;
+  }
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>GRI207U4DbDR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

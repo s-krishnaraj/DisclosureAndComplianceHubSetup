@@ -1,0 +1,59 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI306U3Db",
+    "OmniProcessId": {
+        "Name": "GRI306",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI306/GRI306/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GRI306",
+        "OmniProcessId": {
+            "Name": "GRI306",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI306/GRI306/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI306/GRI306/English/GRI306",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GRI306",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "debounceValue": 0,
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "Contextual information necessary to understand the data and how the data has been compiled.",
+        "helpTextPos": "top-right",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "(306-3b) Contextual information necessary to understand the data and how the data has been compiled.",
+        "mask": "",
+        "maxLength": 2500,
+        "minLength": 0,
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI306/GRI306/English/NZCDCHGRI__GRI306U3Db"
+}

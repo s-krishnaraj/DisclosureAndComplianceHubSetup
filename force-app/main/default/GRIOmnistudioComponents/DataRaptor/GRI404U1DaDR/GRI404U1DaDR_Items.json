@@ -1,0 +1,68 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI404U1DaDRCustom3721",
+        "InputFieldName": "GRI404U1Da:Gender",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI404U1DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI404U1DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI404U1DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI404U1Da:NZCDCHGRI__GRI404U1DaDi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI404U1DaDRCustom8822",
+        "InputFieldName": "GRI404U1Da:EmployeeType",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI404U1DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI404U1DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI404U1DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI404U1Da:NZCDCHGRI__GRI404U1DaDii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI404U1DaDRCustom8186",
+        "InputFieldName": "GRI404U1Da:AvgTrainingTime",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI404U1DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI404U1DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI404U1DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI404U1Da:NZCDCHGRI__GRI404U1DaDiii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

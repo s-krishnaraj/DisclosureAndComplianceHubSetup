@@ -1,0 +1,8 @@
+{
+    "Response": {
+        "GRI201Da1DEnd": "2022-12-31",
+        "GRI201Da1Dstart": "2022-01-01",
+        "error": "OK",
+        "errorCode": "INVOKE-200"
+    }
+}

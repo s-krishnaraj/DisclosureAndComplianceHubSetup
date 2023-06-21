@@ -1,0 +1,46 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI303U4DaDRCustom4314",
+        "InputFieldName": "GRI303U4Da:ActivitySourceType",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI303U4DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI303U4DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI303U4DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI303U4Da:NZCDCHGRI__GRI303U4DaDi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI303U4DaDRCustom2760",
+        "InputFieldName": "GRI303U4Da:QuantityDischarge",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI303U4DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI303U4DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI303U4DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI303U4Da:NZCDCHGRI__GRI303U4DaDii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

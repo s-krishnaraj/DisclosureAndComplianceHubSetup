@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance-302%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20reporting%20organization%20can%20also%20explain%20whether%20it%20is%20subject%20to%20any%20country,%20regional,%20or%20industry-level%20energy%20regulations%20and%20policies.%20Additionally,%20it%20can%20provide%20examples%20of%20these%20regulations%20and%20policies.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/strong%3E%20for%20Disclosure%20302-1%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EFor%20some%20organizations,%20electricity%20is%20the%20only%20significant%20form%20of%20energy%20they%20consume.%20For%20others,%20energy%20sources%20such%20as%20steam%20or%20water%20provided%20from%20a%20district%20heating%20plant%20or%20chilled%20water%20plant%20can%20also%20be%20important.%3C/div%3E%0A%3Cdiv%3EEnergy%20can%20be%20purchased%20from%20sources%20external%20to%20the%20organization%20or%20produced%20by%20the%20organization%20itself%20(self-generated).%3C/div%3E%0A%3Cdiv%3ENon-renewable%20fuel%20sources%20can%20include%20fuel%20for%20combustion%20in%20boilers,%20furnaces,%20heaters,%20turbines,%20flares,%20incinerators,%20generators%20and%20vehicles%20that%20are%20owned%20or%20controlled%20by%20the%20organization.%20Non-renewable%20fuel%20sources%20cover%20fuels%20purchased%20by%20the%20organization.%20They%20also%20include%20fuel%20generated%20by%20the%20organization&rsquo;s%20activities%20&ndash;%20such%20as%20mined%20coal,%20or%20gas%20from%20oil%20and%20gas%20extraction.%20Renewable%20fuel%20sources%20can%20include%20biofuels,%20when%20purchased%20for%20direct%20use,%20and%20biomass%20in%20sources%20owned%20or%20controlled%20by%20the%20organization.%3C/div%3E%0A%3Cdiv%3EConsuming%20non-renewable%20fuels%20is%20usually%20the%20main%20contributor%20to%20direct%20(Scope%201)%20GHG%20emissions,%20which%20are%20reported%20in%20Disclosure%20305-1%20of%20GRI%20305:%20Emissions%202016.%20Consuming%20purchased%20electricity,%20heating,%20cooling,%20and%20steam%20contributes%20to%20the%20organization&rsquo;s%20energy%20indirect%20(Scope%202)%20GHG%20emissions,%20which%20are%20reported%20in%20Disclosure%20305-2%20of%20GRI%20305:%20Emissions%202016.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.1%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20302-1,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.1.1%20avoid%20the%20double-counting%20of%20fuel%20consumption,%20when%20reporting%20self-generated%20energy%20consumption.%20If%20the%20organization%20generates%20electricity%20from%20a%20non-renewable%20or%20renewable%20fuel%20source%20and%20then%20consumes%20the%20generated%20electricity,%20the%20energy%20consumption%20shall%20be%20counted%20once%20under%20fuel%20consumption;%3C/div%3E%0A%3Cdiv%3E2.1.2%20report%20fuel%20consumption%20separately%20for%20non-renewable%20and%20renewable%20fuel%20sources;%3C/div%3E%0A%3Cdiv%3E2.1.3%20only%20report%20energy%20consumed%20by%20entities%20owned%20or%20controlled%20by%20the%20organization;%3C/div%3E%0A%3Cdiv%3E2.1.4%20calculate%20the%20total%20energy%20consumption%20within%20the%20organization%20in%20joules%20or%20multiples%20using%20the%20following%20formula:&nbsp;%3C/div%3E%0A%3Cdiv%3ETotal%20energy%20consumption%20within%20the%20organization%20=%20Non-renewable%20fuel%20consumed%20+%20Renewable%20fuel%20consumed%20+%20Electricity,%20heating,%20cooling,%20and%20steam%20purchased%20for%20consumption%20+%20Self-generated%20electricity,%20heating,%20cooling,%20and%20steam,%20which%20are%20not%20consumed%20(see%20clause%202.1.1)%20-%20Electricity,%20heating,%20cooling,%20and%20steam%20sold&nbsp;&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/strong%3E%20for%20Disclosure%20302-2%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20reporting%20organization%20can%20identify%20energy%20consumption%20outside%20of%20the%20organization%20by%20assessing%20whether%20an%20activity&rsquo;s%20energy%20consumption:%3C/div%3E%0A%3Cdiv%3E&bull;%20Contributes%20significantly%20to%20the%20organization&rsquo;s%20total%20anticipated%20energy%20consumption%20outside%20of%20the%20organization;%3C/div%3E%0A%3Cdiv%3E&bull;%20Offers%20potential%20for%20reductions%20the%20organization%20can%20undertake%20or%20influence;%3C/div%3E%0A%3Cdiv%3E&bull;%20Contributes%20to%20climate%20change-related%20risks,%20such%20as%20financial,%20regulatory,%20supply%20chain,%20product%20and%20customer,%20litigation,%20and%20reputational%20risks;%3C/div%3E%0A%3Cdiv%3E&bull;%20Is%20deemed%20material%20by%20stakeholders,%20such%20as%20customers,%20suppliers,%20investors,%20or%20civil%20society;%3C/div%3E%0A%3Cdiv%3E&bull;%20Results%20from%20outsourced%20activities%20previously%20performed%20in-house,%20or%20that%20are%20typically%20performed%20in-house%20by%20other%20organizations%20in%20the%20same%20sector;%3C/div%3E%0A%3Cdiv%3E&bull;%20has%20been%20identified%20as%20significant%20for%20the%20organization&rsquo;s%20sector;%3C/div%3E%0A%3Cdiv%3E&bull;%20Meets%20any%20additional%20criteria%20for%20determining%20relevance,%20developed%20by%20the%20organization%20or%20by%20organizations%20in%20its%20sector.%3C/div%3E%0A%3Cdiv%3EThe%20organization%20can%20use%20the%20following%20upstream%20and%20downstream%20categories%20and%20activities%20from%20the%20&lsquo;GHG%20Protocol%20Corporate%20Value%20Chain%20(Scope%203)%20Accounting%20and%20Reporting%20Standard&rsquo;%20for%20identifying%20relevant%20energy%20consumption%20outside%20of%20the%20organization:%3C/div%3E%0A%3Cdiv%3EUpstream%20categories%3C/div%3E%0A%3Cdiv%3E1.%20Purchased%20goods%20and%20services%3C/div%3E%0A%3Cdiv%3E2.%20Capital%20goods%3C/div%3E%0A%3Cdiv%3E3.%20Fuel-%20and%20energy-related%20activities%20(not%20included%20in%20Disclosure%20302-1)%3C/div%3E%0A%3Cdiv%3E4.%20Upstream%20transportation%20and%20distribution%3C/div%3E%0A%3Cdiv%3E5.%20Waste%20generated%20in%20operations%3C/div%3E%0A%3Cdiv%3E6.%20Business%20travel%3C/div%3E%0A%3Cdiv%3E7.%20Employee%20commuting%3C/div%3E%0A%3Cdiv%3E8.%20Upstream%20leased%20assets%3C/div%3E%0A%3Cdiv%3EOther%20upstream%3C/div%3E%0A%3Cdiv%3EDownstream%20categories&nbsp;%3C/div%3E%0A%3Cdiv%3E1.%20Downstream%20transportation%20and%20distribution%3C/div%3E%0A%3Cdiv%3E2.%20Processing%20of%20sold%20products%3C/div%3E%0A%3Cdiv%3E3.%20Use%20of%20sold%20products%3C/div%3E%0A%3Cdiv%3E4.%20End-of-life%20treatment%20of%20sold%20products%3C/div%3E%0A%3Cdiv%3E5.%20Downstream%20leased%20assets%3C/div%3E%0A%3Cdiv%3E6.%20Franchises%3C/div%3E%0A%3Cdiv%3E7.%20Investments%3C/div%3E%0A%3Cdiv%3EOther%20downstream%3C/div%3E%0A%3Cdiv%3EFor%20each%20of%20these%20categories%20and%20activities,%20the%20organization%20can%20calculate%20or%20estimate%20the%20amount%20of%20energy%20consumed.%3C/div%3E%0A%3Cdiv%3EThe%20organization%20can%20report%20energy%20consumption%20separately%20for%20non-renewable%20sources%20and%20renewable%20sources.%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EEnergy%20consumption%20can%20occur%20outside%20an%20organization,%20i.e.,%20throughout%20the%20organization&rsquo;s%20upstream%20and%20downstream%20activities%20associated%20with%20its%20operations.%3C/div%3E%0A%3Cdiv%3EThis%20can%20include%20consumers&rsquo;%20use%20of%20products%20the%20organization%20sells,%20and%20the%20end-of-life%20treatment%20of%20products.%3C/div%3E%0A%3Cdiv%3EQuantifying%20energy%20consumption%20outside%20of%20the%20organization%20can%20provide%20a%20basis%20for%20calculating%20some%20of%20the%20relevant%20other%20indirect%20(Scope%203)%20GHG%20emissions%20in%20Disclosure%20305-3%20of%20GRI%20305:%20Emissions%202016.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.3%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20302-2,%20the%20reporting%20organization%20shall%20exclude%20energy%20consumption%20reported%20in%20Disclosure%20302-1.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/strong%3E%20for%20Disclosure%20302-3%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EIntensity%20ratios%20can%20be%20provided%20for,%20among%20others:%20&bull;%20Products%20(such%20as%20energy%20consumed%20per%20unit%20produced);%3C/div%3E%0A%3Cdiv%3E&bull;%20Services%20(such%20as%20energy%20consumed%20per%20function%20or%20per%20service);%3C/div%3E%0A%3Cdiv%3E&bull;%20Sales%20(such%20as%20energy%20consumed%20per%20monetary%20unit%20of%20sales).%3C/div%3E%0A%3Cdiv%3EOrganization-specific%20metrics%20(denominators)%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20Units%20of%20product;%3C/div%3E%0A%3Cdiv%3E&bull;%20Production%20volume%20(such%20as%20metric%20tons,%20liters,%20or%20MWh);%3C/div%3E%0A%3Cdiv%3E&bull;%20Size%20(such%20as%20m2%20floor%20space);%3C/div%3E%0A%3Cdiv%3E&bull;%20Number%20of%20full-time%20employees;%3C/div%3E%0A%3Cdiv%3E&bull;%20Monetary%20units%20(such%20as%20revenue%20or%20sales).%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EEnergy%20intensity%20ratios%20define%20energy%20consumption%20in%20the%20context%20of%20an%20organization-specific%20metric.%3C/div%3E%0A%3Cdiv%3EThese%20ratios%20express%20the%20energy%20required%20per%20unit%20of%20activity,%20output,%20or%20any%20other%20organization-specific%20metric.%20Intensity%20ratios%20are%20often%20called%20normalized%20environmental%20impact%20data.%3C/div%3E%0A%3Cdiv%3EIn%20combination%20with%20the%20organization&rsquo;s%20total%20energy%20consumption,%20reported%20in%20Disclosures%20302-1%20and%20302-2,%20energy%20intensity%20helps%20to%20contextualize%20the%20organization&rsquo;s%20efficiency,%20including%20in%20relation%20to%20other%20organizations.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.5%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20302-3,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.5.1%20calculate%20the%20ratio%20by%20dividing%20the%20absolute%20energy%20consumption%20(the%20numerator)%20by%20the%20organization-specific%20metric%20(the%20denominator);%3C/div%3E%0A%3Cdiv%3E2.5.2%20if%20reporting%20an%20intensity%20ratio%20both%20for%20the%20energy%20consumed%20within%20the%20organization%20and%20outside%20of%20it,%20report%20these%20intensity%20ratios%20separately.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/strong%3E%20for%20Disclosure%20302-4%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20reporting%20organization%20can%20prioritize%20disclosing%20reduction%20initiatives%20that%20were%20implemented%20in%20the%20reporting%20period,%20and%20that%20have%20the%20potential%20to%20contribute%20significantly%20to%20reductions.%20The%20organization%20can%20describe%20reduction%20initiatives%20and%20their%20targets%20when%20reporting%20how%20it%20manages%20this%20topic.%3C/div%3E%0A%3Cdiv%3EReduction%20initiatives%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20Process%20redesign;%3C/div%3E%0A%3Cdiv%3E&bull;%20Conversion%20and%20retrofitting%20of%20equipment;%3C/div%3E%0A%3Cdiv%3E&bull;%20Changes%20in%20behavior;%3C/div%3E%0A%3Cdiv%3E&bull;%20Operational%20changes.%3C/div%3E%0A%3Cdiv%3EThe%20organization%20can%20report%20reductions%20in%20energy%20consumption%20by%20combining%20energy%20types,%20or%20separately%20for%20fuel,%20electricity,%20heating,%20cooling,%20and%20steam.%3C/div%3E%0A%3Cdiv%3EThe%20organization%20can%20also%20provide%20a%20breakdown%20of%20reductions%20in%20energy%20consumption%20by%20individual%20initiatives%20or%20groups%20of%20initiatives.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.7%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20302-4,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.7.1%20exclude%20reductions%20resulting%20from%20reduced%20production%20capacity%20or%20outsourcing;%3C/div%3E%0A%3Cdiv%3E2.7.2%20describe%20whether%20energy%20reduction%20is%20estimated,%20modeled,%20or%20sourced%20from%20direct%20If%20estimation%20or%20modeling%20is%20used,%20the%20organization%20shall%20disclose%20the%20methods%20used.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20302-5%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EUse-oriented%20figures%20can%20include,%20for%20example,%20the%20energy%20requirements%20of%20a%20car%20or%20a%20computer.%3C/div%3E%0A%3Cdiv%3EConsumption%20patterns%20can%20include,%20for%20example,%2010%20percent%20less%20energy%20use%20per%20100%20km%20travelled%20or%20per%20time%20unit%20(hour,%20average%20working%20day).%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI302FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI302FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

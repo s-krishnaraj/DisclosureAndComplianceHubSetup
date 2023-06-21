@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance-401%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20for%20clause%201.2%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EPolicies%20or%20practices%20covering%20the%20relationships%20under%20which%20work%20is%20performed%20for%20an%20organization%20can%20include%20recognized%20employment%20relationships,%20the%20use%20of%20employees%20of%20other%20organizations%20(such%20as%20workers%20supplied%20by%20agencies),%20and%20the%20extent%20to%20which%20work%20is%20performed%20on%20a%20temporary%20or%20part-time%20basis.%20A%20description%20of%20policies%20and%20practices%20can%20include%20policies%20and%20practices%20with%20respect%20to%20discrimination,%20compensation,%20promotion,%20privacy,%20human%20resource%20development%20and%20industrial%20relations.Work%20taking%20place%20within%20an%20appropriate%20institutional%20and%20legal%20framework%20usually%20entails%20a%20recognized%20employment%20relationship%20with%20an%20identifiable%20and%20legally%20recognized%20employer.Conditions%20of%20work%20can%20include%20compensation,%20working%20time,%20rest%20periods,%20holidays,%20disciplinary%20and%20dismissal%20practices,%20maternity%20protection,%20the%20workplace%20environment,%20and%20occupational%20health%20and%20safety.%20They%20can%20also%20include%20the%20quality%20of%20living%20accommodations%20where%20provided,%20and%20welfare%20matters,%20such%20as%20safe%20drinking%20water,%20canteens%20and%20access%20to%20medical%20services.Adequately%20remunerated%20work%20is%20work%20where%20wages%20and%20compensation%20for%20a%20standard%20working%20week,%20excluding%20overtime,%20meet%20legal%20and%20industry%20minimum%20standards,%20and%20are%20sufficient%20to%20meet%20the%20basic%20needs&nbsp;of%20workers%20and%20their%20families,%20and%20to%20provide%20them%20with%20some%20discretionary%20income.%20Actions%20taken%20to%20address%20situations%20where%20work%20is%20inadequately%20remunerated%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20Dialogue%20with%20suppliers%20regarding%20the%20relationship%20of%20the%20prices%20paid%20to%20suppliers%20and%20the%20wages%20paid%20to%20workers;%3C/div%3E%0A%3Cdiv%3E&bull;%20Changes%20to%20an%20organization&rsquo;s%20procurement%20practices;%3C/div%3E%0A%3Cdiv%3E&bull;%20Support%20for%20collective%20bargaining%20to%20determine%20wages;%3C/div%3E%0A%3Cdiv%3E&bull;%20Determining%20the%20extent%20that%20overtime%20is%20used,%20whether%20it%20is%20mandatory,%20and%20whether%20it%20is%20compensated%20at%20a%20premium%20rate.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%3C/strong%3E%20for%20Disclosure%20401-1%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EAn%20organization%20can%20use%20the%20following%20age%20groups:%3C/div%3E%0A%3Cdiv%3E&bull;%20Under%2030%20years%20old;%3C/div%3E%0A%3Cdiv%3E&bull;%2030-50%20years%20old;%3C/div%3E%0A%3Cdiv%3E&bull;%20Over%2050%20years%20old.%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThe%20number,%20age,%20gender,%20and%20region%20of%20an%20organization&rsquo;s%20new%20employee%20hires%20can%20indicate%20its%20strategy%20and%20ability%20to%20attract%20diverse,%20qualified%20employees.%20This%20information%20can%20signify%20the%20organization&rsquo;s%20efforts%20to%20implement%20inclusive%20recruitment%20practices%20based%20on%20age%20and%20gender.%20It%20can%20also%20signify%20the%20optimal%20use%20of%20available%20labor%20and%20talent%20in%20different%20regions.%3C/div%3E%0A%3Cdiv%3EA%20high%20rate%20of%20employee%20turnover%20can%20indicate%20levels%20of%20uncertainty%20and%20dissatisfaction%20among%20employees.%20It%20can%20also%20signal%20a%20fundamental%20change%20in%20the%20structure%20of%20an%20organization&rsquo;s%20core%20operations.%20An%20uneven%20pattern%20of%20turnover%20by%20age%20or%20gender%20can%20indicate%20incompatibility%20or%20potential%20inequity%20in%20the%20workplace.%20Turnover%20results%20in%20changes%20to%20the%20human%20and%20intellectual%20capital%20of%20the%20organization%20and%20can%20impact%20productivity.%20Turnover%20has%20direct%20cost%20implications%20either%20in%20terms%20of%20reduced%20payroll%20or%20greater%20expenses%20for%20the%20recruitment%20of%20employees.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.1%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20401-1,%20the%20reporting%20organization%20shall%20use%20the%20total%20employee%20numbers%20at%20the%20end%20of%20the%20reporting%20period%20to%20calculate%20the%20rates%20of%20new%20employee%20hires%20and%20employee%20turnover.%20See%20Standard%20Interpretations.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%3C/strong%3E%20for%20Disclosure%20401-2%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EData%20reported%20under%20this%20disclosure%20provide%20a%20measure%20of%20an%20organization&rsquo;s%20investment%20in%20human%20resources%20and%20the%20minimum%20benefits%20it%20offers%20its%20full-time%20employees.%20The%20quality%20of%20benefits%20for%20full-time%20employees%20is%20a%20key%20factor%20in%20retaining%20employees.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements&nbsp;%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.3%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20401-2,%20the%20reporting%20organization%20shall%20exclude%20in-kind%20benefits%20such%20as%20provision%20of%20sports%20or%20child%20day%20care%20facilities,%20free%20meals%20during%20working%20time,%20and%20similar%20general%20employee%20welfare%20programs.&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20401-3%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EEmployees%20entitled%20to%20parental%20leave%20means%20those%20employees%20that%20are%20covered%20by%20organizational%20policies,%20agreements%20or%20contracts%20that%20contain%20parental%20leave%20entitlements.%3C/div%3E%0A%3Cdiv%3ETo%20determine%20who%20returned%20to%20work%20after%20parental%20leave%20ended%20and%20were%20still%20employed%2012%20months%20later,%20an%20organization%20can%20consult%20records%20from%20the%20prior%20reporting%20periods.%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EMany%20countries%20have%20introduced%20legislation%20to%20provide%20parental%20leave.%20The%20aim%20of%20the%20legislation%20is%20to%20allow%20employees%20to%20take%20leave%20and%20return%20to%20work%20in%20the%20same%20or%20a%20comparable%20position.%3C/div%3E%0A%3Cdiv%3EThe%20application%20of%20legislation%20varies%20according%20to%20interpretation%20by%20government,%20employers%20and%20employees.%20Many%20women%20are%20discouraged%20from%20taking%20leave%20and%20returning%20to%20work%20by%20employer%20practices%20that%20affect%20their%20employment%20security,%20remuneration%20and%20career%20path.%20Many%20men%20are%20not%20encouraged%20to%20take%20the%20leave%20to%20which%20they%20are%20entitled.%3C/div%3E%0A%3Cdiv%3EEquitable%20gender%20choice%20for%20maternity%20and%20paternity%20leave,%20and%20other%20leave%20entitlements,%20can%20lead%20to%20the%20greater%20recruitment%20and%20retention%20of%20qualified%20employees.%20It%20can%20also%20boost%20employee%20morale%20and%20productivity.%20Men&rsquo;s%20uptake%20of%20paternity%20leave%20options%20can%20indicate%20the%20degree%20to%20which%20an%20organization%20encourages%20fathers%20to%20take%20such%20leave.%20Men%20taking%20advantage%20of%20leave%20entitlements%20positively%20impacts%20women%20to%20take%20such%20leave%20without%20prejudicing%20their%20career%20path.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI401FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI401FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

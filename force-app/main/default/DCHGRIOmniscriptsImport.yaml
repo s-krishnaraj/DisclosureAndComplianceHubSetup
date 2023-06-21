@@ -1,0 +1,9 @@
+projectPath: force-app/main/default/GRIOmnistudioComponents
+queries:
+  - FlexCard
+  - OmniDataTransform
+  - IntegrationProcedure 
+  - DataRaptor
+  - OmniScript
+  # - VlocityDataPackType: OmniScript
+  #   query: Select Id from OmniProcess where Name IN ('GRI304')

@@ -1,0 +1,59 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI2U27Db",
+    "OmniProcessId": {
+        "Name": "GRI2X2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X2/GRI2X2/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Strategy policies and practices",
+        "OmniProcessId": {
+            "Name": "GRI2X2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X2/GRI2X2/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X2/GRI2X2/English/Strategy policies and practices",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Strategy policies and practices",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowNew": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "Delete",
+        "editLabel": "Edit",
+        "elementName": "",
+        "hide": false,
+        "label": "(2-27b) Report the total number and the monetary value of fines for instances of non-compliance with laws and regulations that were paid during the reporting period, and a breakdown of this total by: i. fines for instances of non-compliance with laws and regulations that occurred in the current reporting period;",
+        "maxDisplay": 2,
+        "mode": "",
+        "newLabel": "New",
+        "selectCheckBox": "",
+        "selectMode": "Multi",
+        "selectSobject": "",
+        "show": null,
+        "sobjectMapping": [
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "Type": "Edit Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X2/GRI2X2/English/NZCDCHGRI__GRI2U27Db"
+}

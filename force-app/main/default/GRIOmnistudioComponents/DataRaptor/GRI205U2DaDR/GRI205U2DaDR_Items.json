@@ -1,0 +1,68 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI205U2DaDRCustom7003",
+        "InputFieldName": "GRI205U2Da:Region",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI205U2DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI205U2DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI205U2DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI205U2Da:NZCDCHGRI__GRI205U2DaDi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI205U2DaDRCustom496",
+        "InputFieldName": "GRI205U2Da:RecipientCount",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI205U2DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI205U2DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI205U2DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI205U2Da:NZCDCHGRI__GRI205U2DaDii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI205U2DaDRCustom2303",
+        "InputFieldName": "GRI205U2Da:RecipientPercent",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI205U2DaDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI205U2DaDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI205U2DaDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI205U2Da:NZCDCHGRI__GRI205U2DaDiii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI2U9Dc",
+    "OmniProcessId": {
+        "Name": "GRI2X1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Governance",
+        "OmniProcessId": {
+            "Name": "GRI2X1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/Governance",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Governance",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowNew": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "Delete",
+        "editLabel": "Edit",
+        "elementName": "",
+        "hide": false,
+        "label": "(2-9c) Describe the composition of the highest governance body and its committees by:",
+        "maxDisplay": 8,
+        "mode": "Table",
+        "newLabel": "New",
+        "selectCheckBox": "",
+        "selectMode": "Multi",
+        "selectSobject": "",
+        "show": null,
+        "sobjectMapping": [
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "Type": "Edit Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/NZCDCHGRI__GRI2U9Dc"
+}

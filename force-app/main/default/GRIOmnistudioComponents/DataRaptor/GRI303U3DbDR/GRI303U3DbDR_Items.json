@@ -1,0 +1,68 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI303U3DbDRCustom296",
+        "InputFieldName": "GRI303U3Db:ActivitySourceType",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI303U3DbDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI303U3DbDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI303U3DbDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI303U3Db:NZCDCHGRI__GRI303U3DbDi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI303U3DbDRCustom3712",
+        "InputFieldName": "GRI303U3Db:BaselineWaterStress",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI303U3DbDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI303U3DbDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI303U3DbDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI303U3Db:NZCDCHGRI__GRI303U3DbDii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI303U3DbDRCustom1844",
+        "InputFieldName": "GRI303U3Db:QuantityWithdrawal",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI303U3DbDR",
+        "OmniDataTransformationId": {
+            "Name": "GRI303U3DbDR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI303U3DbDR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI303U3Db:NZCDCHGRI__GRI303U3DbDiii",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

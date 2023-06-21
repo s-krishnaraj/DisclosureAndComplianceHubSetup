@@ -1,0 +1,59 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI305U3De",
+    "OmniProcessId": {
+        "Name": "GRI304",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI304/GRI304/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GRI305",
+        "OmniProcessId": {
+            "Name": "GRI304",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI304/GRI304/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI304/GRI304/English/GRI305",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GRI305",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowNew": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "Delete",
+        "editLabel": "Edit",
+        "elementName": "",
+        "hide": false,
+        "label": "(305-3e) Base year for the calculation, if applicable, including:",
+        "maxDisplay": 3,
+        "mode": "",
+        "newLabel": "New",
+        "selectCheckBox": "",
+        "selectMode": "Multi",
+        "selectSobject": "",
+        "show": null,
+        "sobjectMapping": [
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "Type": "Edit Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI304/GRI304/English/NZCDCHGRI__GRI305U3De"
+}

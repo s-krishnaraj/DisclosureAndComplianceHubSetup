@@ -1,0 +1,29 @@
+{
+    "GRI201U4Db": [
+        {
+            "Country": "IT",
+            "TotalAmount": 2000,
+            "Type": "Awards",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "Country": "IN",
+            "TotalAmount": 7000,
+            "Type": "Subsidies",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "Country": "IN",
+            "TotalAmount": 5000,
+            "Type": "Tax Relief and Tax Credits",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        }
+    ],
+    "errorCode": "INVOKE-200"
+}

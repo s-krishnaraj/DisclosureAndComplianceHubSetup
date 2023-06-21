@@ -1,0 +1,77 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI201U1DaDi",
+    "OmniProcessId": {
+        "Name": "GRI20X",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI20X/GRI20X/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI201U1Da",
+        "OmniProcessId": {
+            "Name": "GRI20X",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI20X/GRI20X/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI20X/GRI20X/English/NZCDCHGRI__GRI201U1Da",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI201U1Da",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Performance Category",
+        "optionSource": {
+            "source": "EconomicPerformanceSum.PerformanceCategory",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Distributed Value",
+                "value": "Distributed Value"
+            },
+            {
+                "autoAdv": null,
+                "name": "Generated Value",
+                "value": "Generated Value"
+            },
+            {
+                "autoAdv": null,
+                "name": "Retained Value",
+                "value": "Retained Value"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI20X/GRI20X/English/NZCDCHGRI__GRI201U1DaDi"
+}

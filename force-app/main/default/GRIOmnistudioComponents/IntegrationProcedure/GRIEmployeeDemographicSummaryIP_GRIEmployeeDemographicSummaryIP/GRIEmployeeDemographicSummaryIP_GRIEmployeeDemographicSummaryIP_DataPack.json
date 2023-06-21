@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIEmployeeDemographicSummaryIP",
+    "OmniProcessElement": [
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_RemoteAction1.json",
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_RemoteAction2.json",
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_RemoteAction3.json",
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_RemoteAction4.json",
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_RemoteAction5.json",
+        "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_PropertySetConfig.json",
+    "SubType": "GRIEmployeeDemographicSummaryIP",
+    "Type": "GRIEmployeeDemographicSummaryIP",
+    "UniqueName": "GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIEmployeeDemographicSummaryIP/GRIEmployeeDemographicSummaryIP/Procedure",
+    "WebComponentKey": "93c32103-d788-54e1-d426-3af70cac5fd6"
+}

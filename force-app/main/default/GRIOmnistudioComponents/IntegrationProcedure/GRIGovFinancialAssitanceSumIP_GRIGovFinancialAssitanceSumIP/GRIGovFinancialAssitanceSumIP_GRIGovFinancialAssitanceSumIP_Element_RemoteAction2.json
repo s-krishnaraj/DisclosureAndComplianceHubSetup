@@ -1,0 +1,47 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "RemoteAction2",
+    "OmniProcessId": {
+        "Name": "GRIGovFinancialAssitanceSumIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRIGovFinancialAssitanceSumIP/GRIGovFinancialAssitanceSumIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "NZCDCHGRI.GRIGovFinancialAssitanceSum",
+        "remoteMethod": "GetGovFinAsstTotSumCntry",
+        "remoteOptions": {
+            "GRI201Da1DEnd": "%GRI201Da1DEnd%",
+            "GRI201Da1Dstart": "%GRI201Da1Dstart%"
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRIGovFinancialAssitanceSumIP/GRIGovFinancialAssitanceSumIP/Procedure/RemoteAction2"
+}

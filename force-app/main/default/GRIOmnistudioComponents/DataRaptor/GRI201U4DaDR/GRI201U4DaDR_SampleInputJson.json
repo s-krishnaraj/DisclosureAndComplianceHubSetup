@@ -1,0 +1,25 @@
+{
+    "GRI201U4Da": [
+        {
+            "TotalAmount": 2000,
+            "Type": "Awards",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "TotalAmount": 7000,
+            "Type": "Subsidies",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "TotalAmount": 5000,
+            "Type": "Tax Relief and Tax Credits",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI405U1DbDii",
+    "OmniProcessId": {
+        "Name": "GRI401",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI401/GRI401/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI405U1Db",
+        "OmniProcessId": {
+            "Name": "GRI401",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI401/GRI401/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI401/GRI401/English/NZCDCHGRI__GRI405U1Db",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI405U1Db",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "ii. Age group:",
+        "optionSource": {
+            "source": "DivrsEquityInclSum.AgeGroup",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "under 30 years",
+                "value": "under 30 years"
+            },
+            {
+                "autoAdv": null,
+                "name": "30-50 years",
+                "value": "30-50 years"
+            },
+            {
+                "autoAdv": null,
+                "name": "over 50 years",
+                "value": "over 50 years"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI401/GRI401/English/NZCDCHGRI__GRI405U1DbDii"
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIDiversityEquityInclusionSummaryIP",
+    "OmniProcessElement": [
+        "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Element_RemoteAction1.json",
+        "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Element_RemoteAction2.json",
+        "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Element_RemoteAction3.json",
+        "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_PropertySetConfig.json",
+    "SubType": "GRIDiversityEquInclusionSummaryIP",
+    "Type": "GRIDiversityEquInclusionSummaryIP",
+    "UniqueName": "GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIDiversityEquInclusionSummaryIP/GRIDiversityEquInclusionSummaryIP/Procedure",
+    "WebComponentKey": "55b3d551-8482-f5ea-fd2a-7a5508fe5366"
+}

@@ -1,0 +1,14 @@
+{
+    "GRI207U4Db": {
+        "EmployeeCount": 500,
+        "IncomeTaxAccrued": 20000,
+        "IncomeTaxPaid": 15000,
+        "IndustryTaxDue": 3000,
+        "IntraGroupTrxnRev": 500,
+        "Name": "TDS-0000001",
+        "PrimaryActivity": "Tax Plan",
+        "ProfitLossBeforeTax": 1000,
+        "TangibleAssetValue": 2500,
+        "ThirdPartySalesRevenue": 1000
+    }
+}

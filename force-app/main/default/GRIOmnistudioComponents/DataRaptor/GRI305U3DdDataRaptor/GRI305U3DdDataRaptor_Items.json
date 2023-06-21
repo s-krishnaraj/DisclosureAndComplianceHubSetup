@@ -1,0 +1,49 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "GRI305U3DdDataRaptorCustom6367",
+        "InputFieldName": "AEI:TotalScope3Emissions",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI305U3DdDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "GRI305U3DdDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI305U3DdDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NZCDCHGRI__GRI305U3Dd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "year",
+        "GlobalKey": "GRI305U3DdDataRaptorCustom5578",
+        "InputFieldName": "Year",
+        "InputObjectName": "AnnualEmssnInventory",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "GRI305U3DdDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "GRI305U3DdDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GRI305U3DdDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "AEI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

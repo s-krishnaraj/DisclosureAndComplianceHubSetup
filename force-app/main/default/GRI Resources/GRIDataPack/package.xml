@@ -1,20 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <!--<types>
-        <members>NZC_GRI2023_English_1</members>
-        <members>GRI2X1_GRI2X1_English_1</members>
-        <members>GRI2X2_GRI2X2_English_1</members>
-        <members>GRI20X_GRI20X_English_1</members>
-        <members>GRI301_GRI301_English_1</members>
-        <members>GRI304_GRI304_English_1</members>
-        <members>GRI306_GRI306_English_1</members>
-        <members>GRI401_GRI401_English_1</members>
-        <members>GRI406_GRI406_English_1</members>
-        <members>GRI3X_GRI3X_English_1</members>
-        <name>OmniScript</name>
-    </types>-->
+    
 
-     <types>
+	<types>
+	    <members>GRI205U2DcDR_1</members>
+        <members>GRI302U1aDR_1</members>
+        <members>GRI302U1DbDR_1</members> 
+        <members>GRI302U1DeDR_1</members>
+        <members>GRI302U3aDR_1</members>							
+		<members>GRI305U1DaDataRaptor_1</members>
+        <members>GRI305U2DaDataRaptor_1</members> 
+        <members>GRI305U3DaDataRaptor_1</members>
+        <members>GRI305U3DdDataRaptor_1</members>
+		<members>GRI305U4DaDataRaptor_1</members>		
+		<members>GRI305U4DbDataRaptor_1</members>
+		<members>GRI305U4DcDataRaptor_1</members> 
+		<members>GRI306U5DaDR_1</members>
+        <members>GRI306U5DbDR_1</members> 
+        <members>GRI306U5DcDR_1</members>
+        <members>GRI306U5DdDR_1</members>				
+         <members>GRI201U4DaDR_1</members>
+        <members>GRI201U1DaDR_1</members> 
+        <members>GRI201U4DbDR_1</members>
+        <members>GRI201U1DbDR_1</members>
+		<members>GRI405U1DaDR_1</members>
+        <members>GRI405U1DbDR_1</members> 
+        <members>GRI401U1DaDR_1</members>
+        <members>GRI401U1DbDR_1</members>
+		<members>GRI2U7DaDR_1</members>
+	    <members>GRI2U7DbDR_1</members>
+		<members>GRI2U8DaDR_1</members> 	
+         <members>GRI205U2DaDR_1</members>      
+        <members>GRI207U4DbDR_1</members>
+        <members>GRI415U1DaDR_1</members>
+		<members>GRI306U4DaDR_1</members>
+        <members>GRI404U1DaDR_1</members> 
+        <members>GRI404U3DaDR_1</members>
+        <members>GRI2U27DaDR_1</members>
+		<members>GRI2U27DbDR_1</members>
+	    <members>GRI2U27Db2DR_1</members>
+		<members>GRI416U2DaDR_1</members> 	
+        <members>GRI417U2DaDR_1</members>
+        <members>GRI417U3DaDR_1</members> 
+        <members>GRI302U1DcDR_1</members>
+        <members>GRI303U3DaDR_1</members>
+		<members>GRI303U3DbDR_1</members>
+	    <members>GRI303U4DaDR_1</members>
+		<members>GRI303U5DbDR_1</members> 	
+        <members>GRI205U2DbDataDR_1</members>
+		<members>GRI303U3DaDataDR_1</members> 	
+		<members>GRIStartDateEndDateTransform_1</members>
+        <name>OmniDataTransform</name>
+   </types>
+   
+   <types>
+         
+		 <members>GRITaxDisclosureSummaryIP_GRITaxDisclosureSummaryIP_Procedure_1</members>
+        <members>GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP_Procedure_1</members>
+        <members>GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Procedure_1</members>
+        <members>GRIGovFinancialAssitanceSumIP_GRIGovFinancialAssitanceSumIP_Procedure_1</members>
+        <members>GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_Procedure_1</members>
+        <members>GRISocialContributionSummaryIP_GRISocialContributionSummaryIP_Procedure_1</members>
+        <members>GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Procedure_1</members>
+        <members>GRIOrgIncidentSummaryIP_GRIOrgIncidentSummaryIP_Procedure_1</members>
+        <members>GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_Procedure_1</members>
+        <members>GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Procedure_1</members>
+        <members>GRIWasteFootPrintIP_GRIWasteFootPrintIP_Procedure_1</members>	
+		<members>GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Procedure_1</members>
+		<members>GRI_AssessmentPrefilling_Procedure_1</members>       
+		<members>GRIstartdate_enddate_Procedure_1</members>		
+    <name>OmniIntegrationProcedure</name>
+    </types>
+	
+	
+		<types>
         <members>GRI201FC_Salesforce_1</members>
         <members>GRI202FC_Salesforce_1</members>
         <members>GRI203FC_Salesforce_1</members>
@@ -54,35 +113,26 @@
          <members>GRI2U29FC_Salesforce_1</members>
          <members>GRI3FC_Salesforce_1</members>
 		 <members>Confirmpage_Salesforce_1</members>
+		 <members>GRIdisclaimer1_Salesforce_1</members>
+		 
        <name>OmniUiCard</name>
     </types>
-    <types>
-        <members>GRIAntiCorupIntSum2_GRIAntiCorupIntSum2_Procedure_1</members>
-        <members>GRIAntiCorupIntSum_GRIAntiCorupIntSum_Procedure_1</members>
-        <members>GRIEconomicPerformanceSummary1_GRIEconomicPerformanceSummary1_Procedure_1</members>
-        <members>GRIEconomicPerformanceSummary2_GRIEconomicPerformanceSummary2_Procedure_1</members>
-        <members>GRIEmployeeDemographicSummary2_GRIEmployeeDemographicSummary2_Procedure_1</members>
-        <members>GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP_Procedure_1</members>
-         <members>GRIEmployeeDevelopmentSum1_GRIEmployeeDevelopmentSum1_Procedure_1</members>
-        <members>GRIEmployeeDevelopmentSum2_GRIEmployeeDevelopmentSum2_Procedure_1</members> 
-        <members>GRIGovFinancialAssitanceSum1_GRIGovFinancialAssitanceSum1_Procedure_1</members>
-        <members>GRIGovFinancialAssitanceSum2_GRIGovFinancialAssitanceSum2_Procedure_1</members>      
-        <members>GRISocialContributionSummary_GRISocialContributionSummary_Procedure_1</members> 
-        <members>OrgIncidentSummary_OrgIncidentSummary_Procedure_1</members> 
-         <members>GRIGovFinancialAssitanceSumIP_GRIGovFinancialAssitanceSumIP_Procedure_1</members>
-        <members>GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Procedure_1</members> 
-        <members>GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Procedure_1</members>    
-        <name>OmniIntegrationProcedure</name>
+	
+	<types>
+        <members>GRI2023_GRI2023DF_English_1</members>
+        <members>GRI2X1_GRI2X1_English_1</members>
+        <members>GRI2X2_GRI2X2_English_1</members>
+        <members>GRI20X_GRI20X_English_1</members>
+        <members>GRI301_GRI301_English_1</members>
+        <members>GRI304_GRI304_English_1</members>
+        <members>GRI306_GRI306_English_1</members>
+        <members>GRI401_GRI401_English_1</members>
+        <members>GRI406_GRI406_English_1</members>
+        <members>GRI3X_GRI3X_English_1</members>
+        <name>OmniScript</name>
     </types>
-    
-     <types>
-        <members>GRI302U1aDR_1</members>
-        <members>GRI302U1DbDR_1</members> 
-        <members>GRI302U1DeDR_1</members>
-        <members>GRI302U3aDR_1</members>
-         <members>GetAssessments_1</members>      
-         <members>TransformAssessments_1</members> 		
-        <name>OmniDataTransform</name>
-    </types>
+	
+	
+	
     <version>57.0</version>
 </Package>

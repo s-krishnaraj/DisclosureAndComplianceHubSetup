@@ -1,0 +1,41 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "CustomLWC4",
+    "OmniProcessId": {
+        "Name": "GRI401",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI401/GRI401/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Guidance404",
+        "OmniProcessId": {
+            "Name": "GRI401",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI401/GRI401/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI401/GRI401/English/Guidance404",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Guidance404",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+        ],
+        "hide": false,
+        "label": "CustomLWC4",
+        "lwcName": "cfGRI404FC",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI401/GRI401/English/CustomLWC4"
+}

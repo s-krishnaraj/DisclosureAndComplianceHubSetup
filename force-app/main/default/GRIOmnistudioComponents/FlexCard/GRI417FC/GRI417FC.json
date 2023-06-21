@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20417-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3ECustomers%20and%20end%20users%20need%20accessible%20and%20adequate%20information%20about%20the%20positive%20and%20negative%20environmental%20and%20social%20impacts%20of%20products%20and%20services.%20This%20can%20include%20information%20on%20the%20safe%20use%20of%20a%20product%20or%20service,%20the%20disposal%20of%20the%20product,%20or%20the%20sourcing%20of%20its%20components.%20Access%20to%20this%20information%20helps%20customers%20to%20make%20informed%20purchasing%20choices.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cspan%20style=%22background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/span%3E%20&nbsp;for%20Disclosure%20417-2%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20incidents%20of%20non-compliance%20that%20occur%20within%20the%20reporting%20period%20can%20relate%20to%20incidents%20formally%20resolved%20during%20the%20reporting%20period,%20whether%20they%20occurred%20in%20periods%20prior%20to%20the%20reporting%20period%20or%20not.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EProviding%20appropriate%20information%20and%20labeling%20with%20respect%20to%20economic,%20environmental,%20and%20social%20impacts%20can%20be%20linked%20to%20compliance%20with%20certain%20types%20of%20regulations,%20laws,%20and%20codes.%20It%20is,%20for%20example,%20linked%20to%20compliance%20with%20regulations,%20national%20laws,%20and%20the%20Organisation%20for%20Economic%20Co-operation%20and%20Development%20(OECD)%20OECD%20Guidelines%20for%20Multinational%20Enterprises.%20It%20is%20also%20potentially%20linked%20to%20compliance%20with%20strategies%20for%20brand%20and%20market%20differentiation.%3C/div%3E%0A%3Cdiv%3EThe%20display%20and%20provision%20of%20information%20and%20labeling%20for%20products%20and%20services%20are%20subject%20to%20many%20regulations%20and%20laws.%20Non-compliance%20can%20indicate%20either%20inadequate%20internal%20management%20systems%20and%20procedures%20or%20ineffective%20implementation.%20The%20trends%20revealed%20by%20this%20disclosure%20can%20indicate%20improvements%20or%20a%20deterioration%20in%20the%20effectiveness%20of%20internal%20controls.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.1%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20417-2,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.1.1%20exclude%20incidents%20of%20non-compliance%20in%20which%20the%20organization%20was%20determined%20not%20to%20be%20at%20fault;%3C/div%3E%0A%3Cdiv%3E2.1.2%20if%20applicable,%20identify%20any%20incidents%20of%20non-compliance%20that%20relate%20to%20events%20in%20periods%20prior%20to%20the%20reporting%20period.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22background-color:%20initial;%22%3E&amp;%20Compilation%20requirement&nbsp;%3C/strong%3E%20for%20Disclosure%20417-3%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20incidents%20of%20non-compliance%20that%20occur%20within%20the%20reporting%20period%20can%20relate%20to%20incidents%20formally%20resolved%20during%20the%20reporting%20period,%20whether%20they%20occurred%20in%20periods%20prior%20to%20the%20reporting%20period%20or%20not.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EMarketing%20is%20an%20important%20method%20of%20communication%20between%20organizations%20and%20customers,%20and%20is%20subject%20to%20many%20regulations,%20laws,%20and%20voluntary%20codes,%20such%20as%20the%20International%20Chamber%20of%20Commerce%20(ICC)&rsquo;s%20Consolidated%20Code%20of%20Advertising%20and%20Marketing%20Communication%20Practice.%3C/div%3E%0A%3Cdiv%3EAn%20organization%20is%20expected%20to%20use%20fair%20and%20responsible%20practices%20in%20its%20business%20and%20dealings%20with%20customers.%20Fair%20and%20responsible%20marketing%20requires%20the%20organization%20to%20communicate%20transparently%20about%20the%20economic,%20environmental,%20and%20social%20impacts%20of%20its%20brands,%20products,%20and%20services.%20Fair%20and%20responsible%20marketing%20also%20avoids%20any%20deceptive,%20untruthful,%20or%20discriminatory%20claims,%20and%20does%20not%20take%20advantage%20of%20a%20customers&rsquo;%20lack%20of%20knowledge%20or%20choices.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.2%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20417-3,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.2.1%20exclude%20incidents%20of%20non-compliance%20in%20which%20the%20organization%20was%20determined%20not%20to%20be%20at%20fault;%3C/div%3E%0A%3Cdiv%3E2.2.2%20if%20applicable,%20identify%20any%20incidents%20of%20non-compliance%20that%20relate%20to%20events%20in%20periods%20prior%20to%20the%20reporting%20period.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI417FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI417FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

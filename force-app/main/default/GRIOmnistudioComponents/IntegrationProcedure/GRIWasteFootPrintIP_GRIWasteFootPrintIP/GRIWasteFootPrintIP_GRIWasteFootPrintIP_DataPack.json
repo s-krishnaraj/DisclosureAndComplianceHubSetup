@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIWasteFootPrintIP",
+    "OmniProcessElement": [
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_RemoteAction1.json",
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_RemoteAction2.json",
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_RemoteAction3.json",
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_RemoteAction4.json",
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_RemoteAction5.json",
+        "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIWasteFootPrintIP_GRIWasteFootPrintIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIWasteFootPrintIP_GRIWasteFootPrintIP_PropertySetConfig.json",
+    "SubType": "GRIWasteFootPrintIP",
+    "Type": "GRIWasteFootPrintIP",
+    "UniqueName": "GRIWasteFootPrintIP_GRIWasteFootPrintIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIWasteFootPrintIP/GRIWasteFootPrintIP/Procedure",
+    "WebComponentKey": "25a083ee-92e2-b448-cb8d-6e0bcd20aaf5"
+}

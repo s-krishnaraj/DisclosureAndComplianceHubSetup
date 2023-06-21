@@ -1,0 +1,47 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseAction1",
+    "OmniProcessId": {
+        "Name": "GRIOrgIncidentSummaryIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRIOrgIncidentSummaryIP/GRIOrgIncidentSummaryIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "GRI205U3DaResp": "=%RemoteAction5%",
+            "GRI205U3DbResp": "=%RemoteAction6%",
+            "GRI205U3DcResp": "=%RemoteAction7%",
+            "GRI2U27DaResp": "=%RemoteAction1%",
+            "GRI2U27Db2Resp": "=%RemoteAction12%",
+            "GRI2U27DbResp": "=%RemoteAction2%",
+            "GRI406U1DaResp": "=%RemoteAction8%",
+            "GRI411U1DaResp": "=%RemoteAction9%",
+            "GRI416U2DaResp": "=%RemoteAction11%",
+            "GRI417U2DaResp": "=%RemoteAction3%",
+            "GRI417U3DaResp": "=%RemoteAction4%",
+            "GRI418U1DbResp": "=%RemoteAction10%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRIOrgIncidentSummaryIP/GRIOrgIncidentSummaryIP/Procedure/ResponseAction1"
+}

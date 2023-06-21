@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20-%20413%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20reporting%20organization%20can%20also%20describe:%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20means%20by%20which%20stakeholders%20are%20identified%20and%20engaged%20with;%3C/div%3E%0A%3Cdiv%3E&bull;%20Which%20vulnerable%20groups%20have%20been%20identified;%3C/div%3E%0A%3Cdiv%3E&bull;%20Any%20collective%20or%20individual%20rights%20that%20have%20been%20identified%20that%20are%20of%20particular%20concern%20for%20the%20community%20in%20question;%3C/div%3E%0A%3Cdiv%3E&bull;%20How%20it%20engages%20with%20stakeholder%20groups%20that%20are%20particular%20to%20the%20community%20(for%20example,%20groups%20defined%20by%20age,%20indigenous%20background,%20ethnicity%20or%20migration%20status);%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20means%20by%20which%20its%20departments%20and%20other%20bodies%20address%20risks%20and%20impacts,%20or%20support%20independent%20third%20parties%20to%20engage%20with%20stakeholders%20and%20address%20risks%20and%20impacts.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3ECommunities%20have%20individual%20and%20collective%20rights%20deriving%20from,%20among%20others,%20international%20declarations%20and%20conventions%20such%20as:%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20United%20Nations%20(UN)%20Declaration,%20&lsquo;Universal%20Declaration%20of%20Human%20Rights&rsquo;,%201948;%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20United%20Nations%20(UN)%20Convention,%20&lsquo;International%20Covenant%20on%20Civil%20and%20Political%20Rights&rsquo;,%201966;%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20United%20Nations%20(UN)%20Convention,%20&lsquo;International%20Covenant%20on%20Economic,%20Social,%20and%20Cultural%20Rights&rsquo;,%201966;%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20United%20Nations%20(UN)%20Declaration,%20&lsquo;Declaration%20on%20the%20Right%20to%20Development&rsquo;,%201986.%3C/div%3E%0A%3Cdiv%3EOther%20standards%20such%20as%20the%20International%20Finance%20Corporation&rsquo;s%20(IFC)%20Performance%20Standards%20(PS)%20also%20provide%20widely-accepted%20good%20practice%20approaches%20for%20organizational%20assessment,%20engagement%20and%20treatment%20of%20community-related%20impact%20issues%20(see%20IFC%20PS1%20&ndash;%20Assessment%20and%20Management%20of%20Environmental%20and%20Social%20Risks%20and%20Impacts,%20and%20PS4%20&ndash;%20Community%20Health,%20Safety,%20and%20Security).%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20413-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EA%20key%20element%20in%20managing%20impacts%20on%20people%20in%20local%20communities%20is%20assessment%20and%20planning%20in%20order%20to%20understand%20the%20actual%20and%20potential%20impacts,%20and%20strong%20engagement%20with%20local%20communities%20to%20understand%20their%20expectations%20and%20needs.%20There%20are%20many%20elements%20that%20can%20be%20incorporated%20into%20local%20community%20engagement,%20impact%20assessments,%20and%20development%20programs.%20This%20disclosure%20seeks%20to%20identify%20which%20elements%20have%20been%20consistently%20applied,%20organization-wide.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3EWhere%20possible,%20organizations%20are%20expected%20to%20anticipate%20and%20avoid%20negative%20impacts%20on%20local%20communities.%20Where%20this%20is%20not%20possible,%20or%20where%20residual%20impacts%20remain,%20organizations%20are%20expected%20to%20manage%20those%20impacts%20appropriately,%20including%20grievances,%20and%20to%20compensate%20local%20communities%20for%20negative%20impacts.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3EEstablishing%20a%20timely%20and%20effective%20stakeholder%20identification%20and%20engagement%20process%20is%20important%20to%20help%20organizations%20understand%20the%20vulnerability%20of%20local%20communities%20and%20how%20these%20might%20be&nbsp;affected%20by%20the%20organization&rsquo;s%20activities.%20A%20stakeholder%20engagement%20process%20both%20in%20early%20planning%20stages%20as%20well%20as%20during%20operations,%20can%20help%20establish%20lines%20of%20communication%20between%20an%20organization&rsquo;s%20various%20departments%20(planning,%20finance,%20environment,%20production,%20etc.)%20and%20key%20stakeholder%20interest%20groups%20in%20the%20community.%20This%20enables%20an%20organization%20to%20consider%20the%20views%20of%20community%20stakeholders%20in%20its%20decisions,%20and%20to%20address%20its%20potential%20impacts%20on%20local%20communities%20in%20a%20timely%20manner.%20Organizations%20can%20utilize%20a%20number%20of%20useful%20tools%20to%20engage%20communities,%20including%20social%20and%20human%20rights%20impact%20assessments,%20which%20include%20a%20diverse%20set%20of%20approaches%20for%20proper%20identification%20of%20stakeholders%20and%20community%20characteristics.%20These%20can%20be%20based%20on%20issues%20such%20as%20ethnic%20background,%20indigenous%20descent,%20gender,%20age,%20migrant%20status,%20socioeconomic%20status,%20literacy%20levels,%20disabilities,%20income%20level,%20infrastructure%20availability%20or%20specific%20human%20health%20vulnerabilities%20which%20may%20exist%20within%20stakeholder%20communities.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3EAn%20organization%20is%20expected%20to%20consider%20the%20differentiated%20nature%20of%20local%20communities%20and%20to%20take%20specific%20action%20to%20identify%20and%20engage%20vulnerable%20groups.%20This%20might%20require%20adopting%20differentiated%20measures%20to%20allow%20the%20effective%20participation%20of&nbsp;vulnerable%20groups,%20such%20as%20making%20information%20available%20in%20alternate%20languages%20or%20format%20for%20those%20who%20are&nbsp;not%20literate%20or%20who%20do%20not%20have%20access%20to%20printed%20materials.%20Where%20necessary,%20organizations%20are%20expected%20to%20establish%20additional%20or%20separate%20processes%20so%20that%20negative%20impacts%20on%20vulnerable%20or%20disadvantaged%20groups%20are%20avoided,%20minimized,%20mitigated%20or%20compensated.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20413-2%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EInternal%20sources%20of%20information%20about%20actual%20and%20potential%20negative%20impacts%20of%20operations%20on%20local%20communities%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20Actual%20performance%20data;%3C/div%3E%0A%3Cdiv%3E&bull;%20Internal%20investment%20plans%20and%20associated%20risk%20assessments;%3C/div%3E%0A%3Cdiv%3E&bull;%20All%20data%20collected%20with%20topic%20disclosures%20as%20they%20relate%20to%20individual%20communities.%20For%20example:%20GRI%20203:%20Indirect%20Economic%20Impacts%202016,%20GRI%20301:%20Materials%202016,%20GRI%20302:%20Energy%202016,%20GRI%20303:%20Water%20and%20Effluents%202018,%20GRI%20304:%20Biodiversity%202016,%20GRI%20305:%20Emissions%202016,%20GRI%20306:%20Waste%202020,%20GRI%20403:%20Occupational%20Health%20and%20Safety%202018,%20GRI%20408:%20Child%20Labor%202016,%20GRI%20409:%20Forced%20or%20Compulsory%20Labor%202016,%20GRI%20410:%20Security%20Practices%202016,%20GRI%20411:%20Rights%20of%20Indigenous%20Peoples%202016,%20and%20GRI%20416:%20Customer%20Health%20and%20Safety%202016.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20is%20focused%20on%20significant%20actual%20and%20potential%20negative%20impacts%20related%20to%20an%20organization&rsquo;s%20operations%20and%20not%20on%20community%20investments%20or%20donations,%20which%20are%20addressed%20by%20GRI%20201:%20Economic%20Performance%202016.%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20informs%20stakeholders%20about%20an%20organization&rsquo;s%20awareness%20of%20its%20negative%20impacts%20on%20local%20communities.%20It%20also%20enables%20the%20organization%20to%20better%20prioritize%20and%20improve%20its%20organization-wide%20attention%20to%20local%20communities.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI413FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI413FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

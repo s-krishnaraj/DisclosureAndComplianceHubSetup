@@ -1,0 +1,1272 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI415U1DaDi",
+    "OmniProcessId": {
+        "Name": "GRI406",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI406/GRI406/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI415U1Da",
+        "OmniProcessId": {
+            "Name": "GRI406",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI406/GRI406/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI406/GRI406/English/NZCDCHGRI__GRI415U1Da",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI415U1Da",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "i. Country",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "AD",
+                "value": "AD"
+            },
+            {
+                "autoAdv": null,
+                "name": "AE",
+                "value": "AE"
+            },
+            {
+                "autoAdv": null,
+                "name": "AF",
+                "value": "AF"
+            },
+            {
+                "autoAdv": null,
+                "name": "AG",
+                "value": "AG"
+            },
+            {
+                "autoAdv": null,
+                "name": "AI",
+                "value": "AI"
+            },
+            {
+                "autoAdv": null,
+                "name": "AL",
+                "value": "AL"
+            },
+            {
+                "autoAdv": null,
+                "name": "AM",
+                "value": "AM"
+            },
+            {
+                "autoAdv": null,
+                "name": "AO",
+                "value": "AO"
+            },
+            {
+                "autoAdv": null,
+                "name": "AQ",
+                "value": "AQ"
+            },
+            {
+                "autoAdv": null,
+                "name": "AR",
+                "value": "AR"
+            },
+            {
+                "autoAdv": null,
+                "name": "AT",
+                "value": "AT"
+            },
+            {
+                "autoAdv": null,
+                "name": "AU",
+                "value": "AU"
+            },
+            {
+                "autoAdv": null,
+                "name": "AW",
+                "value": "AW"
+            },
+            {
+                "autoAdv": null,
+                "name": "AX",
+                "value": "AX"
+            },
+            {
+                "autoAdv": null,
+                "name": "AZ",
+                "value": "AZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "BA",
+                "value": "BA"
+            },
+            {
+                "autoAdv": null,
+                "name": "BB",
+                "value": "BB"
+            },
+            {
+                "autoAdv": null,
+                "name": "BD",
+                "value": "BD"
+            },
+            {
+                "autoAdv": null,
+                "name": "BE",
+                "value": "BE"
+            },
+            {
+                "autoAdv": null,
+                "name": "BF",
+                "value": "BF"
+            },
+            {
+                "autoAdv": null,
+                "name": "BG",
+                "value": "BG"
+            },
+            {
+                "autoAdv": null,
+                "name": "BH",
+                "value": "BH"
+            },
+            {
+                "autoAdv": null,
+                "name": "BI",
+                "value": "BI"
+            },
+            {
+                "autoAdv": null,
+                "name": "BJ",
+                "value": "BJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "BL",
+                "value": "BL"
+            },
+            {
+                "autoAdv": null,
+                "name": "BM",
+                "value": "BM"
+            },
+            {
+                "autoAdv": null,
+                "name": "BN",
+                "value": "BN"
+            },
+            {
+                "autoAdv": null,
+                "name": "BO",
+                "value": "BO"
+            },
+            {
+                "autoAdv": null,
+                "name": "BQ",
+                "value": "BQ"
+            },
+            {
+                "autoAdv": null,
+                "name": "BR",
+                "value": "BR"
+            },
+            {
+                "autoAdv": null,
+                "name": "BS",
+                "value": "BS"
+            },
+            {
+                "autoAdv": null,
+                "name": "BT",
+                "value": "BT"
+            },
+            {
+                "autoAdv": null,
+                "name": "BV",
+                "value": "BV"
+            },
+            {
+                "autoAdv": null,
+                "name": "BW",
+                "value": "BW"
+            },
+            {
+                "autoAdv": null,
+                "name": "BY",
+                "value": "BY"
+            },
+            {
+                "autoAdv": null,
+                "name": "BZ",
+                "value": "BZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "CA",
+                "value": "CA"
+            },
+            {
+                "autoAdv": null,
+                "name": "CC",
+                "value": "CC"
+            },
+            {
+                "autoAdv": null,
+                "name": "CD",
+                "value": "CD"
+            },
+            {
+                "autoAdv": null,
+                "name": "CF",
+                "value": "CF"
+            },
+            {
+                "autoAdv": null,
+                "name": "CG",
+                "value": "CG"
+            },
+            {
+                "autoAdv": null,
+                "name": "CH",
+                "value": "CH"
+            },
+            {
+                "autoAdv": null,
+                "name": "CI",
+                "value": "CI"
+            },
+            {
+                "autoAdv": null,
+                "name": "CK",
+                "value": "CK"
+            },
+            {
+                "autoAdv": null,
+                "name": "CL",
+                "value": "CL"
+            },
+            {
+                "autoAdv": null,
+                "name": "CM",
+                "value": "CM"
+            },
+            {
+                "autoAdv": null,
+                "name": "CN",
+                "value": "CN"
+            },
+            {
+                "autoAdv": null,
+                "name": "CO",
+                "value": "CO"
+            },
+            {
+                "autoAdv": null,
+                "name": "CR",
+                "value": "CR"
+            },
+            {
+                "autoAdv": null,
+                "name": "CU",
+                "value": "CU"
+            },
+            {
+                "autoAdv": null,
+                "name": "CV",
+                "value": "CV"
+            },
+            {
+                "autoAdv": null,
+                "name": "CW",
+                "value": "CW"
+            },
+            {
+                "autoAdv": null,
+                "name": "CX",
+                "value": "CX"
+            },
+            {
+                "autoAdv": null,
+                "name": "CY",
+                "value": "CY"
+            },
+            {
+                "autoAdv": null,
+                "name": "CZ",
+                "value": "CZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "DE",
+                "value": "DE"
+            },
+            {
+                "autoAdv": null,
+                "name": "DJ",
+                "value": "DJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "DK",
+                "value": "DK"
+            },
+            {
+                "autoAdv": null,
+                "name": "DM",
+                "value": "DM"
+            },
+            {
+                "autoAdv": null,
+                "name": "DO",
+                "value": "DO"
+            },
+            {
+                "autoAdv": null,
+                "name": "DZ",
+                "value": "DZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "EC",
+                "value": "EC"
+            },
+            {
+                "autoAdv": null,
+                "name": "EE",
+                "value": "EE"
+            },
+            {
+                "autoAdv": null,
+                "name": "EG",
+                "value": "EG"
+            },
+            {
+                "autoAdv": null,
+                "name": "EH",
+                "value": "EH"
+            },
+            {
+                "autoAdv": null,
+                "name": "ER",
+                "value": "ER"
+            },
+            {
+                "autoAdv": null,
+                "name": "ES",
+                "value": "ES"
+            },
+            {
+                "autoAdv": null,
+                "name": "ET",
+                "value": "ET"
+            },
+            {
+                "autoAdv": null,
+                "name": "FI",
+                "value": "FI"
+            },
+            {
+                "autoAdv": null,
+                "name": "FJ",
+                "value": "FJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "FK",
+                "value": "FK"
+            },
+            {
+                "autoAdv": null,
+                "name": "FO",
+                "value": "FO"
+            },
+            {
+                "autoAdv": null,
+                "name": "FR",
+                "value": "FR"
+            },
+            {
+                "autoAdv": null,
+                "name": "GA",
+                "value": "GA"
+            },
+            {
+                "autoAdv": null,
+                "name": "GB",
+                "value": "GB"
+            },
+            {
+                "autoAdv": null,
+                "name": "GD",
+                "value": "GD"
+            },
+            {
+                "autoAdv": null,
+                "name": "GE",
+                "value": "GE"
+            },
+            {
+                "autoAdv": null,
+                "name": "GF",
+                "value": "GF"
+            },
+            {
+                "autoAdv": null,
+                "name": "GG",
+                "value": "GG"
+            },
+            {
+                "autoAdv": null,
+                "name": "GH",
+                "value": "GH"
+            },
+            {
+                "autoAdv": null,
+                "name": "GI",
+                "value": "GI"
+            },
+            {
+                "autoAdv": null,
+                "name": "GL",
+                "value": "GL"
+            },
+            {
+                "autoAdv": null,
+                "name": "GM",
+                "value": "GM"
+            },
+            {
+                "autoAdv": null,
+                "name": "GN",
+                "value": "GN"
+            },
+            {
+                "autoAdv": null,
+                "name": "GP",
+                "value": "GP"
+            },
+            {
+                "autoAdv": null,
+                "name": "GQ",
+                "value": "GQ"
+            },
+            {
+                "autoAdv": null,
+                "name": "GR",
+                "value": "GR"
+            },
+            {
+                "autoAdv": null,
+                "name": "GS",
+                "value": "GS"
+            },
+            {
+                "autoAdv": null,
+                "name": "GT",
+                "value": "GT"
+            },
+            {
+                "autoAdv": null,
+                "name": "GW",
+                "value": "GW"
+            },
+            {
+                "autoAdv": null,
+                "name": "GY",
+                "value": "GY"
+            },
+            {
+                "autoAdv": null,
+                "name": "HK",
+                "value": "HK"
+            },
+            {
+                "autoAdv": null,
+                "name": "HM",
+                "value": "HM"
+            },
+            {
+                "autoAdv": null,
+                "name": "HN",
+                "value": "HN"
+            },
+            {
+                "autoAdv": null,
+                "name": "HR",
+                "value": "HR"
+            },
+            {
+                "autoAdv": null,
+                "name": "HT",
+                "value": "HT"
+            },
+            {
+                "autoAdv": null,
+                "name": "HU",
+                "value": "HU"
+            },
+            {
+                "autoAdv": null,
+                "name": "ID",
+                "value": "ID"
+            },
+            {
+                "autoAdv": null,
+                "name": "IE",
+                "value": "IE"
+            },
+            {
+                "autoAdv": null,
+                "name": "IL",
+                "value": "IL"
+            },
+            {
+                "autoAdv": null,
+                "name": "IM",
+                "value": "IM"
+            },
+            {
+                "autoAdv": null,
+                "name": "IN",
+                "value": "IN"
+            },
+            {
+                "autoAdv": null,
+                "name": "IO",
+                "value": "IO"
+            },
+            {
+                "autoAdv": null,
+                "name": "IQ",
+                "value": "IQ"
+            },
+            {
+                "autoAdv": null,
+                "name": "IR",
+                "value": "IR"
+            },
+            {
+                "autoAdv": null,
+                "name": "IS",
+                "value": "IS"
+            },
+            {
+                "autoAdv": null,
+                "name": "IT",
+                "value": "IT"
+            },
+            {
+                "autoAdv": null,
+                "name": "JE",
+                "value": "JE"
+            },
+            {
+                "autoAdv": null,
+                "name": "JM",
+                "value": "JM"
+            },
+            {
+                "autoAdv": null,
+                "name": "JO",
+                "value": "JO"
+            },
+            {
+                "autoAdv": null,
+                "name": "JP",
+                "value": "JP"
+            },
+            {
+                "autoAdv": null,
+                "name": "KE",
+                "value": "KE"
+            },
+            {
+                "autoAdv": null,
+                "name": "KG",
+                "value": "KG"
+            },
+            {
+                "autoAdv": null,
+                "name": "KH",
+                "value": "KH"
+            },
+            {
+                "autoAdv": null,
+                "name": "KI",
+                "value": "KI"
+            },
+            {
+                "autoAdv": null,
+                "name": "KM",
+                "value": "KM"
+            },
+            {
+                "autoAdv": null,
+                "name": "KN",
+                "value": "KN"
+            },
+            {
+                "autoAdv": null,
+                "name": "KP",
+                "value": "KP"
+            },
+            {
+                "autoAdv": null,
+                "name": "KR",
+                "value": "KR"
+            },
+            {
+                "autoAdv": null,
+                "name": "KW",
+                "value": "KW"
+            },
+            {
+                "autoAdv": null,
+                "name": "KY",
+                "value": "KY"
+            },
+            {
+                "autoAdv": null,
+                "name": "KZ",
+                "value": "KZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "LA",
+                "value": "LA"
+            },
+            {
+                "autoAdv": null,
+                "name": "LB",
+                "value": "LB"
+            },
+            {
+                "autoAdv": null,
+                "name": "LC",
+                "value": "LC"
+            },
+            {
+                "autoAdv": null,
+                "name": "LI",
+                "value": "LI"
+            },
+            {
+                "autoAdv": null,
+                "name": "LK",
+                "value": "LK"
+            },
+            {
+                "autoAdv": null,
+                "name": "LR",
+                "value": "LR"
+            },
+            {
+                "autoAdv": null,
+                "name": "LS",
+                "value": "LS"
+            },
+            {
+                "autoAdv": null,
+                "name": "LT",
+                "value": "LT"
+            },
+            {
+                "autoAdv": null,
+                "name": "LU",
+                "value": "LU"
+            },
+            {
+                "autoAdv": null,
+                "name": "LV",
+                "value": "LV"
+            },
+            {
+                "autoAdv": null,
+                "name": "LY",
+                "value": "LY"
+            },
+            {
+                "autoAdv": null,
+                "name": "MA",
+                "value": "MA"
+            },
+            {
+                "autoAdv": null,
+                "name": "MC",
+                "value": "MC"
+            },
+            {
+                "autoAdv": null,
+                "name": "MD",
+                "value": "MD"
+            },
+            {
+                "autoAdv": null,
+                "name": "ME",
+                "value": "ME"
+            },
+            {
+                "autoAdv": null,
+                "name": "MF",
+                "value": "MF"
+            },
+            {
+                "autoAdv": null,
+                "name": "MG",
+                "value": "MG"
+            },
+            {
+                "autoAdv": null,
+                "name": "MK",
+                "value": "MK"
+            },
+            {
+                "autoAdv": null,
+                "name": "ML",
+                "value": "ML"
+            },
+            {
+                "autoAdv": null,
+                "name": "MM",
+                "value": "MM"
+            },
+            {
+                "autoAdv": null,
+                "name": "MN",
+                "value": "MN"
+            },
+            {
+                "autoAdv": null,
+                "name": "MO",
+                "value": "MO"
+            },
+            {
+                "autoAdv": null,
+                "name": "MQ",
+                "value": "MQ"
+            },
+            {
+                "autoAdv": null,
+                "name": "MR",
+                "value": "MR"
+            },
+            {
+                "autoAdv": null,
+                "name": "MS",
+                "value": "MS"
+            },
+            {
+                "autoAdv": null,
+                "name": "MT",
+                "value": "MT"
+            },
+            {
+                "autoAdv": null,
+                "name": "MU",
+                "value": "MU"
+            },
+            {
+                "autoAdv": null,
+                "name": "MV",
+                "value": "MV"
+            },
+            {
+                "autoAdv": null,
+                "name": "MW",
+                "value": "MW"
+            },
+            {
+                "autoAdv": null,
+                "name": "MX",
+                "value": "MX"
+            },
+            {
+                "autoAdv": null,
+                "name": "MY",
+                "value": "MY"
+            },
+            {
+                "autoAdv": null,
+                "name": "MZ",
+                "value": "MZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "NA",
+                "value": "NA"
+            },
+            {
+                "autoAdv": null,
+                "name": "NC ",
+                "value": "NC "
+            },
+            {
+                "autoAdv": null,
+                "name": "NE",
+                "value": "NE"
+            },
+            {
+                "autoAdv": null,
+                "name": "NF",
+                "value": "NF"
+            },
+            {
+                "autoAdv": null,
+                "name": "NG",
+                "value": "NG"
+            },
+            {
+                "autoAdv": null,
+                "name": "NI",
+                "value": "NI"
+            },
+            {
+                "autoAdv": null,
+                "name": "NL",
+                "value": "NL"
+            },
+            {
+                "autoAdv": null,
+                "name": "NO",
+                "value": "NO"
+            },
+            {
+                "autoAdv": null,
+                "name": "NP",
+                "value": "NP"
+            },
+            {
+                "autoAdv": null,
+                "name": "NR",
+                "value": "NR"
+            },
+            {
+                "autoAdv": null,
+                "name": "NU",
+                "value": "NU"
+            },
+            {
+                "autoAdv": null,
+                "name": "NZ",
+                "value": "NZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "OM",
+                "value": "OM"
+            },
+            {
+                "autoAdv": null,
+                "name": "PA",
+                "value": "PA"
+            },
+            {
+                "autoAdv": null,
+                "name": "PE",
+                "value": "PE"
+            },
+            {
+                "autoAdv": null,
+                "name": "PF",
+                "value": "PF"
+            },
+            {
+                "autoAdv": null,
+                "name": "PG",
+                "value": "PG"
+            },
+            {
+                "autoAdv": null,
+                "name": "PH",
+                "value": "PH"
+            },
+            {
+                "autoAdv": null,
+                "name": "PK",
+                "value": "PK"
+            },
+            {
+                "autoAdv": null,
+                "name": "PL",
+                "value": "PL"
+            },
+            {
+                "autoAdv": null,
+                "name": "PM",
+                "value": "PM"
+            },
+            {
+                "autoAdv": null,
+                "name": "PN",
+                "value": "PN"
+            },
+            {
+                "autoAdv": null,
+                "name": "PR",
+                "value": "PR"
+            },
+            {
+                "autoAdv": null,
+                "name": "PS",
+                "value": "PS"
+            },
+            {
+                "autoAdv": null,
+                "name": "PT",
+                "value": "PT"
+            },
+            {
+                "autoAdv": null,
+                "name": "PY",
+                "value": "PY"
+            },
+            {
+                "autoAdv": null,
+                "name": "QA",
+                "value": "QA"
+            },
+            {
+                "autoAdv": null,
+                "name": "RE",
+                "value": "RE"
+            },
+            {
+                "autoAdv": null,
+                "name": "RO",
+                "value": "RO"
+            },
+            {
+                "autoAdv": null,
+                "name": "RS",
+                "value": "RS"
+            },
+            {
+                "autoAdv": null,
+                "name": "RU",
+                "value": "RU"
+            },
+            {
+                "autoAdv": null,
+                "name": "RW",
+                "value": "RW"
+            },
+            {
+                "autoAdv": null,
+                "name": "SA",
+                "value": "SA"
+            },
+            {
+                "autoAdv": null,
+                "name": "SB",
+                "value": "SB"
+            },
+            {
+                "autoAdv": null,
+                "name": "SC",
+                "value": "SC"
+            },
+            {
+                "autoAdv": null,
+                "name": "SD",
+                "value": "SD"
+            },
+            {
+                "autoAdv": null,
+                "name": "SE",
+                "value": "SE"
+            },
+            {
+                "autoAdv": null,
+                "name": "SG",
+                "value": "SG"
+            },
+            {
+                "autoAdv": null,
+                "name": "SH",
+                "value": "SH"
+            },
+            {
+                "autoAdv": null,
+                "name": "SI",
+                "value": "SI"
+            },
+            {
+                "autoAdv": null,
+                "name": "SJ",
+                "value": "SJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "SK",
+                "value": "SK"
+            },
+            {
+                "autoAdv": null,
+                "name": "SL",
+                "value": "SL"
+            },
+            {
+                "autoAdv": null,
+                "name": "SM",
+                "value": "SM"
+            },
+            {
+                "autoAdv": null,
+                "name": "SN",
+                "value": "SN"
+            },
+            {
+                "autoAdv": null,
+                "name": "SO",
+                "value": "SO"
+            },
+            {
+                "autoAdv": null,
+                "name": "SR",
+                "value": "SR"
+            },
+            {
+                "autoAdv": null,
+                "name": "SS",
+                "value": "SS"
+            },
+            {
+                "autoAdv": null,
+                "name": "ST",
+                "value": "ST"
+            },
+            {
+                "autoAdv": null,
+                "name": "SV",
+                "value": "SV"
+            },
+            {
+                "autoAdv": null,
+                "name": "SX",
+                "value": "SX"
+            },
+            {
+                "autoAdv": null,
+                "name": "SY",
+                "value": "SY"
+            },
+            {
+                "autoAdv": null,
+                "name": "SZ",
+                "value": "SZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "TC",
+                "value": "TC"
+            },
+            {
+                "autoAdv": null,
+                "name": "TD",
+                "value": "TD"
+            },
+            {
+                "autoAdv": null,
+                "name": "TF",
+                "value": "TF"
+            },
+            {
+                "autoAdv": null,
+                "name": "TG",
+                "value": "TG"
+            },
+            {
+                "autoAdv": null,
+                "name": "TH",
+                "value": "TH"
+            },
+            {
+                "autoAdv": null,
+                "name": "TJ",
+                "value": "TJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "TK",
+                "value": "TK"
+            },
+            {
+                "autoAdv": null,
+                "name": "TL",
+                "value": "TL"
+            },
+            {
+                "autoAdv": null,
+                "name": "TM",
+                "value": "TM"
+            },
+            {
+                "autoAdv": null,
+                "name": "TN",
+                "value": "TN"
+            },
+            {
+                "autoAdv": null,
+                "name": "TO",
+                "value": "TO"
+            },
+            {
+                "autoAdv": null,
+                "name": "TR",
+                "value": "TR"
+            },
+            {
+                "autoAdv": null,
+                "name": "TT",
+                "value": "TT"
+            },
+            {
+                "autoAdv": null,
+                "name": "TV",
+                "value": "TV"
+            },
+            {
+                "autoAdv": null,
+                "name": "TW",
+                "value": "TW"
+            },
+            {
+                "autoAdv": null,
+                "name": "TZ",
+                "value": "TZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "UA",
+                "value": "UA"
+            },
+            {
+                "autoAdv": null,
+                "name": "UG",
+                "value": "UG"
+            },
+            {
+                "autoAdv": null,
+                "name": "US ",
+                "value": "US "
+            },
+            {
+                "autoAdv": null,
+                "name": "UY",
+                "value": "UY"
+            },
+            {
+                "autoAdv": null,
+                "name": "UZ",
+                "value": "UZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "VA",
+                "value": "VA"
+            },
+            {
+                "autoAdv": null,
+                "name": "VC",
+                "value": "VC"
+            },
+            {
+                "autoAdv": null,
+                "name": "VE",
+                "value": "VE"
+            },
+            {
+                "autoAdv": null,
+                "name": "VG",
+                "value": "VG"
+            },
+            {
+                "autoAdv": null,
+                "name": "VN",
+                "value": "VN"
+            },
+            {
+                "autoAdv": null,
+                "name": "VU",
+                "value": "VU"
+            },
+            {
+                "autoAdv": null,
+                "name": "WF",
+                "value": "WF"
+            },
+            {
+                "autoAdv": null,
+                "name": "WS",
+                "value": "WS"
+            },
+            {
+                "autoAdv": null,
+                "name": "XK",
+                "value": "XK"
+            },
+            {
+                "autoAdv": null,
+                "name": "YE",
+                "value": "YE"
+            },
+            {
+                "autoAdv": null,
+                "name": "YT",
+                "value": "YT"
+            },
+            {
+                "autoAdv": null,
+                "name": "ZA",
+                "value": "ZA"
+            },
+            {
+                "autoAdv": null,
+                "name": "ZM",
+                "value": "ZM"
+            },
+            {
+                "autoAdv": null,
+                "name": "ZW",
+                "value": "ZW"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI406/GRI406/English/NZCDCHGRI__GRI415U1DaDi"
+}

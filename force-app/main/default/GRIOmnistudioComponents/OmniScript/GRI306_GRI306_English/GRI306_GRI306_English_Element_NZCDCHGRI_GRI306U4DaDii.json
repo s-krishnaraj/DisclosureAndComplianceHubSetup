@@ -1,0 +1,362 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI306U4DaDii",
+    "OmniProcessId": {
+        "Name": "GRI306",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI306/GRI306/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI306U4Da",
+        "OmniProcessId": {
+            "Name": "GRI306",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI306/GRI306/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI306/GRI306/English/NZCDCHGRI__GRI306U4Da",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI306U4Da",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "ii. Waste Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Aluminum Cans",
+                "value": "Aluminum Cans"
+            },
+            {
+                "autoAdv": null,
+                "name": "Aluminum Ingot",
+                "value": "Aluminum Ingot"
+            },
+            {
+                "autoAdv": null,
+                "name": "Steel Cans",
+                "value": "Steel Cans"
+            },
+            {
+                "autoAdv": null,
+                "name": "Copper Wire",
+                "value": "Copper Wire"
+            },
+            {
+                "autoAdv": null,
+                "name": "Glass",
+                "value": "Glass"
+            },
+            {
+                "autoAdv": null,
+                "name": "HDPE",
+                "value": "HDPE"
+            },
+            {
+                "autoAdv": null,
+                "name": "LDPE",
+                "value": "LDPE"
+            },
+            {
+                "autoAdv": null,
+                "name": "PET",
+                "value": "PET"
+            },
+            {
+                "autoAdv": null,
+                "name": "LLDPE",
+                "value": "LLDPE"
+            },
+            {
+                "autoAdv": null,
+                "name": "PP",
+                "value": "PP"
+            },
+            {
+                "autoAdv": null,
+                "name": "PS",
+                "value": "PS"
+            },
+            {
+                "autoAdv": null,
+                "name": "PVC",
+                "value": "PVC"
+            },
+            {
+                "autoAdv": null,
+                "name": "PLA",
+                "value": "PLA"
+            },
+            {
+                "autoAdv": null,
+                "name": "Corrugated Containers",
+                "value": "Corrugated Containers"
+            },
+            {
+                "autoAdv": null,
+                "name": "Magazines/Third-class mail",
+                "value": "Magazines/Third-class mail"
+            },
+            {
+                "autoAdv": null,
+                "name": "Newspaper",
+                "value": "Newspaper"
+            },
+            {
+                "autoAdv": null,
+                "name": "Office Paper",
+                "value": "Office Paper"
+            },
+            {
+                "autoAdv": null,
+                "name": "Phonebooks",
+                "value": "Phonebooks"
+            },
+            {
+                "autoAdv": null,
+                "name": "Textbooks",
+                "value": "Textbooks"
+            },
+            {
+                "autoAdv": null,
+                "name": "Dimensional Lumber",
+                "value": "Dimensional Lumber"
+            },
+            {
+                "autoAdv": null,
+                "name": "Medium-density Fiberboard",
+                "value": "Medium-density Fiberboard"
+            },
+            {
+                "autoAdv": null,
+                "name": "Food Waste (non-meat)",
+                "value": "Food Waste (non-meat)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Food Waste (meat only)",
+                "value": "Food Waste (meat only)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Beef",
+                "value": "Beef"
+            },
+            {
+                "autoAdv": null,
+                "name": "Poultry",
+                "value": "Poultry"
+            },
+            {
+                "autoAdv": null,
+                "name": "Grains",
+                "value": "Grains"
+            },
+            {
+                "autoAdv": null,
+                "name": "Bread",
+                "value": "Bread"
+            },
+            {
+                "autoAdv": null,
+                "name": "Fruits and Vegetables",
+                "value": "Fruits and Vegetables"
+            },
+            {
+                "autoAdv": null,
+                "name": "Dairy Products",
+                "value": "Dairy Products"
+            },
+            {
+                "autoAdv": null,
+                "name": "Yard Trimmings",
+                "value": "Yard Trimmings"
+            },
+            {
+                "autoAdv": null,
+                "name": "Grass",
+                "value": "Grass"
+            },
+            {
+                "autoAdv": null,
+                "name": "Leaves",
+                "value": "Leaves"
+            },
+            {
+                "autoAdv": null,
+                "name": "Branches",
+                "value": "Branches"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Paper (general)",
+                "value": "Mixed Paper (general)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Paper (primarily residential)",
+                "value": "Mixed Paper (primarily residential)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Paper (primarily from offices)",
+                "value": "Mixed Paper (primarily from offices)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Metals",
+                "value": "Mixed Metals"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Plastics",
+                "value": "Mixed Plastics"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Recyclables",
+                "value": "Mixed Recyclables"
+            },
+            {
+                "autoAdv": null,
+                "name": "Food Waste",
+                "value": "Food Waste"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Organics",
+                "value": "Mixed Organics"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed MSW (municipal solid waste)",
+                "value": "Mixed MSW (municipal solid waste)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Carpet",
+                "value": "Carpet"
+            },
+            {
+                "autoAdv": null,
+                "name": "Desktop CPUs",
+                "value": "Desktop CPUs"
+            },
+            {
+                "autoAdv": null,
+                "name": "Portable Electronic Devices",
+                "value": "Portable Electronic Devices"
+            },
+            {
+                "autoAdv": null,
+                "name": "Flat-panel Displays",
+                "value": "Flat-panel Displays"
+            },
+            {
+                "autoAdv": null,
+                "name": "CRT Displays",
+                "value": "CRT Displays"
+            },
+            {
+                "autoAdv": null,
+                "name": "Electronic Peripherals",
+                "value": "Electronic Peripherals"
+            },
+            {
+                "autoAdv": null,
+                "name": "Hard-copy Devices",
+                "value": "Hard-copy Devices"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mixed Electronics",
+                "value": "Mixed Electronics"
+            },
+            {
+                "autoAdv": null,
+                "name": "Clay Bricks",
+                "value": "Clay Bricks"
+            },
+            {
+                "autoAdv": null,
+                "name": "Concrete",
+                "value": "Concrete"
+            },
+            {
+                "autoAdv": null,
+                "name": "Fly Ash",
+                "value": "Fly Ash"
+            },
+            {
+                "autoAdv": null,
+                "name": "Tires",
+                "value": "Tires"
+            },
+            {
+                "autoAdv": null,
+                "name": "Asphalt Concrete",
+                "value": "Asphalt Concrete"
+            },
+            {
+                "autoAdv": null,
+                "name": "Asphalt Shingles",
+                "value": "Asphalt Shingles"
+            },
+            {
+                "autoAdv": null,
+                "name": "Drywall",
+                "value": "Drywall"
+            },
+            {
+                "autoAdv": null,
+                "name": "Fiberglass Insulation",
+                "value": "Fiberglass Insulation"
+            },
+            {
+                "autoAdv": null,
+                "name": "Vinyl Flooring",
+                "value": "Vinyl Flooring"
+            },
+            {
+                "autoAdv": null,
+                "name": "Wood Flooring",
+                "value": "Wood Flooring"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI306/GRI306/English/NZCDCHGRI__GRI306U4DaDii"
+}

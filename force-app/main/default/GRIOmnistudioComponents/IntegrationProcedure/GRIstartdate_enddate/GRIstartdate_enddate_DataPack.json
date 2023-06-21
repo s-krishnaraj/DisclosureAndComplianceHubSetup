@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIStartdateEnddate",
+    "OmniProcessElement": [
+        "GRIstartdate_enddate_Element_GetStartdateEnddate.json",
+        "GRIstartdate_enddate_Element_ResponseAction5.json"
+    ],
+    "OmniProcessKey": "GRIstartdate_enddate",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIstartdate_enddate_PropertySetConfig.json",
+    "SubType": "enddate",
+    "Type": "GRIstartdate",
+    "UniqueName": "GRIstartdate_enddate_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIstartdate/enddate/Procedure",
+    "WebComponentKey": "2b8d39fa-3ba2-8379-62e0-6f509b7707aa"
+}

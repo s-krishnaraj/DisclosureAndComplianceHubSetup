@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance-204%3C/strong%3E%3C/span%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20reporting%20organization%20can%20also:%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Describe%20actions%20taken%20to%20identify%20and%20adjust%20the%20organization&rsquo;s%20procurement%20practices%20that%20cause%20or%20contribute%20to%20negative%20impacts%20in%20the%20supply%20chain,%20including:%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E-How%20dialogue%20with%20suppliers%20is%20used%20to%20identify%20procurement%20practices%20that%20cause%20or%20contribute%20to%20negative%20impacts%20in%20the%20supply%20chain;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20-%20Actions%20taken%20to%20adjust%20payment%20policies%20and%20procedures;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Describe%20policies%20and%20practices%20used%20to%20select%20locally-based%20suppliers,%20either%20organization-wide%20or%20for%20specific%20locations;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Explain%20the%20rationale%20and%20methodology%20for%20tracing%20the%20source,%20origin,%20or%20production%20conditions%20of%20raw%20materials%20and%20production%20inputs%20purchased,%20if%20applicable;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Describe%20policies%20and%20practices%20used%20to%20promote%20economic%20inclusion%20when%20selecting%20suppliers.%20Procurement%20practices%20that%20cause%20or%20contribute%20to%20negative%20impacts%20in%20the%20supply%20chain%20can%20include:%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Stability%20or%20length%20of%20relationships%20with%20suppliers;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Lead%20times;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Ordering%20and%20payment%20routines;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Purchasing%20prices;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Changing%20or%20cancelling%20orders.%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EForms%20of%20economic%20inclusion%20can%20include:%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Small%20and%20medium-sized%20suppliers;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Suppliers%20owned%20by%20women;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Suppliers%20which%20are%20owned%20by%20or%20recruit%20workers%20from%20members%20of%20vulnerable,%20marginalized,%20or%20under-represented%20social%20groups.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20204-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3ELocal%20purchases%20can%20be%20made%20either%20from%20a%20budget%20managed%20at%20the%20location%20of%20operation%20or%20at%20an%20organization&rsquo;s%20headquarters.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EBy%20supporting%20local%20suppliers,%20an%20organization%20can%20indirectly%20attract%20additional%20investment%20to%20the%20local%20economy.%20Local%20sourcing%20can%20be%20a%20strategy%20to%20help%20ensure%20supply,%20support%20a%20stable%20local%20economy,%20and%20maintain%20community%20relations.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI204FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI204FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

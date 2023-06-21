@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRISocialContributionSummaryIP",
+    "OmniProcessElement": [
+        "GRISocialContributionSummaryIP_GRISocialContributionSummaryIP_Element_RemoteAction1.json",
+        "GRISocialContributionSummaryIP_GRISocialContributionSummaryIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRISocialContributionSummaryIP_GRISocialContributionSummaryIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRISocialContributionSummaryIP_GRISocialContributionSummaryIP_PropertySetConfig.json",
+    "SubType": "GRISocialContributionSummaryIP",
+    "Type": "GRISocialContributionSummaryIP",
+    "UniqueName": "GRISocialContributionSummaryIP_GRISocialContributionSummaryIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRISocialContributionSummaryIP/GRISocialContributionSummaryIP/Procedure",
+    "WebComponentKey": "0f4a556c-88c6-7de6-fd02-51f139732a6d"
+}

@@ -1,0 +1,9 @@
+{
+    "GRI303U3Db": [
+        {
+            "ActivitySourceType": "FreshWater",
+            "BaselineWaterStress": "MediumToHigh",
+            "QuantityWithdrawal": 0.001
+        }
+    ]
+}

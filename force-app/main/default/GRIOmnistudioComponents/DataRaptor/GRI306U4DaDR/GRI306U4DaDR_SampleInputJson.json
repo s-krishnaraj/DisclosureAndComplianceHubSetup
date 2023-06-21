@@ -1,0 +1,24 @@
+{
+    "GRI306U4Da": [
+        {
+            "DispWastQtyTonnes": 5000,
+            "DisposalSiteType": "Offsite",
+            "DisposalType": "Composted",
+            "IsHazardous": false,
+            "WasteType": "Aluminum Ingot",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "DispWastQtyTonnes": 3000,
+            "DisposalSiteType": "Onsite",
+            "DisposalType": "Composted",
+            "IsHazardous": false,
+            "WasteType": "Glass",
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        }
+    ]
+}

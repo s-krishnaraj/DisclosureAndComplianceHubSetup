@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuida%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Ence&nbsp;%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Efor%20Disclosure%202-9%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-9-c%20%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20can%20describe%20the%20composition%20of%20the%20highest%20governance%20body%20and%20its%20committees%20by%20additional%20indicators%20of%20diversity,%20such%20as%20age,%20ancestry%20and%20ethnic%20origin,%20citizenship,%20creed,%20disability,%20or%20any%20other%20indicators%20of%20diversity%20that%20are%20relevant%20for%20reporting.%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-9-c-ii%20%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&lsquo;Independence&rsquo;%20refers%20to%20conditions%20that%20enable%20the%20members%20of%20the%20highest%20governance%20body%20to%20exercise%20independent%20judgment%20free%20from%20any%20external%20influence%20or&nbsp;conflicts%20of%20interest.%20See%20reference%20%5B20%5D%20in%20the%20Bibliography%20for%20more%20information%20on%20independence%20criteria%20for%20governance%20bodies.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20Guidance%20to%202-9-c-iv%20%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EA%20position%20or%20commitment%20held%20by%20a%20highest%20governance%20body%20member%20is%20significant%20when%20the%20time%20and%20attention%20it%20demands%20compromises%20the%20member&rsquo;s%20ability%20to%20perform%20its%20duties%20in%20the%20organization.%20Significant%20positions%20can%20include%20cross-board%20memberships.%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-9-c-vii%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20Competencies%20relevant%20to%20the%20impacts%20of%20the%20organization%20include%20competencies%20relevant%20to%20impacts%20commonly%20associated%20with%20the%20organization&rsquo;s%20sectors,%20products,%20and%20geographic%20locations.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuida%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Ence&nbsp;%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Efor%20Disclosure%202-10%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20to%202-10-b-iii%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&lsquo;Independence&rsquo;%20refers%20to%20conditions%20that%20enable%20the%20members%20of%20the%20highest%20governance%20body%20to%20exercise%20independent%20judgment%20free%20from%20any%20external%20influence%20or%20conflicts%20of%20interest.%20See%20reference%20%5B20%5D%20in%20the%20Bibliography%20for%20more%20information%20on%20independence%20criteria%20for%20governance%20bodies.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20to%202-10-b-iv%3C/strong%3E%3C/div%3E%0A%3Cdiv%3ECompetencies%20relevant%20to%20the%20impacts%20of%20the%20organization%20include%20competencies%20relevant%20to%20impacts%20commonly%20associated%20with%20the%20organization&rsquo;s%20sectors,%20products,%20and%20geographic%20locations.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuida%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Ence&nbsp;%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Efor%20Disclosure%202-12%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EFor%20more%20information%20about%20the%20role%20of%20the%20highest%20governance%20body%20in%20overseeing%20the%20management%20of%20the%20organization&rsquo;s%20impacts,%20see%20reference%20%5B20%5D%20in%20the%20Bibliography.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-12-b-i%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3ERequirement%202-12-b-i%20covers%20the%20role%20of%20the%20highest%20governance%20body%20in%20stakeholder%20engagement.%20The%20organization%20is%20also%20required%20to%20report%20information%20about%20stakeholder%20engagement%20under%20other%20disclosures,%20such%20as%20under%20the%20disclosures%20in%20section%205%20of%20this%20Standard.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20can%20describe%20the%20frequency%20of%20engagement%20between%20the%20highest%20governance%20body%20and%20stakeholders%20as%20well%20as%20the%20means%20of%20engagement.%20If%20stakeholder%20engagement%20is%20delegated,%20the%20organization%20can%20report%20to%20whom%20it%20is%20delegated%20and%20how%20the%20feedback%20received%20is%20provided%20to%20the%20highest%20governance%20body.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuida%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Ence&nbsp;%3C/span%3E%3Cspan%20style=%22font-size:%2012pt;%22%3Efor%20Disclosure%202-14%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3EThe%20organization%20can%20report%20whether%20the%20highest%20governance%20body%20has%20established%20a%20sustainability%20reporting%20committee%20to%20support%20the%20highest%20governance%20body&rsquo;s%20review%20and%20approval%20process.%20The%20organization%20can%20also%20report%20whether%20the%20highest%20governance%20body%20reviews%20the%20adequacy%20of%20the%20organization&rsquo;s%20internal%20controls%20to%20strengthen%20the%20integrity%20and%20credibility%20of%20the%20organization&rsquo;s%20sustainability%20reporting%20(see%20section%205.2%20in%20GRI%201:%20Foundation%202021%20for%20more%20information).%20The%20involvement%20of%20the%20highest%20governance%20body%20and%20senior%20executives%20in%20developing%20the%20organization&rsquo;s%20policy%20and%20practice%20for%20seeking%20external%20assurance%20is%20reported%20under%20Disclosure%202-5%20in%20this%20Standard.%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI2U9FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI2U9FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

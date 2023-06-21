@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;GRI201U4Da&quot; : {
+    &quot;TotalAmount&quot; : 2000,
+    &quot;Type&quot; : &quot;Awards&quot;
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>GRI201U4DaDR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI201U4DaDR23215594204182533</globalKey>
+        <inputFieldName>GRI201U4Da:TotalAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI201U4DaDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI201U4Da:NZCDCHGRI__GRI201U4DaDii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI201U4DaDR922080072987342</globalKey>
+        <inputFieldName>GRI201U4Da:Type</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI201U4DaDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI201U4Da:NZCDCHGRI__GRI201U4DaDi</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;GRI201U4Da&quot; : [ {
+    &quot;TotalAmount&quot; : 2000,
+    &quot;Type&quot; : &quot;Awards&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  }, {
+    &quot;TotalAmount&quot; : 7000,
+    &quot;Type&quot; : &quot;Subsidies&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  }, {
+    &quot;TotalAmount&quot; : 5000,
+    &quot;Type&quot; : &quot;Tax Relief and Tax Credits&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>GRI201U4DaDR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

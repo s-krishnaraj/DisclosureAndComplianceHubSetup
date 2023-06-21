@@ -1,0 +1,36 @@
+{
+    "GRI201U1DbEB": [
+        {
+            "Country": "IN",
+            "PerformanceCategory": "Distributed Value",
+            "TotalSum": 1600,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "Country": "IN",
+            "PerformanceCategory": "Generated Value",
+            "TotalSum": 500,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "Country": "IN",
+            "PerformanceCategory": "Retained Value",
+            "TotalSum": 1535,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "Country": "US",
+            "PerformanceCategory": "Generated Value",
+            "TotalSum": 450,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        }
+    ]
+}

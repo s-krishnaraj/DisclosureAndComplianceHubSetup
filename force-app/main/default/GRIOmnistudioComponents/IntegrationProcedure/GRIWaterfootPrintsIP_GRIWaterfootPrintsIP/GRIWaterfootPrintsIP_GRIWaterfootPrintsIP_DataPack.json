@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIWaterfootPrintsIP",
+    "OmniProcessElement": [
+        "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Element_RemoteAction1.json",
+        "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Element_RemoteAction2.json",
+        "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Element_RemoteAction3.json",
+        "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_PropertySetConfig.json",
+    "SubType": "GRIWaterfootPrintsIP",
+    "Type": "GRIWaterfootPrintsIP",
+    "UniqueName": "GRIWaterfootPrintsIP_GRIWaterfootPrintsIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIWaterfootPrintsIP/GRIWaterfootPrintsIP/Procedure",
+    "WebComponentKey": "12db9a93-fe99-a47f-1684-90d486c9cdfc"
+}

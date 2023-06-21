@@ -25,7 +25,7 @@ tasks:
         group: OmniStudio
         options:
             namespace: omnistudio
-            version: "242.11"
+            version: "244.3"
             name: OmniStudio
 
     install_gri:
@@ -34,7 +34,7 @@ tasks:
         group: GRI
         options:
             namespace: NZCDCHGRI
-            version: "242.0"
+            version: "244.1"
             name: Net Zero Cloud Disclosures for GRI Standards
 
     ensure_crm_contentUser:
@@ -68,15 +68,22 @@ tasks:
         ui_options:
             name: Deploy Doc Gen Data Packs 
 
+    vlocity_pack_deploy_GRI:
+        class_path: cumulusci.tasks.vlocity.vlocity.VlocityDeployTask
+        options:
+            job_file: force-app/main/default/DCHGRIOmniscriptsImport.yaml
+        ui_options:
+            name: Deploy GRI Data Packs 
+
     robot_testdoc:
         options:
             path: robot/DCHSetup/tests
             output: robot/DCHSetup/doc/DCHSetup_tests.html
 
 flows:
-    setup_nzc:
+    setup_omni_doc_gen:
         group: net zero
-        description: assigns PSLs, perms, pushes industriessettings file
+        description: Setup permsets for Omni,DCH + Install Omni + setup DogGen omni components
         steps: 
             1:
                 task: assign_permission_set_licenses
@@ -87,8 +94,7 @@ flows:
                 task: assign_permission_sets
                 options:
                     api_names: NetZeroManager,DataProcessingEngineUser, ManufacturingAdvancedAccountForecastPsl,TCRMforSustainabilityAdmin,TCRMforSustainabilityUser,ClauseDesigner,OmniStudioAdmin,DocGenDesigner,ClauseUser,DocGenUser,DisclosureAndComplianceHubUser
-#OmniStudioDesigner,DocGenDesignerPsl.ClauseManagementUser,DisclosureAndComplianceHubUserPsl
-#sfdx force:user:permset:assign --permsetname OmniStudioAdmin --targetusername test-auk5gjwktlna@example.com
+
 
             3:
                 task: install_omnistudio
@@ -133,15 +139,49 @@ flows:
                 task: vlocity_pack_deploy_DocGen
                 ui_options:
                     name: Deploy data pack to enable/activate DocGen Omniscripts
-            ####move to another flow
-            12:
+
+    setup_GRI:
+        group: net zero
+        description: Steps to install GRI package and do the post installation steps
+        steps: 
+            1:
                 task: install_gri
                 ui_options:
                     name: Installing GRI package
-            13:
+            # 13:
+            #     task: deploy
+            #     options:
+            #         path: force-app/main/default/GRI Resources/GRIDataPack
+            #     ui_options:
+            #         name: Deploy GRI datapack items
+            2:
+                task: vlocity_pack_deploy_GRI
+                ui_options:
+                    name: Deploy data pack to enable/activate GRI 2.0 Omniscripts
+            3:
                 task: deploy
                 options:
-                    path: force-app/main/default/GRI Resources/GRIDataPack
+                    path: force-app/main/default/layouts
                 ui_options:
-                    name: Deploy GRI datapack items
-                
+                    name: Deploy pagelayouts for OmniProcess and Disclosure
+            4:
+                task: snowfakery
+                options:
+                    recipe: datasets/GRIContentVersionCreate.yml
+                ui_options:
+                    name: Create docx file as a Content Version/ContentDocument record
+            5:
+                task: snowfakery
+                options:
+                    recipe: datasets/GRIContentDocumentLinkCreate.yml
+                ui_options:
+                    name: Attach the docx file against GRI2023 Omniprocess record
+
+    setup_DCH:
+        group: net zero
+        description: Setup DCH end-to-end
+        steps:
+            1:
+                flow: setup_omni_doc_gen
+            2:
+                flow: setup_GRI

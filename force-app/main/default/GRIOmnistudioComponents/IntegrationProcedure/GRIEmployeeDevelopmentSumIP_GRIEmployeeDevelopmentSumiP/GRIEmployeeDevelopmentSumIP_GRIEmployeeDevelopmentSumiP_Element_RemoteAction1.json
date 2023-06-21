@@ -1,0 +1,47 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "RemoteAction1",
+    "OmniProcessId": {
+        "Name": "GRIEmployeeDevelopmentSumIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRIEmployeeDevelopmentSumIP/GRIEmployeeDevelopmentSumiP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "NZCDCHGRI.GRIEmployeeDevelopmentSum",
+        "remoteMethod": "GetAvgTrainingHrsByGenEmpType",
+        "remoteOptions": {
+            "GRI201Da1DEnd": "%GRI201Da1DEnd%",
+            "GRI201Da1Dstart": "%GRI201Da1Dstart%"
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRIEmployeeDevelopmentSumIP/GRIEmployeeDevelopmentSumiP/Procedure/RemoteAction1"
+}

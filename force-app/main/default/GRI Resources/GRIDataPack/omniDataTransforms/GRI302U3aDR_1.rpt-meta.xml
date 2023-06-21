@@ -184,7 +184,7 @@
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>GRI302U3aDR</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>TotalsumOccupiedFloorArea</outputFieldName>
+        <outputFieldName>NZCDCHGRI__GRI302U3Db</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

@@ -1,0 +1,34 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "EmbeddedOmniScriptKey": "GRI301|GRI301|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GRI301",
+    "OmniProcessId": {
+        "Name": "GRI2023",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2023/GRI2023DF/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "GRI301",
+        "Type": "GRI301",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "NZCDCHGRI__Environmental1"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2023/GRI2023DF/English/GRI301"
+}

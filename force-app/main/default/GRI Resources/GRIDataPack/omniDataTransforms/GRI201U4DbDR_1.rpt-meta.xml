@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;GRI201U4Db&quot; : {
+    &quot;TotalAmount&quot; : 2000,
+    &quot;Type&quot; : &quot;Awards&quot;,
+    &quot;Country&quot; : &quot;IT&quot;
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>GRI201U4DbDR</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI201U4DbDRCustom2092</globalKey>
+        <inputFieldName>GRI201U4Db:Country</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI201U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI201U4Db:NZCDCHGRI__GRI201U4DbDi</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI201U4DbDRCustom9735</globalKey>
+        <inputFieldName>GRI201U4Db:TotalAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI201U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Integer</outputFieldFormat>
+        <outputFieldName>NZCDCHGRI__GRI201U4Db:NZCDCHGRI__GRI201U4DbDiii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI201U4DbDRCustom1581</globalKey>
+        <inputFieldName>GRI201U4Db:Type</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI201U4DbDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>NZCDCHGRI__GRI201U4Db:NZCDCHGRI__GRI201U4DbDii</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;GRI201U4Db&quot; : [ {
+    &quot;TotalAmount&quot; : 2000,
+    &quot;Type&quot; : &quot;Awards&quot;,
+    &quot;Country&quot; : &quot;IT&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  }, {
+    &quot;TotalAmount&quot; : 7000,
+    &quot;Type&quot; : &quot;Subsidies&quot;,
+    &quot;Country&quot; : &quot;IN&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  }, {
+    &quot;TotalAmount&quot; : 5000,
+    &quot;Type&quot; : &quot;Tax Relief and Tax Credits&quot;,
+    &quot;Country&quot; : &quot;IN&quot;,
+    &quot;attributes&quot; : {
+      &quot;type&quot; : &quot;AggregateResult&quot;
+    }
+  } ],
+  &quot;errorCode&quot; : &quot;INVOKE-200&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>GRI201U4DbDR_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

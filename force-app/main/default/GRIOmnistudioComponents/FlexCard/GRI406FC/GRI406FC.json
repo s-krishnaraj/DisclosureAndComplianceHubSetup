@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%3C/strong%3E%20for%20Disclosure%20406-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EIn%20the%20context%20of%20this%20disclosure,%20an%20&lsquo;incident&rsquo;%20refers%20to%20a%20legal%20action%20or%20complaint%20registered%20with%20the%20reporting%20organization%20or%20competent%20authorities%20through%20a%20formal%20process,%20or%20an%20instance%20of%20non-compliance%20identified%20by%20the%20organization%20through%20established%20procedures.%20Established%20procedures%20to%20identify%20instances%20of%20non-compliance%20can%20include%20management%20system%20audits,%20formal%20monitoring%20programs,%20or%20grievance%20mechanisms.%3C/div%3E%0A%3Cdiv%3EAn%20incident%20is%20no%20longer%20subject%20to%20action%20if%20it%20is%20resolved,%20the%20case%20is%20completed,%20or%20no%20further%20action%20is%20required%20by%20the%20organization.%20For%20example,%20an%20incident%20for%20which%20no%20further%20action%20is%20required%20can%20include%20cases%20that%20were%20withdrawn%20or%20where%20the%20underlying%20circumstances%20that%20led%20to%20the%20incident%20no%20longer%20exist.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.1%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20406-1,%20the%20reporting%20organization%20shall%20include%20incidents%20of%20discrimination%20on%20grounds%20of%20race,%20color,%20sex,%20religion,%20political%20opinion,%20national%20extraction,%20or%20social%20origin%20as%20defined%20by%20the%20ILO,%20or%20other%20relevant%20forms%20of%20discrimination%20involving%20internal%20and/or%20external%20stakeholders%20across%20operations%20in%20the%20reporting%20period.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EAccording%20to%20ILO%20instruments,%20discrimination%20can%20occur%20on%20the%20grounds%20of%20race,%20color,%20sex,%20religion,%20political%20opinion,%20national%20extraction,%20and%20social%20origin.%20Discrimination%20can%20also%20occur%20based%20on%20factors%20such&nbsp;as%20age,%20disability,%20migrant%20status,%20HIV%20and%20AIDS,%20gender,%20sexual%20orientation,%20genetic%20predisposition,%20and%20lifestyles,%20among%20others.%3C/div%3E%0A%3Cdiv%3EThe%20presence%20and%20effective%20implementation%20of%20policies%20to%20avoid%20discrimination%20are%20a%20basic%20expectation%20of%20responsible%20business%20conduct.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI406FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI406FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

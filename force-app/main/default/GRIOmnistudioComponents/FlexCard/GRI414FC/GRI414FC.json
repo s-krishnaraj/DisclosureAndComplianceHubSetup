@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20-%20414%3C/strong%3E%3C/span%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20reporting%20organization%20can%20also%20disclose:%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20&bull;%20The%20systems%20used%20to%20screen%20new%20suppliers%20using%20social%20criteria,%20and%20a%20list%20of%20the%20social%20criteria%20used%20to%20screen%20new%20suppliers;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20&bull;%20Processes%20used,%20such%20as%20due%20diligence,%20to%20identify%20and%20assess%20significant%20actual%20and%20potential%20negative%20social%20impacts%20in%20the%20supply%20chain;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20How%20the%20organization%20identifies%20and%20prioritizes%20suppliers%20for%20assessment%20of%20social%20impacts;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Actions%20taken%20to%20address%20the%20significant%20actual%20and%20potential%20negative%20social%20impacts%20identified%20in%20the%20supply%20chain%20and%20whether%20the%20actions%20are%20intended%20to%20prevent,%20mitigate,%20or%20remediate%20the%20impacts;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20How%20expectations%20are%20established%20and%20defined%20in%20contracts%20with%20suppliers%20to%20promote%20the%20prevention,%20mitigation,%20and%20remediation%20of%20significant%20actual%20and%20potential%20negative%20social%20impacts,%20including%20targets%20and%20objectives;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20&bull;%20Whether%20suppliers%20are%20incentivized%20and%20rewarded%20for%20the%20prevention,%20mitigation,%20and%20remediation%20of%20significant%20actual%20and%20potential%20negative%20social%20impacts;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20&bull;%20Practices%20for%20assessing%20and%20auditing%20suppliers%20and%20their%20products%20and%20services%20using%20social%20criteria;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20A%20list%20of%20the%20type,%20system,%20scope,%20frequency,%20current%20implementation%20of%20assessment%20and%20audit,%20and%20which%20parts%20of%20the%20supply%20chain%20have%20been%20certified%20and%20audited;%20%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20The%20systems%20in%20place%20to%20assess%20the%20potential%20negative%20impacts%20of%20terminating%20a%20relationship%20with%20a%20supplier%20as%20a%20result%20of%20assessing%20the%20supplier%20for%20social%20impacts,%20and%20the%20organization&rsquo;s%20strategy%20to%20mitigate%20those%20impacts.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20Social%20criteria%20or%20assessments%20of%20suppliers%20for%20social%20impacts%20can%20include%20the%20topics%20covered%20in%20other%20GRI%20Topic%20Standards%20(e.g.,%20GRI%20401:%20Employment%202016,%20GRI%20403:%20Occupational%20Health%20and%20Safety%202018,%20GRI%20408:%20Child%20Labor%202016,%20GRI%20409:%20Forced%20or%20Compulsory%20Labor%202016).%20Negative%20impacts%20can%20include%20those%20that%20are%20either%20caused%20or%20contributed%20to%20by%20an%20organization,%20or%20that%20are%20directly%20linked%20to%20its%20operations,%20products,%20or%20services%20by%20its%20relationship%20with%20a%20supplier.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20Assessments%20can%20be%20informed%20by%20audits,%20contractual%20reviews,%20two-way%20engagement,%20and%20complaint%20and%20grievance%20mechanisms.&nbsp;%20Actions%20taken%20to%20address%20social%20impacts%20can%20include%20changing%20an%20organization&rsquo;s%20procurement%20practices,%20adjusting%20performance%20expectations,%20capacity%20building,%20training,%20changes%20to%20processes,%20as%20well%20as%20terminating%20supplier%20relationships.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%20Assessments%20and%20audits%20of%20suppliers%20and%20their%20products%20and%20services%20using%20social%20criteria%20can%20be%20undertaken%20by%20an%20organization,%20by%20a%20second%20party,%20or%20by%20a%20third%20party.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20414-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3ESocial%20criteria%20can%20include%20the%20topics%20covered%20in%20other%20GRI%20Topic%20Standards%20(e.g.,%20GRI%20401:%20Employment%202016,%20GRI%20403:%20Occupational%20Health%20and%20Safety%202018,%20GRI%20408:%20Child%20Labor%202016,%20GRI%20409:%20Forced%20or%20Compulsory%20Labor%202016).%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20informs%20stakeholders%20about%20the%20percentage%20of%20suppliers%20selected%20or%20contracted%20subject%20to%20due%20diligence&nbsp;processes%20for%20social%20impacts.%3C/div%3E%0A%3Cdiv%3EAn%20organization%20is%20expected%20to%20initiate%20due%20diligence%20as%20early%20as%20possible%20in%20the%20development%20of%20a%20new%20relationship%20with%20a%20supplier.%20Impacts%20may%20be%20prevented%20or%20mitigated%20at%20the%20stage%20of%20structuring%20contracts%20or%20other%20agreements,%20as%20well%20as%20via%20ongoing%20collaboration%20with%20suppliers.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20414-2%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3ENegative%20impacts%20include%20those%20that%20are%20either%20caused&nbsp;or%20contributed%20to%20by%20an%20organization,%20or%20that%20are%20directly%20linked%20to%20its%20operations,%20products,%20or%20services%20by%20its%20relationship%20with%20a%20supplier.%3C/div%3E%0A%3Cdiv%3EAssessments%20for%20social%20impacts%20can%20include%20the%20topics%20covered%20in%20other%20GRI%20Topic%20Standards%20(e.g.,%20GRI%20401:%20Employment%202016,%20GRI%20403:%20Occupational%20Health%20and%20Safety%202018,%20GRI%20408:%20Child%20Labor%202016,%20GRI%20409:%20Forced%20or%20Compulsory%20Labor%202016).%3C/div%3E%0A%3Cdiv%3EAssessments%20can%20be%20made%20against%20agreed%20performance%20expectations%20that%20are%20set%20and%20communicated%20to%20the%20suppliers%20prior%20to%20the%20assessment.%20Assessments%20can%20be%20informed%20by%20audits,%20contractual%20reviews,%20two-way%20engagement,%20and%20complaint%20and%20grievance%20mechanisms.%20Improvements%20can%20include%20changing%20an%20organization&rsquo;s%20procurement%20practices,%20the%20adjustment%20of%20performance%20expectations,%20capacity%20building,%20training,%20and%20changes&nbsp;to%20processes.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20informs%20stakeholders%20about%20an%20organization&rsquo;s%20awareness%20of%20significant%20actual%20and%20potential%20negative%20social%20impacts%20in%20the%20supply%20chain.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI414FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI414FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3EGuidance%20&amp;%20Compilation%20requirement%20for%20Disclosure%20201-1%3C/strong%3E%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Revenues%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EAn%20organization%20can%20calculate%20revenues%20as%20net%20sales%20plus%20revenues%20from%20financial%20investments%20and%20sales%20of%20assets.%20Net%20sales%20can%20be%20calculated%20as%20gross%20sales%20from%20products%20and%20services%20minus%20returns,%20discounts,%20and%20allowances.%20Revenues%20from%20financial%20investments%20can%20include%20cash%20received%20as:%3C/div%3E%0A%3Cdiv%3E&bull;%20interest%20on%20financial%20loans;%3C/div%3E%0A%3Cdiv%3E&bull;%20dividends%20from%20shareholdings;%3C/div%3E%0A%3Cdiv%3E&bull;%20royalties;%3C/div%3E%0A%3Cdiv%3E&bull;%20direct%20income%20generated%20from%20assets,%20such%20as%20property%20rental.%20Revenues%20from%20sale%20of%20assets%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20physical%20assets,%20such%20as%20property,%20infrastructure,%20and%20equipment;%3C/div%3E%0A%3Cdiv%3E&bull;%20intangibles,%20such%20as%20intellectual%20property%20rights,%20designs,%20and%20brand%20names.%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EOperating%20costs%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EAn%20organization%20can%20calculate%20operating%20costs%20as%20cash%20payments%20made%20outside%20the%20organization%20for%20materials,%20product%20components,%20facilities,%20and%20services%20purchased.%20Services%20purchased%20can%20include%20payments%20to%20self-employed%20persons,%20temporary%20placement%20agencies%20and%20other%20organizations%20providing%20services.%20Costs%20related%20to%20workers%20who%20are%20not%20employees%20working%20in%20an%20operational%20role%20are%20included%20as%20part%20of%20services%20purchased,%20rather%20than%20under%20employee%20wages%20and%20benefits.%3C/div%3E%0A%3Cdiv%3EOperating%20costs%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20property%20rental;%3C/div%3E%0A%3Cdiv%3E&bull;%20license%20fees;%3C/div%3E%0A%3Cdiv%3E&bull;%20facilitation%20payments%20(since%20these%20have%20a%20clear%20commercial%20objective);%3C/div%3E%0A%3Cdiv%3E&bull;%20royalties;%3C/div%3E%0A%3Cdiv%3E&bull;%20payments%20for%20contract%20workers;%3C/div%3E%0A%3Cdiv%3E&bull;%20training%20costs,%20if%20outside%20trainers%20are%20used;%3C/div%3E%0A%3Cdiv%3E&bull;%20personal%20protective%20clothing.%3C/div%3E%0A%3Cdiv%3EThe%20use%20of%20facilitation%20payments%20is%20also%20addressed%20in%20GRI%20205:%20Anti-corruption%202016.&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Employee%20wages%20and%20benefits%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EAn%20organization%20can%20calculate%20employee%20wages%20and%20benefits%20as%20total%20payroll%20(including%20employee%20salaries%20and%20amounts%20paid%20to%20government%20institutions%20on%20behalf%20of%20employees)%20plus%20total%20benefits%20(excluding%20training,%20costs%20of%20protective%20equipment%20or%20other%20cost%20items%20directly%20related%20to%20the%20employee&rsquo;s%20job%20function).%20Amounts%20paid%20to%20government%20institutions%20on%20behalf%20of%20employees%20can%20include%20employee%20taxes,%20levies,%20and%20unemployment%20funds.%3C/div%3E%0A%3Cdiv%3ETotal%20benefits%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20regular%20contributions,%20such%20as%20to%20pensions,%20insurance,%20company%20vehicles,%20and%20private%20health;%3C/div%3E%0A%3Cdiv%3E&bull;%20other%20employee%20support,%20such%20as%20housing,%20interest-free%20loans,%20public%20transport%20assistance,%20educational%20grants,%20and%20redundancy%20payments.%3C/div%3E%0A%3Cdiv%3EPayments%20to%20providers%20of%20capital%3C/div%3E%0A%3Cdiv%3EAn%20organization%20can%20calculate%20payments%20to%20providers%20of%20capital%20as%20dividends%20to%20all%20shareholders,%20plus%20interest%20payments%20made%20to%20providers%20of%20loans.%20Interest%20payments%20made%20to%20providers%20of%20loans%20can%20include:%20&bull;%20interest%20on%20all%20forms%20of%20debt%20and%20borrowings%20(not%20only%20long-term%20debt);%20&bull;%20arrears%20of%20dividends%20due%20to%20preferred%20shareholders.%20Payments%20to%20government%20An%20organization%20can%20calculate%20payments%20to%20governments%20as%20all%20of%20the%20organization&rsquo;s%20taxes%20plus%20related%20penalties%20paid%20at%20the%20international,%20national,%20and%20local%20levels.%20Organization%20taxes%20can%20include%20corporate,%20income,%20and%20property.%20Payments%20to%20government%20exclude%20deferred%20taxes,%20because%20they%20may%20not%20be%20paid.%20If%20operating%20in%20more%20than%20one%20country,%20the%20organization%20can%20report%20taxes%20paid%20by%20country,%20including%20the%20definition%20of%20segmentation%20used.%3C/div%3E%0A%3Cdiv%3ECommunity%20investments%3C/div%3E%0A%3Cdiv%3ETotal%20community%20investments%20refers%20to%20actual%20expenditures%20in%20the%20reporting%20period,%20not%20commitments.&nbsp;An%20organization%20can%20calculate%20community%20investments%20as%20voluntary%20donations%20plus%20investment%20of%20funds%20in%20the%20broader%20community%20where%20the%20target%20beneficiaries%20are%20external%20to%20the%20organization.%20Voluntary%20donations%20and%20investment%20of%20funds%20in%20the%20broader%20community%20where%20the%20target%20beneficiaries%20are%20external%20to%20the%20organization%20can%20include:%3C/div%3E%0A%3Cdiv%3E&bull;%20contributions%20to%20charities,%20NGOs%20and%20research%20institutes%20(unrelated%20to%20the%20organization&rsquo;s%20commercial%20research%20and%20development);%3C/div%3E%0A%3Cdiv%3E&bull;%20funds%20to%20support%20community%20infrastructure,%20such%20as%20recreational%20facilities;%3C/div%3E%0A%3Cdiv%3E&bull;%20direct%20costs%20of%20social%20programs,%20including%20arts%20and%20educational%20events.%20If%20reporting%20infrastructure%20investments,%20an%20organization%20can%20include%20costs%20of%20goods%20and%20labor,%20in%20addition%20to%20capital%20costs,%20as%20well%20as%20operating%20costs%20for%20support%20of%20ongoing%20facilities%20or%20programs.%20An%20example%20of%20support%20for%20ongoing%20facilities%20or%20programs%20can%20include%20the%20organization%20funding%20the%20daily%20operations%20of%20a%20public%20facility.%20Community%20investments%20exclude%20legal%20and%20commercial%20activities%20or%20where%20the%20purpose%20of%20the%20investment%20is%20exclusively%20commercial%20(donations%20to%20political%20parties%20can%20be%20included,%20but%20are%20also%20addressed%20separately%20in%20more%20detail%20in%20GRI%20415:%20Public%20Policy%202016).%3C/div%3E%0A%3Cdiv%3ECommunity%20investments%20also%20exclude%20any%20infrastructure%20investment%20that%20is%20driven%20primarily%20by%20core%20business%20needs,%20or%20to%20facilitate%20the%20business%20operations%20of%20an%20organization.%20Infrastructure%20investments%20driven%20primarily%20by%20core%20business%20needs%20can%20include,%20for%20example,%20building%20a%20road%20to%20a%20mine%20or%20a%20factory.%20The%20calculation%20of%20investment%20can%20include%20infrastructure%20built%20outside%20the%20main%20business%20activities%20of%20the%20organization,%20such%20as%20a%20school%20or%20hospital%20for%20workers%20and%20their%20families.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%20style=%22font-size:%2010pt;%20background-color:%20initial;%22%3ECompilation%20requirements%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E2.1%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20201-1,%20the%20reporting%20organization%20shall,%20if%20applicable,%20compile%20the%20EVG&amp;D%20from%20data%20in%20the%20organization&rsquo;s%20audited%20financial%20or%20profit%20and%20loss%20(P&amp;L)%20statement,%20or%20its%20internally%20audited%20management%20accounts.%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20&amp;%20Compilation%20requirement%20for%20Disclosure%20201-2%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ERisk%20and%20opportunities%20due%20to%20climate%20change%20can%20be%20classified%20as:%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&bull;%20physical%3C/div%3E%0A%3Cdiv%3E&bull;%20regulatory%3C/div%3E%0A%3Cdiv%3E&bull;%20other%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EPhysical%20risks%20and%20opportunities%20can%20include:%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&bull;%20The%20impact%20of%20more%20frequent%20and%20intense%20storms;%3C/div%3E%0A%3Cdiv%3E&bull;%20changes%20in%20sea%20level,%20ambient%20temperature,%20and%20water%20availability;%3C/div%3E%0A%3Cdiv%3E&bull;%20Impacts%20on%20workers%20&ndash;%20such%20as%20health%20effects,%20including%20heat-related%20illness%20or%20disease,%20and%20the%20need%20to%20relocate%20operations.&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3EOther%20risks%20and%20opportunities%20can%20include%20the%20availability%20of%20new%20technologies,%20products,%20or%20services%20to%20address%20challenges%20related%20to%20climate%20change,%20as%20well%20as%20changes%20in%20customer%20behavior.%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EMethods%20used%20to%20manage%20the%20risk%20or%20opportunity%20can%20include:%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&bull;%20carbon%20capture%20and%20storage;%3C/div%3E%0A%3Cdiv%3E&bull;%20fuel%20switching;%3C/div%3E%0A%3Cdiv%3E&bull;%20use%20of%20renewable%20and%20lower%20carbon%20footprint%20energy;%3C/div%3E%0A%3Cdiv%3E&bull;%20improving%20energy%20efficiency;%3C/div%3E%0A%3Cdiv%3E&bull;%20flaring,%20venting,%20and%20fugitive%20emission%20reduction;%3C/div%3E%0A%3Cdiv%3E&bull;%20renewable%20energy%20certificates;%3C/div%3E%0A%3Cdiv%3E&bull;%20use%20of%20carbon%20offsets.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EClimate%20change%20presents%20risks%20and%20opportunities%20to%20organizations,%20their%20investors,%20and%20their%20other%20stakeholders.%20As%20governments%20move%20to%20regulate%20activities%20that%20contribute%20to%20climate%20change,%20organizations%20that%20are%20directly%20or%20indirectly%20responsible%20for%20emissions%20face%20regulatory%20risks%20and%20opportunities.%20Risks%20can%20include%20increased%20costs%20or%20other%20factors%20impacting%20competitiveness.%20However,%20limits%20on%20greenhouse%20gas%20(GHG)%20emissions%20can%20also%20create%20opportunities%20for%20organizations%20as%20new%20technologies%20and%20markets%20are%20created.%20This%20is%20especially%20the%20case%20for%20organizations%20that%20can%20use%20or%20produce%20energy%20and%20energy-efficient%20products%20more%20effectively.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E2.2%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20201-2,%20if%20the%20reporting%20organization%20does%20not%20have%20a%20system%20in%20place%20to%20calculate%20the%20financial%20implications%20or%20costs,%20or%20to%20make%20revenue%20projections,%20it%20shall%20report%20its%20plans%20and%20timeline%20to%20develop%20the%20necessary%20systems.%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20&amp;%20Compilation%20requiremen%20for%20Disclosure%20201-3%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EThe%20structure%20of%20retirement%20plans%20offered%20to%20employees%20can%20be%20based%20on:%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&bull;%20defined%20benefit%20plans;%3C/div%3E%0A%3Cdiv%3E&bull;%20defined%20contribution%20plans;%3C/div%3E%0A%3Cdiv%3E&bull;%20other%20types%20of%20retirement%20benefits.%3C/div%3E%0A%3Cdiv%3EDifferent%20jurisdictions,%20such%20as%20countries,%20have%20varying%20interpretations%20and%20guidance%20regarding%20calculations%20used%20to%20determine%20plan%20coverage.%3C/div%3E%0A%3Cdiv%3ENote%20that%20benefit%20pension%20plans%20are%20part%20of%20the%20International%20Accounting%20Standards%20Board%20(IASB)%20IAS%2019%20Employee%20Benefits,%20however%20IAS%2019%20covers%20additional%20topics.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EWhen%20an%20organization%20provides%20a%20retirement%20plan%20for%20its%20employees,%20these%20benefits%20can%20become%20a%20commitment%20that%20members%20of%20the%20schemes%20plan%20on%20for%20their%20long-term%20economic%20well-being.%20Defined%20benefit%20plans%20have%20potential%20implications%20for%20employers%20in%20terms%20of%20the%20obligations%20that%20need%20to%20be%20met.%20Other%20types%20of%20plans,%20such%20as%20defined%20contribution%20plans,%20do%20not%20guarantee%20access%20to%20a%20retirement%20plan%20or%20the%20quality%20of%20the%20benefits.%20Thus,%20the%20type%20of%20plan%20chosen%20has%20implications%20for%20both%20employees%20and%20employers.%20Conversely,%20a%20properly%20funded%20pension%20plan%20can%20help%20to%20attract%20and%20maintain%20employees%20and%20support%20long-term%20financial%20and%20strategic%20planning%20on%20the%20part%20of%20the%20employer.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20&amp;%20Compilation%20requirement%20for%20Disclosure%20201-4%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20provides%20a%20measure%20of%20governments&rsquo;%20contributions%20to%20an%20organization.%3C/div%3E%0A%3Cdiv%3EThe%20significant%20financial%20assistance%20received%20from%20a%20government,%20in%20comparison%20with%20taxes%20paid,%20can%20be%20useful%20for%20developing%20a%20balanced%20picture%20of%20the%20transactions%20between%20the%20organization%20and%20government.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22background-color:%20initial;%20font-size:%200.8125rem;%22%3E2.5%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20201-4,%20the%20reporting%20organization%20shall%20identify%20the%20monetary%20value%20of%20financial%20assistance%20received%20from%20government%20through%20consistent%20application%20of%20generally%20accepted%20accounting%20principles.%3C/span%3E%3C/div%3E%0A%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI201FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI201FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

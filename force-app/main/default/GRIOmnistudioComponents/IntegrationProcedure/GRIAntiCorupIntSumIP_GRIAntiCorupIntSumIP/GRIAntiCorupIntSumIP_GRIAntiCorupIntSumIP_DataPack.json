@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIAntiCorruptionInitiativeSummaryIP",
+    "OmniProcessElement": [
+        "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Element_RemoteAction1.json",
+        "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Element_RemoteAction2.json",
+        "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Element_RemoteAction3.json",
+        "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_PropertySetConfig.json",
+    "SubType": "GRIAntiCorupIntSumIP",
+    "Type": "GRIAntiCorupIntSumIP",
+    "UniqueName": "GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIAntiCorupIntSumIP/GRIAntiCorupIntSumIP/Procedure",
+    "WebComponentKey": "1c94fb8a-cc1b-88f3-66f9-e00822ad9419"
+}

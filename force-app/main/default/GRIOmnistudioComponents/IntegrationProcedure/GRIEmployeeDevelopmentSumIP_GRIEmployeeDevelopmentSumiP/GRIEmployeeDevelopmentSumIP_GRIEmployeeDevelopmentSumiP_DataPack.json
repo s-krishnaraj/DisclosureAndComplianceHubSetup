@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIEmployeeDevelopmentSumIP",
+    "OmniProcessElement": [
+        "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Element_RemoteAction1.json",
+        "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Element_RemoteAction2.json",
+        "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_PropertySetConfig.json",
+    "SubType": "GRIEmployeeDevelopmentSumiP",
+    "Type": "GRIEmployeeDevelopmentSumIP",
+    "UniqueName": "GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIEmployeeDevelopmentSumIP/GRIEmployeeDevelopmentSumiP/Procedure",
+    "WebComponentKey": "b642323d-3277-f9b7-4c39-e0cb8043b1bd"
+}

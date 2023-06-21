@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIStnryAssetCrbnFtprntItmIP",
+    "OmniProcessElement": [
+        "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_Element_RemoteAction1.json",
+        "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_Element_RemoteAction2.json",
+        "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_PropertySetConfig.json",
+    "SubType": "GRIStnryAssetCrbnFtprntItmIP",
+    "Type": "GRIStnryAssetCrbnFtprntItmIP",
+    "UniqueName": "GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIStnryAssetCrbnFtprntItmIP/GRIStnryAssetCrbnFtprntItmIP/Procedure",
+    "WebComponentKey": "0b6c1b01-6883-847f-1b88-0b56faf08700"
+}

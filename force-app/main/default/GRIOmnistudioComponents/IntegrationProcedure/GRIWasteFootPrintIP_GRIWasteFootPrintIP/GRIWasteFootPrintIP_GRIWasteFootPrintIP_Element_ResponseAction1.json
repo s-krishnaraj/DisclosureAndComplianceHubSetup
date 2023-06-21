@@ -1,0 +1,41 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseAction1",
+    "OmniProcessId": {
+        "Name": "GRIWasteFootPrintIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRIWasteFootPrintIP/GRIWasteFootPrintIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "GRI306U3DaResp": "=%RemoteAction1:GRI306U3Da%",
+            "GRI306U4DaResp": "=%RemoteAction1%",
+            "GRI306U5DaResp": "=%RemoteAction2%",
+            "GRI306U5DbResp": "=%RemoteAction3%",
+            "GRI306U5DcResp": "=%RemoteAction4%",
+            "GRI306U5DdResp": "=%RemoteAction5%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRIWasteFootPrintIP/GRIWasteFootPrintIP/Procedure/ResponseAction1"
+}

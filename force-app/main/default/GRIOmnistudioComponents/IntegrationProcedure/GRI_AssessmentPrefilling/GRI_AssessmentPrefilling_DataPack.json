@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "GRI_AssessmentPrefilling_SampleInput.json",
+    "Description": "Pre-fill a new assessment with data from a previously submitted assessment.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRI_AssessmentPrefilling",
+    "OmniProcessElement": [
+        "GRI_AssessmentPrefilling_Element_GetAssessmentIdUsingApex.json",
+        "GRI_AssessmentPrefilling_Element_GetAssessmentData.json",
+        "GRI_AssessmentPrefilling_Element_AssessmentData.json"
+    ],
+    "OmniProcessKey": "GRI_AssessmentPrefilling",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "discoveryframework__DiscoveryFramework_Prefill_Procedure_1",
+    "PropertySetConfig": "GRI_AssessmentPrefilling_PropertySetConfig.json",
+    "SubType": "AssessmentPrefilling",
+    "Type": "GRI",
+    "UniqueName": "GRI_AssessmentPrefilling_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRI/AssessmentPrefilling/Procedure",
+    "WebComponentKey": "557ecccc-3234-bf36-925b-197e14b0762d"
+}

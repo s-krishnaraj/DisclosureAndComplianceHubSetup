@@ -1,0 +1,17 @@
+[
+    "DataRaptor/GRIStartDateEndDateTransform",
+    "IntegrationProcedure/GRIAntiCorupIntSumIP_GRIAntiCorupIntSumIP",
+    "IntegrationProcedure/GRIDiversityEquInclusionSummaryIP_GRIDiversityEquInclusionSummaryIP",
+    "IntegrationProcedure/GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP",
+    "IntegrationProcedure/GRIEmployeeDemographicSummaryIP_GRIEmployeeDemographicSummaryIP",
+    "IntegrationProcedure/GRIEmployeeDevelopmentSumIP_GRIEmployeeDevelopmentSumiP",
+    "IntegrationProcedure/GRIGovFinancialAssitanceSumIP_GRIGovFinancialAssitanceSumIP",
+    "IntegrationProcedure/GRIOrgIncidentSummaryIP_GRIOrgIncidentSummaryIP",
+    "IntegrationProcedure/GRISocialContributionSummaryIP_GRISocialContributionSummaryIP",
+    "IntegrationProcedure/GRIStnryAssetCrbnFtprntItmIP_GRIStnryAssetCrbnFtprntItmIP",
+    "IntegrationProcedure/GRITaxDisclosureSummaryIP_GRITaxDisclosureSummaryIP",
+    "IntegrationProcedure/GRIWasteFootPrintIP_GRIWasteFootPrintIP",
+    "IntegrationProcedure/GRIWaterfootPrintsIP_GRIWaterfootPrintsIP",
+    "IntegrationProcedure/GRI_AssessmentPrefilling",
+    "IntegrationProcedure/GRIstartdate_enddate"
+]

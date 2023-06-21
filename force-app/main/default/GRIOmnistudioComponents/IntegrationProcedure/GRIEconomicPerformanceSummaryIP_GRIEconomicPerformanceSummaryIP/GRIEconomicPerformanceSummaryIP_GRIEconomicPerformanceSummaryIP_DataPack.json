@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GRIEconomicPerformanceSummaryIP",
+    "OmniProcessElement": [
+        "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_Element_RemoteAction1.json",
+        "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_Element_RemoteAction2.json",
+        "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_PropertySetConfig.json",
+    "SubType": "GRIEconomicPerformanceSummaryIP",
+    "Type": "GRIEconomicPerformanceSummaryIP",
+    "UniqueName": "GRIEconomicPerformanceSummaryIP_GRIEconomicPerformanceSummaryIP_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GRIEconomicPerformanceSummaryIP/GRIEconomicPerformanceSummaryIP/Procedure",
+    "WebComponentKey": "9f37bc6d-7769-9ffb-857e-9c4ed59caf2f"
+}

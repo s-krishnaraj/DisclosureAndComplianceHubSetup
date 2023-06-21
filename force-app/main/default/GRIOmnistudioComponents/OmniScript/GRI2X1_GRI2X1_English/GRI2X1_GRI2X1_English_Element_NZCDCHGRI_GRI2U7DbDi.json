@@ -1,0 +1,102 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI2U7DbDi",
+    "OmniProcessId": {
+        "Name": "GRI2X1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI2U7Db",
+        "OmniProcessId": {
+            "Name": "GRI2X1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2X1/GRI2X1/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/NZCDCHGRI__GRI2U7Db",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI2U7Db",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "i. Employment Type",
+        "optionSource": {
+            "source": "EmployeeDemographicSum.EmploymentType",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Full-Time",
+                "value": "Full-Time"
+            },
+            {
+                "autoAdv": null,
+                "name": "Full-Time Equivalent",
+                "value": "Full-Time Equivalent"
+            },
+            {
+                "autoAdv": null,
+                "name": "Non-Employee",
+                "value": "Non-Employee"
+            },
+            {
+                "autoAdv": null,
+                "name": "Non-Guaranteed Hours",
+                "value": "Non-Guaranteed Hours"
+            },
+            {
+                "autoAdv": null,
+                "name": "Part-Time",
+                "value": "Part-Time"
+            },
+            {
+                "autoAdv": null,
+                "name": "Permanent",
+                "value": "Permanent"
+            },
+            {
+                "autoAdv": null,
+                "name": "Temporary",
+                "value": "Temporary"
+            },
+            {
+                "autoAdv": null,
+                "name": "All",
+                "value": "All"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2X1/GRI2X1/English/NZCDCHGRI__GRI2U7DbDi"
+}

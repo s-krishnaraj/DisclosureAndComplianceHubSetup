@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20202-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EBackground%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20applies%20to%20those%20organizations%20in%20which%20a%20substantial%20portion%20of%20their%20employees,%20and%20workers%20(excluding%20employees)%20performing%20the%20organization&rsquo;s%20activities,%20are%20compensated%20in%20a%20manner%20or%20scale%20that%20is%20closely%20linked%20to%20laws%20or%20regulations%20on%20minimum%20wage.%3C/div%3E%0A%3Cdiv%3EProviding%20wages%20above%20the%20minimum%20wage%20can%20help%20contribute%20to%20the%20economic%20well-being%20of%20workers%20performing%20the%20organization&rsquo;s%20activities.%20The%20impacts%20of%20wage%20levels%20are%20immediate,%20and%20they%20directly%20affect%20individuals,%20organizations,%20countries%20and%20economies.%20The%20distribution%20of%20wages%20is%20crucial%20for%20eliminating%20inequalities,%20such%20as%20wage%20gap%20differences%20between%20women%20and%20men,%20or%20nationals%20and%20migrants.%3C/div%3E%0A%3Cdiv%3EAlso,%20entry%20level%20wages%20paid%20compared%20to%20local%20minimum%20wages%20show%20the%20competitiveness%20of%20an%20organization&rsquo;s%20wages%20and%20provide%20information%20relevant%20for%20assessing%20the%20effect%20of%20wages%20on%20the%20local%20labor%20market.%20Comparing%20this%20information%20by%20gender%20can%20also%20be%20a%20measure%20of%20an%20organization&rsquo;s%20approach%20to%20equal%20opportunity%20in%20the%20workplace.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%20%3C/strong%3Efor%20Disclosure%20202-2%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3ESenior%20management%20hired%20from%20the%20local%20community%20includes%20those%20individuals%20either%20born%20or%20who%20have%20the%20legal%20right%20to%20reside%20indefinitely%20(such%20as%20naturalized%20citizens%20or%20permanent%20visa%20holders)%20in%20the%20same%20geographic%20market%20as%20the%20operation.%20The%20geographical%20definition%20of%20&lsquo;local&rsquo;%20can%20include%20the%20community%20surrounding%20operations,%20a%20region%20within%20a%20country,&nbsp;or%20a%20country.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E2.2%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20202-2,%20the%20reporting%20organization%20shall%20calculate%20this%20percentage%20using%20data%20on%20full-time%20employees.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EIncluding%20members%20from%20the%20local%20community%20in%20an%20organization&rsquo;s%20senior%20management%20demonstrates%20the%20organization&rsquo;s%20positive%20market%20presence.%20Including%20local%20community%20members%20in%20the%20management%20team%20can%20enhance%20human%20capital.%20It%20can%20also%20increase%20the%20economic%20benefit%20to%20the%20local%20community,%20and%20improve%20an%20organization&rsquo;s%20ability%20to%20understand%20local%20needs.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI202FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI202FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

@@ -1,34 +1,19 @@
-Org: test-nrg9a5g2un1l@example.com
+Org: !<tag:yaml.org,2002:js/undefined> ''
 Version: 1.17.2
 Node: v18.16.0
-PackageVersion: !<tag:yaml.org,2002:js/undefined> ''
+PackageVersion: '244.3'
 Namespace: omnistudio
 Job: VDX
-Action: Export
-ProjectPath: force-app/main/default/Omnistudio
-TotalTime: 0m 41s
+Action: Deploy
+ProjectPath: force-app/main/default/GRIOmnistudioComponents
+TotalTime: 10m 59s
 Count:
-  Success:
-    IntegrationProcedure: 3
-    OmniScript: 4
-    DataRaptor: 2
+  Success: {}
 Errors: []
 Status:
-  Success:
-    IntegrationProcedure:
-      - DocumentServiceGateway_DocGeneration
-      - DocumentServiceGateway_DocGenerationPDF
-      - DocumentServiceGateway_DocGenerationWithTokenData
-    OmniScript:
-      - docGenerationSample_fndMultiDocxLwc_English
-      - docGenerationSample_fndMultiPDFConvertLwc_English
-      - docGenerationSample_fndSingleDocxLwc_English
-      - docGenerationSample_fndSingleDocxServersideLwc_English
-    DataRaptor:
-      - DocGenSampleExtractDocumentTemplatesLWC
-      - ExtractDocumentTemplateByTemplateType
+  Success: {}
 StatusCount:
   Remaining: 0
-  Success: 14
+  Success: 111
   Error: 0
 id: !<tag:yaml.org,2002:js/undefined> ''

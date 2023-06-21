@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20for%20Disclosure%202-1%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20to%202-1-a%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EIf%20the%20organization%20uses%20a%20commonly%20known%20trading%20name%20or%20business%20name%20that%20is%20different%20from%20its%20legal%20name,%20it%20should%20report%20this%20in%20addition%20to%20its%20legal%20name.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20to%202-1-b%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EThe%20nature%20of%20ownership%20and%20the%20legal%20form%20of%20the%20organization%20refers%20to%20whether%20it%20is%20publicly%20or%20privately%20owned,%20and%20whether%20it%20is%20an%20incorporated%20entity,%20a%20partnership,%20a%20sole%20proprietorship,%20or%20another%20type%20of%20entity%20such%20as%20a%20nonprofit,%20an%20association,%20or%20a%20charity.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Guidance%20to%202-1-c%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EHeadquarters%20are%20an%20organization&rsquo;s%20global%20administrative%20center,%20the%20place%20from%20which%20it%20is%20controlled%20or%20directed.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3EGuidance%20to%202-1-d%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EIf%20the%20organization%20has%20reported%20its%20countries%20of%20operation%20elsewhere,%20such%20as%20in%20its%20audited%20consolidated%20financial%20statements%20or%20financial%20information%20filed%20on%20public%20record,%20the%20organization%20can%20provide%20a%20link%20or%20reference%20to%20this%20information.%20The%20organization%20can%20also%20report%20the%20regions%20or%20specific%20locations%20within%20countries%20(e.g.,%20states,%20cities)%20where%20it%20has%20operations,%20if%20this%20provides%20contextual%20information%20for%20understanding%20the%20organization&rsquo;s%20impacts.&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20for%20Disclosure%202-2%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3EGuidance%20to%202-2-a%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20entities%20reported%20under%202-2-a%20form%20the%20basis%20for%20reporting%20the%20disclosures%20in%20this%20Standard%20and%20for%20determining%20the%20organization&rsquo;s%20material%20topics.Requirement%202-2-a%20includes%20those%20entities%20that%20the%20organization%20controls%20or%20has%20an%20interest%20in%20and%20are%20included%20in%20its%20sustainability%20reporting,%20such%20as%20subsidiaries,%20joint%20ventures,%20and%20affiliates,%20including%20minority%20interests.%20The%20organization%20should%20report%20information%20for%20the%20same%20group%20of%20entities%20as%20covered%20in%20its%20financial%20reporting.When%20determining%20its%20material%20topics,%20the%20organization%20should%20consider%20the%20impacts%20of%20additional%20entities%20with%20which%20it%20has%20business%20relationships&nbsp;that%20are%20not%20included%20in%20the%20list%20reported%20under%202-2-a.%20See%20section%201%20in&nbsp;GRI%203:%20Material%20Topics%202021&nbsp;for%20more%20information.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-2-a%20and%202-2-b%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EIf%20all%20the%20entities%20in%20the%20organization&rsquo;s%20financial%20reporting%20are%20also%20included%20in%20its%20sustainability%20reporting,%20a%20brief%20statement%20of%20this%20fact,%20including%20a%20link%20or%20reference%20to%20the%20list%20of%20entities%20included%20in%20its%20audited%20consolidated%20financial%20statements%20or%20financial%20information%20filed%20on%20public%20record,%20is%20sufficient%20to%20comply%20with%202-2-a%20and%202-2-b.The%20organization%20should%20separately%20specify%20any%20additional%20entities%20included%20in%20the%20sustainability%20reporting%20that%20are%20not%20included%20in%20its%20financial%20reporting.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-2-c%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EA%20minority%20interest%20is%20an%20ownership%20interest%20in%20an%20entity%20that%20is%20not%20controlled%20by%20the%20parent%20entity.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20for%20Disclosure%202-3%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E%3Cstrong%3EGuidance%20to%202-3-a%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20can%20specify%20the%20frequency%20of%20sustainability%20reporting%20as%20&lsquo;annual&rsquo;.%20See%20the%20Timeliness%20principle%20in&nbsp;GRI%201:%20Foundation%202021&nbsp;for%20more%20information.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-3-a%20and%202-3-b%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20reporting%20period%20refers%20to%20the%20time%20period%20covered%20by%20the%20reported%20information%20and%20should%20include%20the%20start%20and%20end%20dates%20(e.g.,%201%20January%202022%20to%2031%20December%202022,%201%20July%202022%20through%2030%20June%202023).The%20organization%20should%20report%20the%20information%20for%20the%20same%20reporting%20period%20as%20covered%20in%20its%20financial%20reporting.%20The%20organization%20should%20also%20publish%20the%20information%20at%20the%20same%20time%20as%20its%20financial%20reporting,%20where%20this%20is%20possible.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20for%20Disclosure%202-4%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20should%20provide%20a%20restatement%20of%20information%20when%20it%20has%20learned%20that%20the%20previously%20reported%20information%20needs%20to%20be%20revised.%20Restatements%20of%20information%20from%20previous%20reporting%20periods%20can%20correct%20an%20error,%20or%20account%20for%20changes%20in%20measurement%20methodology%20or%20to%20the%20nature%20of%20the%20business.%20Restatements%20of%20information%20ensure%20consistency%20and%20enable%20comparability%20of%20information%20between%20reporting%20periods.%20See%20the%20Comparability%20principle%20in&nbsp;GRI%201:%20Foundation%202021&nbsp;for%20more%20information.%3C/span%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20should%20report%20the%20criteria%20used%20to%20determine%20when%20a%20change%20or%20error%20in%20previously%20reported%20information%20is%20considered%20significant%20enough%20to%20provide%20a%20restatement.%20A%20change%20or%20error%20could%20be%20significant%20when%20it%20influences%20information%20users&rsquo;%20decision-making%20(e.g.,%20it%20influences%20the%20analysis%20of%20the%20changes%20in%20the%20organization&rsquo;s%20impacts%20over%20time).%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EFor%20example,%20if%20an%20organization%20adopts%20a%20new,%20more%20accurate%20method%20for%20measuring%20greenhouse%20gas%20(GHG)%20emissions,%20it%20may%20subsequently%20experience%20a%20reduction%20in%20its%20previously%20reported%20GHG%20emissions%20that%20meets%20the%20organization&rsquo;s%20restatement%20criteria.%20The%20organization%20then%20restates%20its%20previously%20reported%20GHG%20emissions.%20In%20such%20a%20case,%20the%20organization%20is%20required%20to%20explain%20that%20it%20has%20restated%20its%20previously%20reported%20GHG%20emissions%20due%20to%20the%20new%20measurement%20methodology%20and%20that%20this%20has%20resulted%20in%20lower%20GHG%20emissions%20than%20previously%20reported.%20The%20organization%20should%20also%20report%20the%20quantitative%20change%20observed%20(e.g.,%20GHG%20emissions%20are%2010%25%20lower%20than%20the%20emissions%20previously%20reported).%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EIf%20the%20organization%20has%20not%20made%20any%20restatement%20in%20the%20reporting%20period,%20a%20brief%20statement%20of%20this%20fact%20is%20sufficient%20to%20comply%20with%20the%20requirement.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-4-a-i%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EExamples%20of%20reasons%20for%20restatements%20of%20information%20include:%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Change%20of%20base%20period%20or%20length%20of%20the%20reporting%20period;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Change%20in%20the%20nature%20of%20the%20business;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Change%20in%20the%20measurement%20methodologies%20or%20in%20the%20definitions%20used;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Disposals,%20mergers,%20or%20acquisitions;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Error%20made%20in%20previous%20reporting%20periods.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-4-a-ii%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20effect%20of%20the%20restatement%20refers%20to%20the%20consequences%20of%20the%20change%20or%20correction%20made%20to%20previously%20reported%20information.%20If%20the%20restatement%20relates%20to%20quantitative%20information,%20the%20organization%20should%20specify%20the%20quantitative%20change%20in%20the%20restated%20information%20(e.g.,%20GHG%20emissions%20are%2010%25%20lower%20compared%20to%20the%20level%20of%20emissions%20previously%20reported).%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3EGuidance%20for%20Disclosure%202-5%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3ESee%20section%205.2%20in%20GRI%201:%20Foundation%202021%20for%20information%20on%20external%20assurance.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-5-b-ii%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EIf%20this%20information%20is%20covered%20in%20the%20external%20assurance%20reports%20or%20statements%20that%20the%20organization%20has%20provided%20a%20link%20or%20a%20reference%20to%20under%202-5-b-i,%20then%20a%20brief%20statement%20of%20this%20fact%20is%20sufficient%20to%20comply%20with%20the%20requirement.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EThe%20organization%20can%20also%20describe,%20in%20accessible%20language:%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20The%20scope%20of%20information%20and%20processes%20covered;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20The%20responsibilities%20of%20the%20organization%20relative%20to%20the%20assurance%20provider;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20The%20opinion%20or%20conclusions%20formally%20signed%20off%20by%20the%20assurance%20provider;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20A%20summary%20of%20the%20work%20performed;%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3E&bull;%20Information%20on%20the%20experience%20and%20qualifications%20of%20the%20assurance%20provider,%20e.g.,%20profile%20and%20level%20of%20subject%20matter%20expertise%20of%20the%20individuals%20involved.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EGuidance%20to%202-5-b-iii%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2010pt;%22%3EAn%20assurance%20provider%20conducting%20external%20assurance%20needs%20to%20demonstrate%20independence%20from%20the%20organization%20to%20reach%20and%20publish%20objective%20and%20impartial%20conclusions%20about%20the%20organization&rsquo;s%20sustainability%20reporting.%3C/span%3E%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI2U1FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI2U1FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

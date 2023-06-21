@@ -1,0 +1,143 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "GRI302",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance&nbsp;%20for%20Disclosure%20301-1%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe%20reported%20usage%20data%20are%20to%20reflect%20the%20material%20in%20its%20original%20state,%20and%20not%20to%20be%20presented%20with%20further%20data%20manipulation,%20such%20as%20reporting%20it%20as%20&lsquo;dry%20weight&rsquo;.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%3C/strong%3E%20for%20Disclosure%20301-2%20%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EIf%20material%20weight%20and%20volume%20measurements%20are%20stated%20as%20different%20units,%20the%20organization%20can%20convert%20measurements%20to%20standardized%20units.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.2%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20301-2,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.2.1%20use%20the%20total%20weight%20or%20volume%20of%20materials%20used%20as%20specified%20in%20Disclosure%20301-1;%3C/div%3E%0A%3Cdiv%3E2.2.2%20calculate%20the%20percentage%20of%20recycled%20input%20materials%20used%20by%20applying%20the%20following%20formula:&nbsp;%3C/div%3E%0A%3Cdiv%3EPercentage%20of%20recycled%20input%20materials%20used%20=%20Total%20recycled%20input%20materials%20used%20/%20Total%20input%20materials%20used%20x%20100%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance&nbsp;%20%3Cstrong%20style=%22font-size:%2012pt;%20background-color:%20initial;%22%3E&amp;%20Compilation%20requirement%3C/strong%3E&nbsp;for%20Disclosure%20301-3%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EThe&nbsp;reporting&nbsp;organization&nbsp;can&nbsp;also&nbsp;report&nbsp;recycling&nbsp;or&nbsp;reuse&nbsp;of&nbsp;packaging&nbsp;separately.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3ECompilation%20requirements%20%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E2.4%20When%20compiling%20the%20information%20specified%20in%20Disclosure%20301-3,%20the%20reporting%20organization%20shall:%3C/div%3E%0A%3Cdiv%3E2.4.1%20exclude%20rejects%20and%20recalls%20of%20products;%3C/div%3E%0A%3Cdiv%3E2.4.2%20calculate%20the%20percentage%20of%20reclaimed%20products%20and%20their%20packaging%20materials%20for%20each%20product%20category%20using%20the%20following%20formula:&nbsp;%3C/div%3E%0A%3Cdiv%3EPercentage%20of%20reclaimed%20products%20and%20their%20packaging%20materials%20=%20Products%20and%20their%20packaging%20materials%20reclaimed%20within%20the%20reporting%20period%20/%20Products%20sold%20within%20the%20reporting%20period%20x%20100%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text",
+                            "userUpdatedElementLabel": true
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI301FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI301FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%3Cstrong%3EGuidance%20for%20Disclosure%20402-1%3C/strong%3E%3C/span%3E%3C/div%3E%0A%3Cdiv%3EMinimum%20notice%20periods%20can%20be%20found%20in%20corporate%20policies%20and%20standard%20employment%20contracts.%20Different%20policy%20statements%20can%20exist%20at%20a%20regional%20level.%20An%20organization%20can%20identify%20the%20collective%20bargaining%20agreements%20referred%20to%20in%20Disclosure%202-30%20of&nbsp;GRI%202:%20General%20Disclosures%202021,%20and%20review%20the%20notice%20period%20clauses%20within%20these%20documents.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%20Background%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EOrganizations%20are%20expected%20to%20provide%20reasonable%20notice%20of%20significant%20operational%20changes%20to%20employees%20and%20their%20representatives,%20as%20well%20as%20to%20appropriate%20government%20authorities.%20Minimum%20notice%20periods&nbsp;are%20a%20measure%20of%20an%20organization&rsquo;s%20ability%20to%20maintain%20employee%20satisfaction%20and%20motivation&nbsp;while%20implementing%20significant%20changes%20to%20operations.%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20provides%20insight%20into%20an%20organization&rsquo;s%20practice%20of%20ensuring%20timely%20discussion%20of%20significant%20operational%20changes,%20and%20engaging%20with%20its%20employees%20and%20their%20representatives%20to%20negotiate%20and%20implement%20these%20changes,%20which%20can%20have%20positive%20or%20negative%20implications%20for%20workers.%3C/div%3E%0A%3Cdiv%3EThis%20disclosure%20also%20allows%20an%20assessment%20of%20an%20organization&rsquo;s%20consultation%20practices%20in%20relation%20to%20expectations%20expressed%20in%20relevant%20international%20norms.%3C/div%3E%0A%3Cdiv%3EThe%20essence%20of%20consultation%20is%20that%20management%20takes%20the%20views%20of%20workers%20into%20account%20when%20making%20specific%20decisions.%20Therefore,%20it%20is%20important%20that%20consultation%20takes%20place%20before%20a%20decision%20is%20made.%20Meaningful%20consultation%20includes%20the%20timely%20provision%20of%20all%20information%20needed%20to%20make%20an&nbsp;informed%20decision%20to%20workers%20or%20their%20representatives.%20Genuine%20consultation%20involves%20dialogue;%20opinion%20surveys%20and%20questionnaires%20are%20not%20considered%20consultation.%3C/div%3E%0A%3Cdiv%3ETimely%20and%20meaningful%20consultation%20allows%20the%20affected%20parties%20to%20understand%20the%20impacts%20of%20the%20changes,%20such%20as%20possible%20loss%20of%20employment.%20It%20also%20gives%20an%20opportunity%20for%20them%20to%20work%20collectively%20to%20prevent%20or%20mitigate%20negative%20impacts%20as%20much%20as%20possible.%20Consultative%20practices%20that%20result%20in%20good%20industrial%20relations%20help%20to%20provide%20positive%20working%20environments,%20reduce%20turnover,%20and%20minimize%20operational%20disruptions.%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GRI402FC",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "description": "",
+        "isExposed": false,
+        "masterLabel": "GRI402FC",
+        "runtimeNamespace": "",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgIDx0YXJnZXRDb25maWcgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj4KICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

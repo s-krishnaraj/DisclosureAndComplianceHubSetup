@@ -15,6 +15,9 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
-    }
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+  }
   }
 }

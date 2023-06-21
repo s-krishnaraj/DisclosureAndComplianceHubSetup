@@ -1,0 +1,97 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "NZCDCHGRI__GRI303U3DaDi",
+    "OmniProcessId": {
+        "Name": "GRI301",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI301/GRI301/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NZCDCHGRI__GRI303U3Da",
+        "OmniProcessId": {
+            "Name": "GRI301",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI301/GRI301/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI301/GRI301/English/NZCDCHGRI__GRI303U3Da",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NZCDCHGRI__GRI303U3Da",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Activity Source Type",
+        "optionSource": {
+            "source": "StnryAssetWtrFtprntItm.ActivitySourceType",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "FreshWater",
+                "value": "Fresh Water"
+            },
+            {
+                "autoAdv": null,
+                "name": "GrndWaterNonRenewable",
+                "value": "Ground water - Non-Renewable"
+            },
+            {
+                "autoAdv": null,
+                "name": "GrndWaterRenewable",
+                "value": "Ground water - Renewable"
+            },
+            {
+                "autoAdv": null,
+                "name": "RecycledWater",
+                "value": "Recycled Water"
+            },
+            {
+                "autoAdv": null,
+                "name": "ReusedWater",
+                "value": "Reused Water"
+            },
+            {
+                "autoAdv": null,
+                "name": "SeaWater",
+                "value": "Sea Water"
+            },
+            {
+                "autoAdv": null,
+                "name": "ThirdPartyReserve",
+                "value": "Third Party Reserve"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI301/GRI301/English/NZCDCHGRI__GRI303U3DaDi"
+}

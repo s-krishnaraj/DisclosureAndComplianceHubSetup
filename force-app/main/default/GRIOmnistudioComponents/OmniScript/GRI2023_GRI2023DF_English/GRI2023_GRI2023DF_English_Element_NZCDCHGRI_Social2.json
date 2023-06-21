@@ -1,0 +1,49 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "NZCDCHGRI__Social2",
+    "OmniProcessId": {
+        "Name": "GRI2023",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2023/GRI2023DF/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Topics",
+        "OmniProcessId": {
+            "Name": "GRI2023",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GRI2023/GRI2023DF/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2023/GRI2023DF/English/Topics",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Topics",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "GRI 406: Non-discrimination, GRI 407: Freedom of Association and Collective Bargaining, GRI 408: Child Labor, GRI 409: Forced or Compulsory Labor, GRI 410: Security Practices, GRI 411: Rights of Indigenous Peoples, GRI 413: Local Communities, GRI 414: Supplier Social Assessment, GRI 415: Public Policy, GRI 416: Customer Health and Safety, GRI 417: Marketing and Labeling, GRI 418: Customer Privacy",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "GRI 406: Non-discrimination, GRI 407: Freedom of Association and Collective Bargaining, GRI 408: Child Labor, GRI 409: Forced or Compulsory Labor, GRI 410: Security Practices, GRI 411: Rights of Indigenous Peoples, GRI 413: Local Communities, GRI 414: Supplier Social Assessment, GRI 415: Public Policy, GRI 416: Customer Health and Safety, GRI 417: Marketing and Labeling, GRI 418: Customer Privacy",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "Type": "Checkbox",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GRI2023/GRI2023DF/English/NZCDCHGRI__Social2"
+}

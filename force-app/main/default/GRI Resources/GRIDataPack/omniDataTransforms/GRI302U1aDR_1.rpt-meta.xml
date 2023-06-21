@@ -9,82 +9,30 @@
     <name>GRI302U1aDR</name>
     <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
     <omniDataTransformItem>
-        <disabled>false</disabled>
+        <disabled>true</disabled>
         <filterGroup>0.0</filterGroup>
-        <filterOperator>=</filterOperator>
-        <filterValue>year</filterValue>
-        <globalKey>GRI302U1aDR4451053522014312</globalKey>
-        <inputFieldName>Year</inputFieldName>
-        <inputObjectName>AnnualEmssnInventory</inputObjectName>
-        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>GRI302U1aDR</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>AEIOutput</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>GRI302U1aDR5936847956225519</globalKey>
-        <inputFieldName>NonrenewableOutput</inputFieldName>
+        <globalKey>GRI302U1aDR8616532885700698</globalKey>
+        <inputFieldName>AEIOutput:RenewableEnergyUsagePctCmclBld</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>GRI302U1aDR</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldFormat>Double</outputFieldFormat>
-        <outputFieldName>NZCDCHGRI__GRI302U1Da</outputFieldName>
+        <outputFieldName>RenewableEnergyUsagePctCmclBld</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
-        <disabled>false</disabled>
+        <disabled>true</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>GRI302U1aDR8148180199538522</globalKey>
-        <inputFieldName>AEIOutput:EnergyUsageDataCenters</inputFieldName>
+        <globalKey>GRI302U1aDR7354991816270715</globalKey>
+        <inputFieldName>AEIOutput:RenewableEnergyUsagePctDataCtr</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>GRI302U1aDR</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>EnergyUsageDataCenters</outputFieldName>
+        <outputFieldName>RenewableEnergyUsagePctDataCtr</outputFieldName>
         <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <formulaConverted>var:AEIOutput:EnergyUsageCommercialBld var:AEIOutput:EnergyUsageDataCenters +</formulaConverted>
-        <formulaExpression>(AEIOutput:EnergyUsageCommercialBld+AEIOutput:EnergyUsageDataCenters)</formulaExpression>
-        <formulaResultPath>Totalenergyconsumption</formulaResultPath>
-        <formulaSequence>3.0</formulaSequence>
-        <globalKey>GRI302U1aDR9267132656747206</globalKey>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>GRI302U1aDR</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Formula</outputFieldName>
-        <outputObjectName>Formula</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <formulaConverted>var:AEIOutput:EnergyUsageCommercialBld var:AEIOutput:RenewableEnergyUsagePctCmclBld 100 / * var:AEIOutput:EnergyUsageDataCenters var:AEIOutput:RenewableEnergyUsagePctDataCtr 100 / * +</formulaConverted>
-        <formulaExpression>(AEIOutput:EnergyUsageCommercialBld*(AEIOutput:RenewableEnergyUsagePctCmclBld/100))+AEIOutput:EnergyUsageDataCenters*(AEIOutput:RenewableEnergyUsagePctDataCtr/100)))</formulaExpression>
-        <formulaResultPath>renewableOutput</formulaResultPath>
-        <formulaSequence>2.0</formulaSequence>
-        <globalKey>GRI302U1aDR6977248045802684</globalKey>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>GRI302U1aDR</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Formula</outputFieldName>
-        <outputObjectName>Formula</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
@@ -106,7 +54,7 @@
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
-        <disabled>false</disabled>
+        <disabled>true</disabled>
         <filterGroup>0.0</filterGroup>
         <globalKey>GRI302U1aDR2401034208507622</globalKey>
         <inputFieldName>AEIOutput:EnergyUsageCommercialBld</inputFieldName>
@@ -120,15 +68,64 @@
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:AEIOutput:EnergyUsageCommercialBld var:AEIOutput:EnergyUsageDataCenters +</formulaConverted>
+        <formulaExpression>(AEIOutput:EnergyUsageCommercialBld+AEIOutput:EnergyUsageDataCenters)</formulaExpression>
+        <formulaResultPath>Totalenergyconsumption</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>GRI302U1aDR9267132656747206</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI302U1aDR</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:AEIOutput:EnergyUsageCommercialBld var:AEIOutput:RenewableEnergyUsagePctCmclBld 100 / * var:AEIOutput:EnergyUsageDataCenters var:AEIOutput:RenewableEnergyUsagePctDataCtr 100 / * +</formulaConverted>
+        <formulaExpression>(AEIOutput:EnergyUsageCommercialBld*(AEIOutput:RenewableEnergyUsagePctCmclBld/100))+AEIOutput:EnergyUsageDataCenters*(AEIOutput:RenewableEnergyUsagePctDataCtr/100)))</formulaExpression>
+        <formulaResultPath>renewableOutput</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>GRI302U1aDR6977248045802684</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI302U1aDR</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>GRI302U1aDR8616532885700698</globalKey>
-        <inputFieldName>AEIOutput:RenewableEnergyUsagePctCmclBld</inputFieldName>
+        <globalKey>GRI302U1aDR5936847956225519</globalKey>
+        <inputFieldName>NonrenewableOutput</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>GRI302U1aDR</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>RenewableEnergyUsagePctCmclBld</outputFieldName>
+        <outputFieldFormat>Double</outputFieldFormat>
+        <outputFieldName>NZCDCHGRI__GRI302U1Da</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>GRI302U1aDR8148180199538522</globalKey>
+        <inputFieldName>AEIOutput:EnergyUsageDataCenters</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>GRI302U1aDR</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>EnergyUsageDataCenters</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -136,13 +133,16 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>GRI302U1aDR7354991816270715</globalKey>
-        <inputFieldName>AEIOutput:RenewableEnergyUsagePctDataCtr</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <filterOperator>=</filterOperator>
+        <filterValue>year</filterValue>
+        <globalKey>GRI302U1aDR4451053522014312</globalKey>
+        <inputFieldName>Year</inputFieldName>
+        <inputObjectName>AnnualEmssnInventory</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>GRI302U1aDR</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>RenewableEnergyUsagePctDataCtr</outputFieldName>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>AEIOutput</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

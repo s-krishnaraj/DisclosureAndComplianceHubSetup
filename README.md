@@ -1,10 +1,10 @@
 # Net Zero Disclosure & Compliance Hub - Setup Automation
 
 ## Pre-requisites to use this repo
-- [Install VS Code] (https://visualstudio.microsoft.com/downloads/)
-- [Install Salesforce DX] (https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
-- [Install Cumulus CI] (https://cumulusci.readthedocs.io/en/stable/get-started.html#install-cumulusci)
-- [Install Vlocity Build Tools] (https://github.com/vlocityinc/vlocity_build#installation-and-update-instructions)
+- [Install VS Code](https://visualstudio.microsoft.com/downloads/)
+- [Install Salesforce DX](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
+- [Install Cumulus CI](https://cumulusci.readthedocs.io/en/stable/get-started.html#install-cumulusci)
+- [Install Vlocity Build Tools](https://github.com/vlocityinc/vlocity_build#installation-and-update-instructions)
 
 Now that you’ve setup your machine with the required tools, you can proceed to clone this repo onto your local machine and follow the below steps to deploy DCH onto your NZC org
 
@@ -24,4 +24,4 @@ Now that you’ve setup your machine with the required tools, you can proceed to
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-- [Cumulus CI Documentation] (https://cumulusci.readthedocs.io/en/stable/)
+- [Cumulus CI Documentation](https://cumulusci.readthedocs.io/en/stable/)

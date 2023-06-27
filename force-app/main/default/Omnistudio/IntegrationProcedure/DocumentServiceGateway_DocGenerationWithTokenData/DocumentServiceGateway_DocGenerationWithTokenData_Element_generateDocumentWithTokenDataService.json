@@ -27,7 +27,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction1",
-        "remoteClass": "DocumentServiceGateway",
+        "remoteClass": "%vlocity_namespace%.DocumentServiceGateway",
         "remoteMethod": "generateDocumentWithTokenData",
         "remoteOptions": {
             "keepIntermediate": "%setupServiceCallInputParams:keepIntermediate%",

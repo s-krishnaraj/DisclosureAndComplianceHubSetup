@@ -3,7 +3,7 @@
     <documentTemplateLibraryName>DocgenDocumentTemplateLibrary</documentTemplateLibraryName>
     <generationMechanism>ClientSide</generationMechanism>
     <isBatchDocGnrnEnabled>false</isBatchDocGnrnEnabled>
-    <isServerSideDocGenEnabled>false</isServerSideDocGenEnabled>
+    <isServerSideDocGenEnabled>true</isServerSideDocGenEnabled>
     <masterLabel>DCH Doc Gen Settings</masterLabel>
     <previewType>PDF</previewType>
 </DocumentGenerationSetting>

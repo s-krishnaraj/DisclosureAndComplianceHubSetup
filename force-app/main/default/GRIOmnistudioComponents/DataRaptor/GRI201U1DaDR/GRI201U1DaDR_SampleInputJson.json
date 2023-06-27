@@ -1,0 +1,25 @@
+{
+    "GRI201U1DaEB": [
+        {
+            "PerformanceCategory": "Distributed Value",
+            "TotalSum": 1600,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "PerformanceCategory": "Generated Value",
+            "TotalSum": 950,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        },
+        {
+            "PerformanceCategory": "Retained Value",
+            "TotalSum": 1535,
+            "attributes": {
+                "type": "AggregateResult"
+            }
+        }
+    ]
+}

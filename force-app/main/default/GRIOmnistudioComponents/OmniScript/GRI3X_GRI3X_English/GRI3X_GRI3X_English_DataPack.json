@@ -1,7 +1,7 @@
 {
     "DesignerCustomizationType": "Discovery Framework",
     "DiscoveryFrameworkUsageType": "Default",
-    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "ElementTypeComponentMapping": "{\n  \"ElementTypeToHTMLTemplateList\" : [ ]\n}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
     "IsOmniScriptEmbeddable": true,

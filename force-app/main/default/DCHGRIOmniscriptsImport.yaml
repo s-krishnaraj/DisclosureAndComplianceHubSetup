@@ -5,5 +5,4 @@ queries:
   - IntegrationProcedure 
   - DataRaptor
   - OmniScript
-  # - VlocityDataPackType: OmniScript
-  #   query: Select Id from OmniProcess where Name IN ('GRI304')
+  - OmniProcess

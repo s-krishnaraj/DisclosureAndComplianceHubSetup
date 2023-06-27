@@ -6,8 +6,8 @@
     LinkedEntityId:
       SalesforceQuery.find_record:
         from: OmniProcess
-        where: name='GRI2023'
+        where: name='GRI2023' and isActive = true
     ContentDocumentId:
       SalesforceQuery.find_record:
         from: ContentDocument
-        where: Title='GRI Standards Assessment Responses Template V2'
+        where: Title='GRI Standards Assessment Responses Template V2' 

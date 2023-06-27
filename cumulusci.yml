@@ -74,6 +74,13 @@ tasks:
             job_file: force-app/main/default/DCHGRIOmniscriptsImport.yaml
         ui_options:
             name: Deploy GRI Data Packs 
+    
+    # vlocity_pack_deploy_ALL:
+    #     class_path: cumulusci.tasks.vlocity.vlocity.VlocityDeployTask
+    #     options:
+    #         job_file: force-app/main/default/Sample.yaml
+    #     ui_options:
+    #         name: Deploy GRI Data Packs 
 
     robot_testdoc:
         options:

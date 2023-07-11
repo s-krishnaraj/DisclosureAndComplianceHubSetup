@@ -155,16 +155,16 @@ flows:
                 task: install_gri
                 ui_options:
                     name: Installing GRI package
-            # 13:
-            #     task: deploy
-            #     options:
-            #         path: force-app/main/default/GRI Resources/GRIDataPack
-            #     ui_options:
-            #         name: Deploy GRI datapack items
             2:
-                task: vlocity_pack_deploy_GRI
+                task: deploy
+                options:
+                    path: force-app/main/default/GRI Resources/GRIDataPack
                 ui_options:
-                    name: Deploy data pack to enable/activate GRI 2.0 Omniscripts
+                    name: Deploy GRI datapack items
+            # 2:
+            #     task: vlocity_pack_deploy_GRI
+            #     ui_options:
+            #         name: Deploy data pack to enable/activate GRI 2.0 Omniscripts
             3:
                 task: deploy
                 options:

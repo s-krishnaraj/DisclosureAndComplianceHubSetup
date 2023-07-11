@@ -11,11 +11,14 @@ Now that you’ve setup your machine with the required tools, you can proceed to
 ## Connect to your org to the project
 - Use the cumulus CI command "cci connect org <org-Name> --login-url https://yourdomain.my.salesforce.com"
 
-## Run the commands as per your needs
-- use the CCI command "cci flow run <flow-name> --org <org-Name>"
-- use flow-Name = "setup_DCH" to install OmniStudio+ Doc gen amd install GRI, post install steps of GRI
-- use flow-Name = "setup_omni_doc_gen" to install Omni + post intall steps for Doc gen only.
-- use flow-Name = "setup_GRI" to install GRI 2.0 package and post-install steps for GRI. Note: This can be run only after "setup_omni_doc_gen"
+## Steps for installing Omnistdio + Doc Gen settings
+- run the command "cci flow run setup_omni_doc_gen --org <org-Name>"
+*Manual Step to be done* - Go to Setup -> OmniStudio Settings --> Toggle OFF the setting named "Managed Package Runtime"
+
+## Steps for installing GRI package + manual steps automation
+- use the CCI command "cci flow run setup_GRI --org <org-Name>"
+Note: This can be run only after "setup_omni_doc_gen"
+*Manual Step to be done* - Deactivate the Omniscript named "GRI2023" and Activate it again
 
 
 ## Read All About It

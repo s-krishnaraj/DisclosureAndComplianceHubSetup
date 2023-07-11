@@ -13,7 +13,7 @@ Now that you’ve setup your machine with the required tools, you can proceed to
 
 ## Steps for installing Omnistdio + Doc Gen settings
 - run the command "cci flow run setup_omni_doc_gen --org <org-Name>"
-- -Manual Step to be done- - Go to Setup -> OmniStudio Settings --> Toggle OFF the setting named "Managed Package Runtime"
+- **Manual Step to be done** - Go to Setup -> OmniStudio Settings --> Toggle OFF the setting named "Managed Package Runtime"
 
 ## Steps for installing GRI package + manual steps automation
 - use the CCI command "cci flow run setup_GRI --org <org-Name>"

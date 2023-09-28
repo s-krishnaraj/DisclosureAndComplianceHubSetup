@@ -9,19 +9,19 @@
 Now that you’ve setup your machine with the required tools, you can proceed to clone this repo onto your local machine and follow the below steps to deploy DCH onto your NZC org
 
 ## Connect to your org to the project
-- Use the cumulus CI command "cci connect org <org-Name> --login-url https://yourdomain.my.salesforce.com"
+- Use the cumulus CI command "cci connect org \<org-Name\> --login-url https://yourdomain.my.salesforce.com"
 
 ## Steps for installing Omnistdio + Doc Gen settings
 - run the command "cci flow run setup_omni_doc_gen --org org-Name"
 - **Manual Step to be done** - Go to Setup -> OmniStudio Settings --> Toggle OFF the setting named "Managed Package Runtime"
 
 ## Steps for installing GRI package + manual steps automation
-- use the CCI command "cci flow run setup_GRI --org org-Name"
+- use the CCI command "cci flow run setup_GRI --org \<org-Name\>"
 - Note: This can be run only after "setup_omni_doc_gen"
 - *Manual Step to be done* - Deactivate the Omniscript named "GRI2023" and Activate it again
 
 ## Steps for installing ESRS package + manual steps automation
-- use the CCI command "cci flow run setup_esrs --org org-Name"
+- use the CCI command "cci flow run setup_esrs --org \<org-Name\>"
 - Note: This can be run only after "setup_omni_doc_gen"
 
 

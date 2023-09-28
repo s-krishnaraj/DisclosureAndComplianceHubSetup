@@ -20,6 +20,10 @@ Now that you’ve setup your machine with the required tools, you can proceed to
 - Note: This can be run only after "setup_omni_doc_gen"
 - *Manual Step to be done* - Deactivate the Omniscript named "GRI2023" and Activate it again
 
+## Steps for installing ESRS package + manual steps automation
+- use the CCI command "cci flow run setup_esrs --org org-Name"
+- Note: This can be run only after "setup_omni_doc_gen"
+
 
 ## Read All About It
 

@@ -1,12 +1,12 @@
-Org: !<tag:yaml.org,2002:js/undefined> ''
-Version: 1.17.2
-Node: v18.16.0
+Org: cci-vbt-target
+Version: 1.17.4
+Node: v18.18.0
 PackageVersion: '244.3'
 Namespace: omnistudio
 Job: VDX
 Action: Deploy
-ProjectPath: force-app/main/default/GRIOmnistudioComponents
-TotalTime: 10m 59s
+ProjectPath: force-app/main/default/Omnistudio
+TotalTime: 2m 23s
 Count:
   Success: {}
 Errors: []
@@ -14,6 +14,6 @@ Status:
   Success: {}
 StatusCount:
   Remaining: 0
-  Success: 111
+  Success: 9
   Error: 0
 id: !<tag:yaml.org,2002:js/undefined> ''

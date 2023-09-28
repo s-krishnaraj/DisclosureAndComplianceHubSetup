@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Check_Status</name>
+        <label>Check Status</label>
+        <locationX>598</locationX>
+        <locationY>329</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IN_Progress</name>
+            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>IN_PROGRESS</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>IN_PROGRESS</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.DisclosureType</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>ESRS</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Disclosure_Status</targetReference>
+            </connector>
+            <label>IN Progress</label>
+        </rules>
+    </decisions>
+    <description>This flow is to Update the disclosure record status when the Assessment record attached to it.</description>
+    <environments>Default</environments>
+    <interviewLabel>Update ESRS Disclosure status {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update ESRS Disclosure status</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Disclosure_Status</name>
+        <label>Update Disclosure Status</label>
+        <locationX>881</locationX>
+        <locationY>505</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssessmentId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>READY_FOR_REVIEW</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>330</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Check_Status</targetReference>
+        </connector>
+        <object>Disclosure</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,13 @@
+- plugin: snowfakery.standard_plugins.Salesforce.SalesforceQuery
+
+- object: ContentDocumentLink
+  fields:
+    ShareType: V
+    LinkedEntityId:
+      SalesforceQuery.find_record:
+        from: OmniProcess
+        where: name='ESRS2023' and isActive = true
+    ContentDocumentId:
+      SalesforceQuery.find_record:
+        from: ContentDocument
+        where: Title='ESRS Standards Assessment Responses Template V1' 

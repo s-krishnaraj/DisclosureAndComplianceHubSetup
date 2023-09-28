@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+<types>
+		<members>ESRS1GeneralRequirements_salesforce_1</members>
+		<members>ESRSconfirmpage_salesforce_1</members>
+		<members>ESRSSubHeader_salesforce_1</members>
+		<members>ESRSMaterialityLink_salesforce_1</members>
+		<members>ESRSMaterialitySelectionFC_salesforce_1</members>
+		<name>OmniUiCard</name>
+</types>
+
+<types>
+		<members>ESRSGetStartDateEndDate_1</members>
+		<members>ESRSAssessmentIdFromDisclosureId_1</members>
+	    <name>OmniDataTransform</name>
+</types>
+
+<types>
+		<members>ESRS2023_ESRS2023DF_English_1</members>
+		<name>OmniScript</name>
+</types>
+
+<types>
+		<members>ESRS_Prefilling_Procedure_1</members>
+        <name>OmniIntegrationProcedure</name>
+</types>
+<types>
+		<members>eSRS2</members>
+		<members>eSRSE1</members>
+		<members>eSRSE1AR</members>
+		<members>eSRSE2</members>
+		<members>eSRSE3</members>
+		<members>eSRSE4</members>
+		<members>eSRSE5</members>
+		<members>eSRSG1</members>
+		<members>eSRSS1</members>
+		<members>eSRSS2</members>
+		<members>eSRSS3</members>
+		<members>eSRSS4</members>
+		<name>LightningComponentBundle</name>
+</types>
+    <version>58.0</version>
+</Package>

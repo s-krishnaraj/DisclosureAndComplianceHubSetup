@@ -1,0 +1,84 @@
+details > summary {
+    font-weight:bold;
+    padding: 4px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+    color:blue;
+}
+
+details[open] > summary {
+    font-weight:bold;
+    padding: 4px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+    color:black;
+}
+
+details > p {
+    background-color: white;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  .slds-list--ordered li{
+    list-style-type:lower-alpha;
+  }
+  
+  .slds-is-nested li{
+    list-style-type:lower-roman;
+  }
+  .tooltip-wrap {
+    position: relative;
+    color: blue;
+    }
+    .tooltip-wrap .tooltip-content {
+    border-radius: 4px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    right: 5%;
+    background-color: #0D9DDA;
+    padding: .5em;
+    min-width: 20rem;
+    color: white;
+    word-wrap: break-word;
+    }
+    .tooltip-wrap .tooltip-content-top {
+      border-radius: 4px;
+      display: none;
+      position: absolute;
+      left: 5%;
+      right: 5%;
+      bottom: 100%;
+      background-color: #0D9DDA;
+      padding: .5em;
+      min-width: 20rem;
+      color: white;
+      word-wrap: break-word;
+      }
+
+    .tooltip-wrap:hover .tooltip-content {
+    display: block;
+    }
+
+    .tooltip-wrap:hover .tooltip-content-top{
+      display: block;
+      }
+
+    a {
+      color: #ffffff;
+    }

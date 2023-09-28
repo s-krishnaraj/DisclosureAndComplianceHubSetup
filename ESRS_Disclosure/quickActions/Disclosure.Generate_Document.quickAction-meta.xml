@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Generate document helps you create a docx document with all the responses submitted on the guided form and stored in the Assessment record.</description>
+    <flowDefinition>Trigger_ESRS_report_using_Assessment_Summary_from_Disclosure</flowDefinition>
+    <label>Generate Document</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

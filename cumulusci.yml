@@ -25,7 +25,7 @@ tasks:
         group: OmniStudio
         options:
             namespace: omnistudio
-            version: "244.3"
+            version: "244.5.3"
             name: OmniStudio
 
     install_gri:
@@ -36,6 +36,15 @@ tasks:
             namespace: NZCDCHGRI
             version: "244.1"
             name: Net Zero Cloud Disclosures for GRI Standards
+    
+    install_esrs:
+        description: Install ESRS package
+        class_path: cumulusci.tasks.salesforce.InstallPackageVersion
+        group: ESRS
+        options:
+            namespace: NZCDCHESRS
+            version: "244.0"
+            name: Net Zero Cloud Disclosures for ESRS
 
     ensure_crm_contentUser:
         description: Update user to ensure admin user has "CRM Content User" permission
@@ -74,13 +83,6 @@ tasks:
             job_file: force-app/main/default/DCHGRIOmniscriptsImport.yaml
         ui_options:
             name: Deploy GRI Data Packs 
-    
-    # vlocity_pack_deploy_ALL:
-    #     class_path: cumulusci.tasks.vlocity.vlocity.VlocityDeployTask
-    #     options:
-    #         job_file: force-app/main/default/Sample.yaml
-    #     ui_options:
-    #         name: Deploy GRI Data Packs 
 
     robot_testdoc:
         options:
@@ -161,10 +163,6 @@ flows:
                     path: force-app/main/default/GRI Resources/GRIDataPack
                 ui_options:
                     name: Deploy GRI datapack items
-            # 2:
-            #     task: vlocity_pack_deploy_GRI
-            #     ui_options:
-            #         name: Deploy data pack to enable/activate GRI 2.0 Omniscripts
             3:
                 task: deploy
                 options:
@@ -183,6 +181,51 @@ flows:
                     recipe: datasets/GRIContentDocumentLinkCreate.yml
                 ui_options:
                     name: Attach the docx file against GRI2023 Omniprocess record
+            6:
+                task: deploy
+                options:
+                    path: GRI_Disclosure
+                ui_options:
+                    name: Deploy the Disclosure page layout specific to GRI
+    
+    setup_esrs:
+        group: net zero
+        description: Steps to install ESRS package and do the post installation steps
+        steps:
+            1:
+                task: install_esrs
+                ui_options:
+                    name: Installing ESRS package
+            2:
+                task: deploy
+                options:
+                    path: ESRSResources
+                ui_options:
+                    name: Deploy ESRS Omni components
+            3:
+                task: deploy
+                options:
+                    path: force-app/main/default/layouts
+                ui_options:
+                    name: Deploy pagelayout for OmniProcess
+            4:
+                task: snowfakery
+                options:
+                    recipe: datasets/ESRSContentVersionCreate.yml
+                ui_options:
+                    name: Create docx file as a Content Version/ContentDocument record
+            5:
+                task: snowfakery
+                options:
+                    recipe: datasets/ESRSContentDocumentLinkCreate.yml
+                ui_options:
+                    name: Attach the docx file against ESRS2023 Omniprocess record
+            6:
+                task: deploy
+                options:
+                    path: ESRS_Disclosure
+                ui_options:
+                    name: Deploy the Disclosure page layout specific to ESRS
 
     setup_DCH:
         group: net zero
@@ -192,3 +235,5 @@ flows:
                 flow: setup_omni_doc_gen
             2:
                 flow: setup_GRI
+            3:
+                flow: setup_esrs
